@@ -1,0 +1,76 @@
+/*
+ * Histoires — les couleurs et les mesures.
+ *
+ * Clair par défaut : un papier chaud, une encre brune, de l'or pour l'accent.
+ * Sombre selon le réglage du système, ou celui de l'application
+ * (html[data-theme="sombre"]).
+ */
+:root {
+  --papier: #f4efe6;
+  --papier-2: #ebe4d6;
+  --surface: #fffdf8;
+  --surface-2: #f8f3ea;
+  --encre: #1f1b16;
+  --encre-2: #4d453b;
+  --discret: #6f675c;
+  --trait: #e0d7c6;
+  --trait-fort: #c9bda6;
+  --or: #9c7c2b;
+  --or-clair: #e9dcb6;
+  --accent: #2f5fa3;
+  --rouge: #a7322f;
+  --ombre: 0 1px 2px rgba(40, 30, 10, 0.08), 0 6px 20px rgba(40, 30, 10, 0.08);
+  --ombre-forte: 0 2px 6px rgba(40, 30, 10, 0.14), 0 16px 40px rgba(40, 30, 10, 0.18);
+  --rayon: 14px;
+  --rayon-petit: 8px;
+  --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, "Noto Serif", Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+  --barre: 56px;
+  --nav: 60px;
+  --sup: env(safe-area-inset-top, 0px);
+  --inf: env(safe-area-inset-bottom, 0px);
+  --melange: 86%;
+  color-scheme: light;
+}
+
+html[data-theme="sombre"] {
+  --papier: #16141a;
+  --papier-2: #1d1a21;
+  --surface: #24202a;
+  --surface-2: #2b2731;
+  --encre: #ece6da;
+  --encre-2: #c9c1b3;
+  --discret: #a39b8e;
+  --trait: #332e3a;
+  --trait-fort: #4a4452;
+  --or: #d8b65b;
+  --or-clair: #4a3f22;
+  --accent: #8fb0ea;
+  --rouge: #e07a77;
+  --ombre: 0 1px 2px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.35);
+  --ombre-forte: 0 2px 6px rgba(0, 0, 0, 0.4), 0 16px 40px rgba(0, 0, 0, 0.5);
+  --melange: 72%;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="clair"]) {
+    --papier: #16141a;
+    --papier-2: #1d1a21;
+    --surface: #24202a;
+    --surface-2: #2b2731;
+    --encre: #ece6da;
+    --encre-2: #c9c1b3;
+    --discret: #a39b8e;
+    --trait: #332e3a;
+    --trait-fort: #4a4452;
+    --or: #d8b65b;
+    --or-clair: #4a3f22;
+    --accent: #8fb0ea;
+    --rouge: #e07a77;
+    --ombre: 0 1px 2px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.35);
+    --ombre-forte: 0 2px 6px rgba(0, 0, 0, 0.4), 0 16px 40px rgba(0, 0, 0, 0.5);
+    --melange: 72%;
+    color-scheme: dark;
+  }
+}

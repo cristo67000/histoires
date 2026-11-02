@@ -1,0 +1,38 @@
+@ templiers
+nom: Templiers
+titre: Maîtres de l'ordre du Temple
+groupe: ordres
+couleur: #a7322f
+voie: maitres | Maîtres
+
+% temple-jerusalem | Terre sainte : Jérusalem | 1119 | 1187 | #a7322f
+titre: maître de l'ordre du Temple
+= Q297576 | 1119 | 1136-05-24 | Hugues de Payns | | Fondateur de l'ordre ; règle approuvée au concile de Troyes (1129)
+= Q357306 | 1136 | 1149-01-13 | Robert de Craon
+= Q439794 | 1149 | 1152 | Évrard des Barres | | Se retire à Clairvaux
+= Q373764 | 1152 | 1153-08-16 | Bernard de Tremelay | | Tué au siège d'Ascalon
+= Q371366 | 1153 | 1156 | André de Montbard | | Oncle de saint Bernard
+= Q439822 | 1156 | 1169-01-02 | Bertrand de Blanquefort
+= Q456888 | 1169 | 1171 | Philippe de Milly
+= Q440248 | 1171 | 1179 | Eudes de Saint-Amand | | Mort prisonnier de Saladin
+= Q457273 | 1180 | 1184-09-30 | Arnaud de Toroge
+= Q371345 | 1185 | 1189-10-04 | Gérard de Ridefort | | Désastre de Hattin (1187) ; tué devant Acre
+
+% temple-acre | Terre sainte : Acre | 1191 | 1291 | #c0742f
+titre: maître de l'ordre du Temple
+= Q353081 | 1191 | 1193-09-23 | Robert de Sablé | | Compagnon de Richard Cœur de Lion
+= Q523258 | 1194 | 1200 | Gilbert Hérail
+= Q439774 | 1201 | 1208 | Philippe du Plessis
+= Q523241 | 1209 | 1219-08-26 | Guillaume de Chartres | | Meurt au siège de Damiette
+= Q523344 | 1219 | 1230 | Pierre de Montaigu
+= Q523228 | 1232 | 1244-10-17 | Armand de Périgord | | Disparaît à la Forbie
+= Q561777 | 1245 | 1247 | Richard de Bures
+= Q514144 | 1247 | 1250-02-11 | Guillaume de Sonnac | | Tué à Mansourah
+= Q561756 | 1250 | 1256 | Renaud de Vichiers
+= Q713696 | 1256 | 1273-03-25 | Thomas Bérard
+= Q552712 | 1273-05-13 | 1291-05-18 | Guillaume de Beaujeu | | Tué à la chute d'Acre
+= Q463284 | 1291 | 1292-04-16 | Thibaud Gaudin | | Replie l'ordre à Chypre
+
+% temple-fin | Chypre et procès | 1292 | 1314 | #6d6d6d
+titre: maître de l'ordre du Temple
+= Q208215 | 1292 | 1314-03-18 | Jacques de Molay | | Arrêté le 13 octobre 1307 ; ordre supprimé en 1312 ; brûlé à Paris

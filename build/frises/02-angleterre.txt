@@ -1,0 +1,108 @@
+@ angleterre
+nom: Angleterre
+titre: Rois et reines d'Angleterre, puis du Royaume-Uni
+groupe: souverains
+couleur: #9b2335
+voie: etat | Souverains
+
+% wessex | Maison de Wessex | 871 | 1013 | #7a5230
+titre: roi des Anglo-Saxons
+= Q83476 | 871-04-23 | 899-10-26 | Alfred le Grand
+= Q187114 | 899-10-26 | 924-07-17 | Édouard l'Ancien
+= Q170017 | 924-07-17 | 939-10-27 | Æthelstan | roi des Anglo-Saxons, puis roi des Anglais | Premier roi de toute l'Angleterre (927)
+= Q190166 | 939-10-27 | 946-05-26 | Edmond Ier | roi des Anglais
+= Q191767 | 946-05-26 | 955-11-23 | Eadred | roi des Anglais
+= Q191203 | 955-11-23 | 959-10-01 | Eadwig | roi des Anglais
+= Q192925 | 959-10-01 | 975-07-08 | Edgar le Pacifique | roi des Anglais
+= Q192920 | 975-07-08 | 978-03-18 | Édouard le Martyr | roi des Anglais
+= Q183499 | 978-03-18 | 1013-12-25 | Æthelred le Malavisé | roi des Anglais | Chassé par Sven, puis rétabli
+
+% danois | Rois danois | 1013 | 1042 | #3f6b8a
+titre: roi des Anglais
+= Q181896 | 1013-12-25 | 1014-02-03 | Sven à la Barbe fourchue
+= Q183499 | 1014-02-03 | 1016-04-23 | Æthelred le Malavisé | | Maison de Wessex, rétabli
+= Q188684 | 1016-04-23 | 1016-11-30 | Edmond Côte-de-Fer | | Maison de Wessex
+= Q134128 | 1016-11-30 | 1035-11-12 | Knut le Grand | | Aussi roi de Danemark et de Norvège
+= Q188627 | 1035-11-12 | 1040-03-17 | Harold Pied-de-Lièvre
+= Q190091 | 1040-03-17 | 1042-06-08 | Hardeknut
+
+% wessex2 | Maison de Wessex (restaurée) | 1042 | 1066 | #7a5230
+titre: roi des Anglais
+= Q130005 | 1042-06-08 | 1066-01-05 | Édouard le Confesseur
+= Q159597 | 1066-01-06 | 1066-10-14 | Harold II Godwinson | | Tué à Hastings
+
+% normands | Normands | 1066 | 1154 | #9b2335
+titre: roi d'Angleterre
+= Q37594 | 1066-12-25 | 1087-09-09 | Guillaume le Conquérant
+= Q102005 | 1087-09-26 | 1100-08-02 | Guillaume II le Roux
+= Q101384 | 1100-08-05 | 1135-12-01 | Henri Ier Beauclerc
+= Q60849 | 1135-12-22 | 1154-10-25 | Étienne de Blois | | L'« Anarchie » contre Mathilde
+= Q150872 | 1141-04-07 | 1141-11-01 | Mathilde l'Emperesse | dame des Anglais | Proclamée, jamais couronnée
+
+% plantagenets | Plantagenêts | 1154 | 1399 | #c0742f
+titre: roi d'Angleterre
+= Q102140 | 1154-12-19 | 1189-07-06 | Henri II
+= Q42305 | 1189-09-03 | 1199-04-06 | Richard Cœur de Lion
+= Q129308 | 1199-05-27 | 1216-10-19 | Jean sans Terre
+= Q160311 | 1216-10-28 | 1272-11-16 | Henri III
+= Q57798 | 1272-11-20 | 1307-07-07 | Édouard Ier
+= Q5236 | 1307-07-08 | 1327-01-25 | Édouard II | | Déposé
+= Q129247 | 1327-01-25 | 1377-06-21 | Édouard III
+= Q81000 | 1377-06-22 | 1399-09-30 | Richard II | | Déposé
+
+% lancastre | Lancastre | 1399 | 1461 | #a7322f
+titre: roi d'Angleterre
+= Q161866 | 1399-09-30 | 1413-03-20 | Henri IV
+= Q131581 | 1413-03-21 | 1422-08-31 | Henri V
+= Q160337 | 1422-09-01 | 1461-03-04 | Henri VI | | Déposé pendant la guerre des Deux-Roses
+
+% york | York | 1461 | 1485 | #e0e0e0
+titre: roi d'Angleterre
+= Q160341 | 1461-03-04 | 1470-10-03 | Édouard IV
+= Q160337 | 1470-10-03 | 1471-04-11 | Henri VI | | Lancastre, brièvement rétabli
+= Q160341 | 1471-04-11 | 1483-04-09 | Édouard IV | | Rétabli
+= Q170470 | 1483-04-09 | 1483-06-25 | Édouard V | | L'un des « princes de la Tour »
+= Q133028 | 1483-06-26 | 1485-08-22 | Richard III | | Tué à Bosworth
+
+% tudors | Tudors | 1485 | 1603 | #3d7a4d
+titre: roi d'Angleterre
+= Q675493 | 1485-08-22 | 1509-04-21 | Henri VII
+= Q38370 | 1509-04-22 | 1547-01-28 | Henri VIII
+= Q83229 | 1547-01-28 | 1553-07-06 | Édouard VI
+= Q162356 | 1553-07-10 | 1553-07-19 | Jeanne Grey | reine d'Angleterre | Neuf jours, contestés
+= Q82674 | 1553-07-19 | 1558-11-17 | Marie Ire | reine d'Angleterre
+= Q7207 | 1558-11-17 | 1603-03-24 | Élisabeth Ire | reine d'Angleterre
+
+% stuarts | Stuarts | 1603 | 1714 | #5b4b8a
+titre: roi d'Angleterre, d'Écosse et d'Irlande
+= Q79972 | 1603-03-24 | 1625-03-27 | Jacques Ier | | Déjà roi d'Écosse (Jacques VI)
+= Q81506 | 1625-03-27 | 1649-01-30 | Charles Ier | | Décapité
+! Q330362 | 1649-05-19 | 1653-12-16 | Commonwealth d'Angleterre | République : le Parlement et son Conseil d'État gouvernent
+= Q44279 | 1653-12-16 | 1658-09-03 | Oliver Cromwell | lord-protecteur
+= Q203980 | 1658-09-03 | 1659-05-25 | Richard Cromwell | lord-protecteur
+= Q122553 | 1660-05-29 | 1685-02-06 | Charles II | | Restauration
+= Q126188 | 1685-02-06 | 1688-12-11 | Jacques II | | Chassé par la Glorieuse Révolution
+= Q130812 | 1689-02-13 | 1694-12-28 | Marie II | reine d'Angleterre, d'Écosse et d'Irlande | Règne conjoint avec Guillaume III
+= Q129987 | 1689-02-13 | 1702-03-08 | Guillaume III d'Orange | | Règne conjoint avec Marie II jusqu'en 1694
+= Q119702 | 1702-03-08 | 1714-08-01 | Anne | reine d'Angleterre, puis de Grande-Bretagne | Acte d'Union de 1707
+
+% hanovre | Hanovre | 1714 | 1901 | #b4702e
+titre: roi de Grande-Bretagne et d'Irlande
+= Q130805 | 1714-08-01 | 1727-06-11 | George Ier
+= Q131981 | 1727-06-11 | 1760-10-25 | George II
+= Q127318 | 1760-10-25 | 1820-01-29 | George III | roi de Grande-Bretagne, puis du Royaume-Uni | Royaume-Uni à partir de 1801
+= Q130586 | 1820-01-29 | 1830-06-26 | George IV | roi du Royaume-Uni
+= Q130822 | 1830-06-26 | 1837-06-20 | Guillaume IV | roi du Royaume-Uni
+= Q9439 | 1837-06-20 | 1901-01-22 | Victoria | reine du Royaume-Uni | Impératrice des Indes à partir de 1876
+
+% saxe-cobourg | Saxe-Cobourg-Gotha | 1901 | 1917 | #6f6a2a
+titre: roi du Royaume-Uni
+= Q20875 | 1901-01-22 | 1910-05-06 | Édouard VII
+
+% windsor | Windsor | 1910 |  | #9b2335 | Saxe-Cobourg-Gotha jusqu’en 1917
+titre: roi du Royaume-Uni
+= Q269412 | 1910-05-06 | 1936-01-20 | George V | | Prend le nom de Windsor en 1917
+= Q590227 | 1936-01-20 | 1936-12-11 | Édouard VIII | | Abdique
+= Q280856 | 1936-12-11 | 1952-02-06 | George VI
+= Q9682 | 1952-02-06 | 2022-09-08 | Élisabeth II | reine du Royaume-Uni
+= Q43274 | 2022-09-08 |  | Charles III

@@ -1,0 +1,195 @@
+@ allemagne
+nom: Allemagne
+titre: Empereurs, rois de Germanie, présidents et chanceliers
+groupe: souverains
+couleur: #2b2b2b
+voie: etat | Chefs de l'État
+voie: chancelier | Chanceliers
+
+% carolingiens-est | Carolingiens (Francie orientale) | 843 | 911 | #b4702e
+titre: roi de Francie orientale
+= Q152463 | 843-08 | 876-08-28 | Louis le Germanique | | Traité de Verdun
+= Q157084 | 876-08-28 | 880-03-22 | Carloman de Bavière | roi de Bavière | Partage de 876
+= Q160190 | 876-08-28 | 882-01-20 | Louis III le Jeune | roi de Saxe et de Franconie | Partage de 876
+= Q150712 | 876-08-28 | 887-11-17 | Charles III le Gros | roi d'Alémanie, puis empereur | Empereur en 881, réunit tout l'Empire carolingien (884-887)
+= Q154936 | 887-11 | 899-12-08 | Arnulf de Carinthie | | Empereur en 896
+= Q157099 | 900-02-04 | 911-09-24 | Louis IV l'Enfant | | Dernier Carolingien de Germanie
+
+% conradiens | Conradiens | 911 | 919 | #8e5a3c
+= Q157121 | 911-11-10 | 918-12-23 | Conrad Ier | roi de Francie orientale
+
+% ottoniens | Ottoniens | 919 | 1024 | #a7322f
+titre: empereur du Saint-Empire
+= Q150620 | 919-05 | 936-07-02 | Henri Ier l'Oiseleur | roi de Francie orientale | Jamais couronné empereur
+= Q43915 | 936-07-02 | 973-05-07 | Otton Ier le Grand | | Couronné empereur à Rome le 2 février 962
+= Q150512 | 973-05-07 | 983-12-07 | Otton II | | Empereur dès 967, associé à son père
+= Q151090 | 983-12-25 | 1002-01-23 | Otton III | | Couronné empereur en 996
+= Q103556 | 1002-06-07 | 1024-07-13 | Henri II le Saint | | Couronné empereur en 1014
+
+% saliens | Saliens | 1024 | 1125 | #5b4b8a
+titre: empereur du Saint-Empire
+= Q152256 | 1024-09-08 | 1039-06-04 | Conrad II le Salique | | Couronné en 1027
+= Q153023 | 1039-06-04 | 1056-10-05 | Henri III le Noir | | Couronné en 1046
+= Q60094 | 1056-10-05 | 1105-12-31 | Henri IV | | Canossa (1077) ; couronné en 1084
+= Q151707 | 1105-12-31 | 1125-05-23 | Henri V | | Couronné en 1111 ; concordat de Worms (1122)
+
+% supplinbourg | Supplinbourg | 1125 | 1137 | #3f6b8a
+= Q77189 | 1125-08-30 | 1137-12-04 | Lothaire III | empereur du Saint-Empire | Couronné en 1133
+
+% hohenstaufen | Hohenstaufen | 1138 | 1254 | #c0742f
+titre: empereur du Saint-Empire
+= Q157133 | 1138-03-07 | 1152-02-15 | Conrad III | roi des Romains | Jamais couronné empereur
+= Q79789 | 1152-03-04 | 1190-06-10 | Frédéric Ier Barberousse | | Couronné en 1155 ; mort en croisade
+= Q150953 | 1190-06-10 | 1197-09-28 | Henri VI | | Couronné en 1191
+= Q121130 | 1198-03-08 | 1208-06-21 | Philippe de Souabe | roi des Romains | Double élection contre Otton IV ; assassiné
+= Q151457 | 1198-06-09 | 1215-07 | Otton IV de Brunswick | | Welf ; couronné en 1209, vaincu à Bouvines (1214)
+= Q130221 | 1212-12-05 | 1250-12-13 | Frédéric II | | Couronné en 1220 ; « stupor mundi »
+= Q61367 | 1246-05-22 | 1247-02-16 | Henri Raspe | roi des Romains | Anti-roi soutenu par le pape
+= Q77255 | 1247-10-03 | 1256-01-28 | Guillaume de Hollande | roi des Romains | Anti-roi, puis seul roi
+= Q157179 | 1250-12-13 | 1254-05-21 | Conrad IV | roi des Romains | Jamais couronné empereur
+
+% interregne | Grand Interrègne | 1254 | 1273 | #9a9a9a
+titre: roi des Romains
+= Q314527 | 1257-01-13 | 1272-04-02 | Richard de Cornouailles | | Élu, rarement présent
+= Q47595 | 1257-04-01 | 1275-05 | Alphonse X de Castille | | Élu en concurrence, jamais venu en Allemagne
+
+% habsbourg-nassau | Habsbourg, Nassau, Luxembourg, Wittelsbach | 1273 | 1437 | #3d7a4d
+titre: roi des Romains
+= Q76956 | 1273-10-01 | 1291-07-15 | Rodolphe Ier de Habsbourg | | Jamais couronné empereur
+= Q160101 | 1292-05-05 | 1298-06-23 | Adolphe de Nassau | | Déposé, tué à Göllheim
+= Q153956 | 1298-07-27 | 1308-05-01 | Albert Ier de Habsbourg | | Assassiné
+= Q152717 | 1308-11-27 | 1313-08-24 | Henri VII de Luxembourg | empereur du Saint-Empire | Couronné en 1312
+= Q57161 | 1314-10-20 | 1347-10-11 | Louis IV de Bavière | empereur du Saint-Empire | Wittelsbach ; couronné en 1328
+= Q124950 | 1314-10-19 | 1330-01-13 | Frédéric le Bel | roi des Romains | Habsbourg, anti-roi puis co-roi (1325)
+= Q155669 | 1346-07-11 | 1378-11-29 | Charles IV de Luxembourg | empereur du Saint-Empire | Couronné en 1355 ; Bulle d'or (1356)
+= Q64615 | 1349-01-30 | 1349-05-24 | Günther de Schwarzbourg | roi des Romains | Anti-roi
+= Q152148 | 1378-11-29 | 1400-08-20 | Venceslas | | Déposé par les électeurs
+= Q57326 | 1400-08-21 | 1410-05-18 | Robert du Palatinat | | Wittelsbach
+= Q158181 | 1410-10-01 | 1411-01-18 | Jobst de Moravie | | Élu contre Sigismond
+= Q57124 | 1410-09-20 | 1437-12-09 | Sigismond de Luxembourg | empereur du Saint-Empire | Couronné en 1433 ; concile de Constance
+
+% habsbourg | Habsbourg | 1438 | 1740 | #6f6a2a
+titre: empereur du Saint-Empire
+= Q157112 | 1438-03-18 | 1439-10-27 | Albert II | roi des Romains
+= Q150966 | 1440-02-02 | 1493-08-19 | Frédéric III | | Couronné en 1452, dernier couronné à Rome
+= Q150726 | 1493-08-19 | 1519-01-12 | Maximilien Ier | | « Empereur élu » en 1508, sans couronnement
+= Q32500 | 1519-06-28 | 1556-08-27 | Charles Quint | | Couronné à Bologne en 1530 ; abdique
+= Q150611 | 1556-08-27 | 1564-07-25 | Ferdinand Ier
+= Q150862 | 1564-07-25 | 1576-10-12 | Maximilien II
+= Q150586 | 1576-10-12 | 1612-01-20 | Rodolphe II
+= Q152157 | 1612-06-13 | 1619-03-20 | Matthias
+= Q150599 | 1619-08-28 | 1637-02-15 | Ferdinand II | | Guerre de Trente Ans
+= Q150575 | 1637-02-15 | 1657-04-02 | Ferdinand III | | Paix de Westphalie (1648)
+= Q150494 | 1658-07-18 | 1705-05-05 | Léopold Ier
+= Q152480 | 1705-05-05 | 1711-04-17 | Joseph Ier
+= Q150665 | 1711-10-12 | 1740-10-20 | Charles VI | | Pragmatique Sanction
+
+% wittelsbach | Wittelsbach | 1742 | 1745 | #3f6b8a
+= Q76736 | 1742-01-24 | 1745-01-20 | Charles VII | empereur du Saint-Empire
+
+% habsbourg-lorraine | Habsbourg-Lorraine | 1745 | 1806 | #6f6a2a
+titre: empereur du Saint-Empire
+= Q151075 | 1745-09-13 | 1765-08-18 | François Ier | | Époux de Marie-Thérèse
+= Q76555 | 1765-08-18 | 1790-02-20 | Joseph II
+= Q151321 | 1790-09-30 | 1792-03-01 | Léopold II
+= Q130834 | 1792-07-05 | 1806-08-06 | François II | | Dissout le Saint-Empire ; empereur d'Autriche dès 1804
+
+% confederations | Confédérations | 1806 | 1871 | #9a9a9a
+! Q154741 | 1806-07-12 | 1813-10-19 | Confédération du Rhin | Sous le protectorat de Napoléon
+! Q151624 | 1815-06-08 | 1866-08-23 | Confédération germanique | Présidée par l'Autriche, sans chef d'État
+! Q150981 | 1867-07-01 | 1871-01-18 | Confédération de l'Allemagne du Nord | Présidée par le roi de Prusse ; Bismarck chancelier fédéral
+
+% empire-allemand | Empire allemand | 1871 | 1918 | #2b2b2b
+titre: empereur allemand
+= Q150652 | 1871-01-18 | 1888-03-09 | Guillaume Ier | | Proclamé à Versailles
+= Q58600 | 1888-03-09 | 1888-06-15 | Frédéric III | | Quatre-vingt-dix-neuf jours
+= Q2677 | 1888-06-15 | 1918-11-09 | Guillaume II | | Abdique, s'exile aux Pays-Bas
+
+% weimar | République de Weimar | 1919 | 1933 | #3d7a4d
+titre: président du Reich
+= Q2646 | 1919-02-11 | 1925-02-28 | Friedrich Ebert
+= Q2667 | 1925-05-12 | 1934-08-02 | Paul von Hindenburg
+
+% reich3 | Troisième Reich | 1933 | 1945 | #6d6d6d
+= Q352 | 1934-08-02 | 1945-04-30 | Adolf Hitler | Führer et chancelier du Reich | Cumule les deux fonctions à la mort de Hindenburg
+= Q76437 | 1945-04-30 | 1945-05-23 | Karl Dönitz | président du Reich
+
+% occupation | Occupation alliée | 1945 | 1949 | #9a9a9a
+! Q698099 | 1945-06-05 | 1949-05-23 | Conseil de contrôle allié | Les quatre puissances occupantes gouvernent
+
+% rfa | République fédérale | 1949 |  | #2f5fa3
+titre: président fédéral
+= Q2594 | 1949-09-12 | 1959-09-12 | Theodor Heuss
+= Q2582 | 1959-09-13 | 1969-06-30 | Heinrich Lübke
+= Q2573 | 1969-07-01 | 1974-06-30 | Gustav Heinemann
+= Q2571 | 1974-07-01 | 1979-06-30 | Walter Scheel
+= Q2569 | 1979-07-01 | 1984-06-30 | Karl Carstens
+= Q2567 | 1984-07-01 | 1994-06-30 | Richard von Weizsäcker | | Président de la réunification
+= Q2563 | 1994-07-01 | 1999-06-30 | Roman Herzog
+= Q2551 | 1999-07-01 | 2004-06-30 | Johannes Rau
+= Q2542 | 2004-07-01 | 2010-05-31 | Horst Köhler
+= Q2540 | 2010-06-30 | 2012-02-17 | Christian Wulff
+= Q2538 | 2012-03-18 | 2017-03-18 | Joachim Gauck
+= Q76658 | 2017-03-19 |  | Frank-Walter Steinmeier
+
+% rda | République démocratique allemande | 1949 | 1990 | #a7322f
+voie: rda | RDA
+= Q65917 | 1949-10-11 | 1960-09-07 | Wilhelm Pieck | président de la RDA
+= Q2628 | 1960-09-12 | 1973-08-01 | Walter Ulbricht | président du Conseil d'État
+= Q2610 | 1973-10-03 | 1976-10-29 | Willi Stoph | président du Conseil d'État
+= Q2607 | 1976-10-29 | 1989-10-18 | Erich Honecker | président du Conseil d'État
+= Q2602 | 1989-10-18 | 1989-12-06 | Egon Krenz | président du Conseil d'État
+= Q2601 | 1989-12-06 | 1990-04-05 | Manfred Gerlach | président du Conseil d'État
+= Q57232 | 1990-04-05 | 1990-10-02 | Sabine Bergmann-Pohl | présidente de la Chambre du peuple, chef de l'État
+
+% chanceliers-empire | Chanceliers de l'Empire | 1867 | 1918 | #2b2b2b
+voie: chancelier
+titre: chancelier impérial
+= Q8442 | 1867-07-14 | 1890-03-20 | Otto von Bismarck | | Chancelier fédéral de l'Allemagne du Nord dès 1867
+= Q10873 | 1890-03-20 | 1894-10-26 | Leo von Caprivi
+= Q77166 | 1894-10-29 | 1900-10-17 | Chlodwig zu Hohenlohe-Schillingsfürst
+= Q60113 | 1900-10-17 | 1909-07-14 | Bernhard von Bülow
+= Q77113 | 1909-07-14 | 1917-07-13 | Theobald von Bethmann Hollweg
+= Q60115 | 1917-07-14 | 1917-11-01 | Georg Michaelis
+= Q161084 | 1917-11-01 | 1918-09-30 | Georg von Hertling
+= Q76908 | 1918-10-03 | 1918-11-09 | Max de Bade
+
+% chanceliers-weimar | Chanceliers de Weimar | 1918 | 1933 | #3d7a4d
+voie: chancelier
+titre: chancelier du Reich
+= Q2646 | 1918-11-09 | 1919-02-13 | Friedrich Ebert | président du Conseil des commissaires du peuple
+= Q70581 | 1919-02-13 | 1919-06-20 | Philipp Scheidemann | ministre-président du Reich
+= Q57159 | 1919-06-21 | 1920-03-26 | Gustav Bauer
+= Q57158 | 1920-03-27 | 1920-06-21 | Hermann Müller
+= Q77156 | 1920-06-25 | 1921-05-04 | Constantin Fehrenbach
+= Q60150 | 1921-05-10 | 1922-11-14 | Joseph Wirth
+= Q77179 | 1922-11-22 | 1923-08-12 | Wilhelm Cuno
+= Q103955 | 1923-08-13 | 1923-11-23 | Gustav Stresemann
+= Q77183 | 1923-11-30 | 1925-01-15 | Wilhelm Marx
+= Q155419 | 1925-01-15 | 1926-05-12 | Hans Luther
+= Q77183 | 1926-05-17 | 1928-06-12 | Wilhelm Marx
+= Q57158 | 1928-06-28 | 1930-03-27 | Hermann Müller
+= Q155398 | 1930-03-30 | 1932-05-30 | Heinrich Brüning
+= Q150552 | 1932-06-01 | 1932-11-17 | Franz von Papen
+= Q57133 | 1932-12-03 | 1933-01-28 | Kurt von Schleicher
+
+% chanceliers-reich3 | Chanceliers du Troisième Reich | 1933 | 1945 | #6d6d6d
+voie: chancelier
+titre: chancelier du Reich
+= Q352 | 1933-01-30 | 1945-04-30 | Adolf Hitler
+= Q41749 | 1945-04-30 | 1945-05-01 | Joseph Goebbels | | Un jour
+= Q57136 | 1945-05-02 | 1945-05-23 | Lutz Schwerin von Krosigk | ministre dirigeant
+
+% chanceliers-rfa | Chanceliers fédéraux | 1949 |  | #2f5fa3
+voie: chancelier
+titre: chancelier fédéral
+= Q2492 | 1949-09-15 | 1963-10-15 | Konrad Adenauer
+= Q2496 | 1963-10-16 | 1966-11-30 | Ludwig Erhard
+= Q2512 | 1966-12-01 | 1969-10-21 | Kurt Georg Kiesinger
+= Q2514 | 1969-10-22 | 1974-05-07 | Willy Brandt
+= Q2516 | 1974-05-16 | 1982-10-01 | Helmut Schmidt
+= Q2518 | 1982-10-01 | 1998-10-27 | Helmut Kohl | | Chancelier de la réunification
+= Q2530 | 1998-10-27 | 2005-11-22 | Gerhard Schröder
+= Q567 | 2005-11-22 | 2021-12-08 | Angela Merkel | chancelière fédérale
+= Q61053 | 2021-12-08 | 2025-05-06 | Olaf Scholz
+= Q566257 | 2025-05-06 |  | Friedrich Merz

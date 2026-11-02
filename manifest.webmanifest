@@ -1,0 +1,25 @@
+{
+  "id": "./",
+  "name": "Histoires — frises des souverains, papes et grands maîtres",
+  "short_name": "Histoires",
+  "description": "Les rois, empereurs et présidents de France, les souverains d’Angleterre, les empereurs et chanceliers d’Allemagne, les papes, les grands maîtres des Templiers, des Hospitaliers, des Teutoniques et du Grand Orient, sur des frises chronologiques lisibles au téléphone. Une date : qui était en place. Hors ligne, sans compte, sans publicité.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4efe6",
+  "theme_color": "#f4efe6",
+  "categories": ["education", "books", "reference"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "À cette date", "short_name": "Date", "url": "./#/date", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Frises côte à côte", "short_name": "Côte à côte", "url": "./#/comparer", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Rois de France", "short_name": "France", "url": "./#/frise/france", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

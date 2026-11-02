@@ -1,0 +1,5 @@
+# Fichiers de travail, hors du dépôt
+build/.atelier/
+build/.sources-images/
+build/captures/
+*.log

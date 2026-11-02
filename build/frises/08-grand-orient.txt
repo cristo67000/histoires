@@ -1,0 +1,115 @@
+@ grand-orient
+nom: Grand Orient
+titre: Grands maîtres du Grand Orient de France
+groupe: ordres
+couleur: #5b4b8a
+voie: maitres | Grands maîtres
+
+% godf-fondation | Fondation et Révolution | 1773 | 1804 | #5b4b8a
+titre: grand maître du Grand Orient de France
+= Q311637 | 1773 | 1793-11-06 | Louis-Philippe d'Orléans | | Duc de Chartres puis d'Orléans ; « Philippe Égalité », guillotiné
+= Q8329149 | 1795 | 1804 | Alexandre Roëttiers de Montaleau | grand vénérable | Reconstitue l'obédience après la Terreur
+
+% godf-empire | Empire | 1804 | 1815 | #6f6a2a
+titre: grand maître du Grand Orient de France
+= Q7726 | 1805 | 1814 | Joseph Bonaparte | | Grand maître de titre, frère de l'Empereur
+= Q290045 | 1805 | 1814 | Jean-Jacques-Régis de Cambacérès | grand maître adjoint | Dirige en fait toute la maçonnerie impériale
+
+% godf-restauration | Restauration et monarchie de Juillet | 1815 | 1852 | #c0742f
+titre: grand maître adjoint
+= Q116019 | 1815 | 1821 | Pierre Riel de Beurnonville | grand conservateur, puis grand maître adjoint
+= Q298784 | 1821 | 1833 | Étienne Macdonald | | Maréchal, duc de Tarente
+= Q2853482 | 1833 | 1835 | Antoine-Guillaume Rampon | grand conservateur
+= Q2362791 | 1835 | 1842 | Alexandre de Laborde
+= Q15969147 | 1842 | 1846 | Emmanuel de Las Cases
+= Q15969455 | 1847 | 1849 | Laurent Bertrand
+= Q104550051 | 1849 | 1850 | Marie-Auguste Desanlis | représentant du grand maître
+= Q3461704 | 1851 | 1852 | Saint-Albin Berville
+
+% godf-empire2 | Second Empire | 1852 | 1870 | #6f6a2a
+titre: grand maître du Grand Orient de France
+= Q712889 | 1852 | 1861 | Lucien Murat | | Cousin de Napoléon III
+= Q116993 | 1862 | 1865 | Bernard Pierre Magnan | | Maréchal, imposé par l'Empereur
+= Q3588658 | 1865 | 1870 | Émile Mellinet
+
+% godf-republique | Troisième République | 1870 | 1945 | #3d7a4d
+titre: président du Conseil de l'Ordre
+= Q3271691 | 1871 | 1872 | Léonide Babaud-Laribière | | Le titre de grand maître disparaît jusqu'en 1945
+= Q65643448 | 1872 | 1882 | Antoine de Saint-Jean
+= Q65643459 | 1883 | 1885 | Charles Cousin
+= Q8312753 | 1885 | 1887 | Jean-Claude Colfavru
+= Q346783 | 1887 | 1889 | Frédéric Desmons | | Artisan de la suppression du Grand Architecte (1877)
+= Q23034789 | 1889 | 1892 | Henri Thulié
+= Q65643536 | 1892 | 1893 | Paul Viguier
+= Q23034789 | 1893 | 1894 | Henri Thulié
+= Q3163833 | 1894 | 1895 | Antoine Blatin
+= Q19924415 | 1895 | 1896 | Louis Lucipia
+= Q346783 | 1896 | 1898 | Frédéric Desmons
+= Q19924415 | 1898 | 1900 | Louis Lucipia
+= Q346783 | 1900 | 1902 | Frédéric Desmons
+= Q2871149 | 1902 | 1903 | Auguste Delpech
+= Q3262422 | 1903 | 1905 | Louis Lafferre
+= Q346783 | 1905 | 1907 | Frédéric Desmons
+= Q3262422 | 1907 | 1909 | Louis Lafferre
+= Q346783 | 1909 | 1910 | Frédéric Desmons
+= Q65643511 | 1910 | 1911 | Georges Bouley
+= Q2958854 | 1911 | 1913 | Charles Debierre
+= Q65643507 | 1913 | 1920 | Georges Corneau
+= Q2958854 | 1920 | 1921 | Charles Debierre
+= Q2871590 | 1921 | 1922 | Augustin Gérard
+= Q16026104 | 1922 | 1925 | Arthur Mille
+= Q2865129 | 1925 | 1926 | Arthur Groussier
+= Q3184661 | 1926 | 1927 | Joseph Brenier
+= Q2865129 | 1927 | 1930 | Arthur Groussier
+= Q19918464 | 1930 | 1931 | Frédéric Estèbe
+= Q2865129 | 1931 | 1934 | Arthur Groussier
+= Q15649417 | 1934 | 1936 | Adrien Pouriau
+= Q2865129 | 1936 | 1940 | Arthur Groussier | | L'obédience est dissoute par Vichy (août 1940)
+= Q2865129 | 1944 | 1945 | Arthur Groussier | | Renaissance à la Libération
+
+% godf-contemporain | Depuis 1945 | 1945 |  | #2f5fa3
+titre: grand maître du Grand Orient de France
+= Q15637747 | 1945 | 1948 | Francis Viaud
+= Q65620945 | 1948 | 1949 | Louis Carle Bonnard
+= Q15637747 | 1949 | 1952 | Francis Viaud
+= Q65621185 | 1952 | 1953 | Paul Chevallier
+= Q15637747 | 1953 | 1956 | Francis Viaud
+= Q65621310 | 1956 | 1958 | Marcel Ravel
+= Q65621313 | 1958 | 1959 | Robert Richard
+= Q65621310 | 1959 | 1961 | Marcel Ravel
+= Q982615 | 1961 | 1964 | Jacques Mitterrand | | Frère de François Mitterrand
+= Q3370492 | 1964 | 1965 | Paul Anxionnaz
+= Q65621318 | 1965 | 1966 | Alexandre Chevalier
+= Q3370492 | 1966 | 1969 | Paul Anxionnaz
+= Q982615 | 1969 | 1971 | Jacques Mitterrand
+= Q3086977 | 1971 | 1973 | Fred Zeller
+= Q3169673 | 1973 | 1975 | Jean-Pierre Prouteau
+= Q60040347 | 1975 | 1977 | Serge Béhar
+= Q3308940 | 1977 | 1978 | Michel Baroin
+= Q41947957 | 1979 | 1980 | Roger Leray
+= Q15646092 | 1981 | 1985 | Paul Gourdot
+= Q41947957 | 1986 | 1987 | Roger Leray
+= Q3169954 | 1987 | 1988 | Jean-Robert Ragache
+= Q42037501 | 1988 | 1989 | Christian Pozzo di Borgo
+= Q3169954 | 1989 | 1991 | Jean-Robert Ragache
+= Q42296541 | 1992 | 1994 | Gilbert Abergel
+= Q22248688 | 1994 | 1995 | Patrick Kessel
+= Q42301652 | 1996 | 1997 | Jacques Lafouge
+= Q3379969 | 1997 | 1999 | Philippe Guglielmi
+= Q54324198 | 1999 | 2000 | Simon Giovannaï
+= Q2829541 | 2000 | 2003 | Alain Bauer
+= Q54324081 | 2003 | 2005 | Bernard Brandmeyer
+= Q141023387 | 2005 | 2005 | Gérard Pappalardo
+= Q3168117 | 2005 | 2008 | Jean-Michel Quillardet
+= Q3385751 | 2008 | 2010 | Pierre Lambicchi
+= Q3121520 | 2010 | 2012 | Guy Arcizet
+= Q3186315 | 2012 | 2013 | José Gulino
+= Q18414054 | 2013 | 2016 | Daniel Keller
+= Q42412914 | 2016 | 2017 | Christophe Habas
+= Q50628971 | 2017 | 2018 | Philippe Foussier
+= Q65620532 | 2018 | 2021 | Jean-Philippe Hubsch
+= Q104842243 | 2021 | 2023 | Georges Sérignac
+= Q121842335 | 2023 | 2024 | Guillaume Trichard
+= Q125053144 | 2024 | 2025 | Nicolas Penin
+= Q135922868 | 2025 | 2026 | Pierre Bertinotti
+= Q121842335 | 2026 |  | Guillaume Trichard

@@ -1,0 +1,193 @@
+# Frises d'Histoires — format des fichiers build/frises/*.txt
+#
+#   @ identifiant                 une frise
+#   nom: …                        son nom court (onglet, cartes)
+#   titre: …                      ce qu'elle montre
+#   groupe: souverains | ordres   la section de l'accueil
+#   couleur: #rrggbb              teinte de la frise
+#   voie: id | Nom                une voie (colonne) de la frise ; la première est la voie par défaut
+#   % id | Nom | début | fin | #rrggbb      une période (dynastie, régime) ; ses lignes « titre: » et
+#   titre: …                      « voie: » s'appliquent aux personnes qui suivent, jusqu'à la période suivante
+#   = Q… | début | fin | Nom affiché | titre | note      une personne (Q… = Wikidata, ? = à résoudre par build/resoudre.py)
+#   ! Q… | début | fin | Nom | note                       une institution sans titulaire (bloc sans portrait)
+#
+#   Dates : AAAA, AAAA-MM ou AAAA-MM-JJ ; « ~ » devant = approximatif ; fin vide = en cours.
+#   Les champs vides héritent : titre de la période, voie courante.
+
+@ france
+nom: France
+titre: Rois, empereurs et présidents
+groupe: souverains
+couleur: #2f5fa3
+voie: etat | Chefs de l'État
+
+% merovingiens | Mérovingiens | 481 | 751 | #8e5a3c
+titre: roi des Francs
+= Q82339 | 481 | 511-11-27 | Clovis Ier
+= Q233461 | 511-11-27 | 534 | Thierry Ier | roi de Reims | Partage de 511
+= Q212852 | 511-11-27 | 558-12-23 | Childebert Ier | roi de Paris | Partage de 511
+= Q28984 | 511-11-27 | 561-11-29 | Clotaire Ier | roi de Soissons, puis de tous les Francs | Seul roi à partir de 558
+= Q189660 | 511-11-27 | 524-06-25 | Clodomir | roi d'Orléans | Partage de 511
+= Q274597 | 534 | 548 | Théodebert Ier | roi de Reims
+= Q309915 | 548 | 555 | Théodebald | roi de Reims
+= Q243453 | 561-11-29 | 567 | Caribert Ier | roi de Paris | Partage de 561
+= Q295086 | 561-11-29 | 592-03-28 | Gontran | roi de Bourgogne | Partage de 561
+= Q309946 | 561-11-29 | 575 | Sigebert Ier | roi d'Austrasie | Partage de 561
+= Q243118 | 561-11-29 | 584-09 | Chilpéric Ier | roi de Neustrie | Partage de 561
+= Q312606 | 575 | 596-03 | Childebert II | roi d'Austrasie | Et de Bourgogne à partir de 592
+= Q209118 | 584 | 629-10-18 | Clotaire II | roi de Neustrie, puis de tous les Francs | Seul roi à partir de 613
+= Q316869 | 596 | 613 | Thierry II | roi de Bourgogne
+= Q312605 | 596 | 612 | Théodebert II | roi d'Austrasie
+= Q316888 | 613 | 613 | Sigebert II | roi d'Austrasie et de Bourgogne | Quelques mois
+= Q109860 | 629-10-18 | 639-01-19 | Dagobert Ier | | Roi d'Austrasie dès 623
+= Q316881 | 629 | 632 | Caribert II | roi d'Aquitaine
+= Q316892 | 634 | 656-02-01 | Sigebert III | roi d'Austrasie
+= Q309919 | 639-01-19 | 657 | Clovis II | roi de Neustrie et de Bourgogne
+= Q304688 | 656 | 662 | Childebert l'Adopté | roi d'Austrasie
+= Q309922 | 657 | 673 | Clotaire III | roi de Neustrie et de Bourgogne
+= Q309909 | 662 | 675 | Childéric II | roi d'Austrasie, puis de tous les Francs | Seul roi de 673 à 675
+= Q295175 | 675 | 691 | Thierry III | roi de Neustrie, puis de tous les Francs | Déjà roi quelques mois en 673
+= Q316874 | 676 | 679-12-23 | Dagobert II | roi d'Austrasie
+= Q309934 | 691 | 695 | Clovis IV
+= Q109223 | 695 | 711 | Childebert IV
+= Q109248 | 711 | 715 | Dagobert III
+= Q109240 | 715 | 721 | Chilpéric II
+= Q316908 | 717 | 719 | Clotaire IV | roi d'Austrasie | Mis en place par Charles Martel
+= Q108331 | 721 | 737 | Thierry IV
+= Q295157 | 743 | 751-11 | Childéric III | | Dernier Mérovingien, déposé par Pépin le Bref
+
+% carolingiens | Carolingiens | 751 | 987 | #b4702e
+titre: roi des Francs
+= Q81212 | 751-11 | 768-09-24 | Pépin le Bref
+= Q191003 | 768-10-09 | 771-12-04 | Carloman Ier | | Règne partagé avec Charlemagne
+= Q3044 | 768-10-09 | 814-01-28 | Charlemagne | roi des Francs, empereur d'Occident | Couronné empereur à Rome le 25 décembre 800
+= Q43974 | 814-01-28 | 840-06-20 | Louis Ier le Pieux | empereur d'Occident
+= Q71231 | 843-08 | 877-10-06 | Charles II le Chauve | roi de Francie occidentale | Traité de Verdun ; empereur en 875
+= Q182840 | 877-10-06 | 879-04-10 | Louis II le Bègue | roi de Francie occidentale
+= Q193112 | 879-04-10 | 882-08-05 | Louis III | roi de Francie occidentale | Règne partagé avec Carloman II
+= Q192846 | 879-04-10 | 884-12-06 | Carloman II | roi de Francie occidentale
+= Q150712 | 884-12 | 887-11-17 | Charles III le Gros | roi de Francie occidentale, empereur | Empereur depuis 881 ; déposé en 887
+= Q208086 | 888-02-29 | 898-01-01 | Eudes | roi de Francie occidentale | Robertien, élu après la défense de Paris
+= Q187519 | 898-01-01 | 922-06-30 | Charles III le Simple | roi de Francie occidentale | Déposé en 922, meurt captif en 929
+= Q208082 | 922-06-30 | 923-06-15 | Robert Ier | roi de Francie occidentale | Robertien
+= Q273273 | 923-07-13 | 936-01-15 | Raoul | roi de Francie occidentale | Bosonide, duc de Bourgogne
+= Q193658 | 936-06-19 | 954-09-10 | Louis IV d'Outremer | roi de Francie occidentale
+= Q242832 | 954-11-12 | 986-03-02 | Lothaire | roi de Francie occidentale
+= Q205289 | 986-03-02 | 987-05-22 | Louis V | roi de Francie occidentale | Dernier Carolingien
+
+% capetiens | Capétiens directs | 987 | 1328 | #2f5fa3
+titre: roi des Francs
+= Q159575 | 987-07-03 | 996-10-24 | Hugues Capet
+= Q178918 | 996-10-24 | 1031-07-20 | Robert II le Pieux
+= Q178908 | 1031-07-20 | 1060-08-04 | Henri Ier
+= Q58907 | 1060-08-04 | 1108-07-29 | Philippe Ier
+= Q165883 | 1108-07-29 | 1137-08-01 | Louis VI le Gros
+= Q134259 | 1137-08-01 | 1180-09-18 | Louis VII le Jeune
+= Q34428 | 1180-09-18 | 1223-07-14 | Philippe II Auguste | roi de France | Premier à se dire « roi de France »
+= Q165284 | 1223-07-14 | 1226-11-08 | Louis VIII le Lion | roi de France
+= Q346 | 1226-11-08 | 1270-08-25 | Louis IX (Saint Louis) | roi de France
+= Q172203 | 1270-08-25 | 1285-10-05 | Philippe III le Hardi | roi de France
+= Q130969 | 1285-10-05 | 1314-11-29 | Philippe IV le Bel | roi de France
+= Q8384 | 1314-11-29 | 1316-06-05 | Louis X le Hutin | roi de France
+= Q8404 | 1316-11-15 | 1316-11-20 | Jean Ier le Posthume | roi de France | Roi cinq jours, de sa naissance à sa mort
+= Q8433 | 1316-11-20 | 1322-01-03 | Philippe V le Long | roi de France
+= Q174964 | 1322-01-03 | 1328-02-01 | Charles IV le Bel | roi de France
+
+% valois | Valois | 1328 | 1589 | #5b4b8a
+titre: roi de France
+= Q170586 | 1328-04-01 | 1350-08-22 | Philippe VI
+= Q169992 | 1350-08-22 | 1364-04-08 | Jean II le Bon
+= Q167782 | 1364-04-08 | 1380-09-16 | Charles V le Sage
+= Q160349 | 1380-09-16 | 1422-10-21 | Charles VI le Fol
+= Q133372 | 1422-10-21 | 1461-07-22 | Charles VII le Victorieux
+= Q8058 | 1461-07-22 | 1483-08-30 | Louis XI
+= Q134452 | 1483-08-30 | 1498-04-07 | Charles VIII
+= Q58514 | 1498-04-07 | 1515-01-01 | Louis XII | | Branche Valois-Orléans
+= Q129857 | 1515-01-01 | 1547-03-31 | François Ier | | Branche Valois-Angoulême
+= Q132545 | 1547-03-31 | 1559-07-10 | Henri II
+= Q132548 | 1559-07-10 | 1560-12-05 | François II
+= Q134309 | 1560-12-05 | 1574-05-30 | Charles IX
+= Q53448 | 1574-05-30 | 1589-08-02 | Henri III
+
+% bourbons | Bourbons | 1589 | 1792 | #a7322f
+titre: roi de France et de Navarre
+= Q936976 | 1589-08-02 | 1610-05-14 | Henri IV
+= Q737533 | 1610-05-14 | 1643-05-14 | Louis XIII
+= Q7742 | 1643-05-14 | 1715-09-01 | Louis XIV
+= Q7738 | 1715-09-01 | 1774-05-10 | Louis XV
+= Q7732 | 1774-05-10 | 1792-09-21 | Louis XVI | roi de France et de Navarre, puis roi des Français | Suspendu le 10 août 1792, déposé le 21 septembre
+
+% revolution | Première République | 1792 | 1799 | #3d7a4d
+! Q219825 | 1792-09-21 | 1795-10-26 | Convention nationale | Pas de chef de l'État : l'assemblée gouverne, par ses comités
+! Q219817 | 1795-11-02 | 1799-11-09 | Directoire | Cinq directeurs se partagent l'exécutif
+
+% consulat | Consulat | 1799 | 1804 | #4c6f3a
+= Q517 | 1799-11-10 | 1804-05-18 | Napoléon Bonaparte | Premier consul | Consul à vie à partir de 1802
+
+% empire1 | Premier Empire | 1804 | 1815 | #6f6a2a
+titre: empereur des Français
+= Q517 | 1804-05-18 | 1814-04-06 | Napoléon Ier
+= Q517 | 1815-03-20 | 1815-06-22 | Napoléon Ier | | Les Cent-Jours
+
+% restauration | Restauration | 1814 | 1830 | #a7322f
+titre: roi de France et de Navarre
+= Q7750 | 1814-04-06 | 1824-09-16 | Louis XVIII | | Chassé par les Cent-Jours de mars à juillet 1815
+= Q7758 | 1824-09-16 | 1830-08-02 | Charles X
+
+% juillet | Monarchie de Juillet | 1830 | 1848 | #c0742f
+= Q7771 | 1830-08-09 | 1848-02-24 | Louis-Philippe Ier | roi des Français
+
+% republique2 | Deuxième République | 1848 | 1852 | #3d7a4d
+= Q2309694 | 1848-02-24 | 1848-05-09 | Jacques-Charles Dupont de l'Eure | président du Gouvernement provisoire
+= Q154353 | 1848-05-09 | 1848-06-24 | François Arago | président de la Commission exécutive
+= Q379702 | 1848-06-28 | 1848-12-20 | Louis-Eugène Cavaignac | chef du pouvoir exécutif
+= Q7721 | 1848-12-20 | 1852-12-02 | Louis-Napoléon Bonaparte | président de la République | Coup d'État du 2 décembre 1851
+
+% empire2 | Second Empire | 1852 | 1870 | #6f6a2a
+= Q7721 | 1852-12-02 | 1870-09-04 | Napoléon III | empereur des Français
+
+% republique3 | Troisième République | 1870 | 1940 | #3d7a4d
+titre: président de la République
+= Q441235 | 1870-09-04 | 1871-02-17 | Louis Jules Trochu | président du Gouvernement de la Défense nationale
+= Q5738 | 1871-02-17 | 1873-05-24 | Adolphe Thiers | chef du pouvoir exécutif, puis président de la République | Président de la République à partir du 31 août 1871
+= Q158838 | 1873-05-24 | 1879-01-30 | Patrice de Mac Mahon
+= Q296083 | 1879-01-30 | 1887-12-02 | Jules Grévy
+= Q215778 | 1887-12-03 | 1894-06-25 | Sadi Carnot | | Assassiné à Lyon
+= Q315656 | 1894-06-27 | 1895-01-16 | Jean Casimir-Perier
+= Q296076 | 1895-01-17 | 1899-02-16 | Félix Faure
+= Q169502 | 1899-02-18 | 1906-02-18 | Émile Loubet
+= Q296673 | 1906-02-18 | 1913-02-18 | Armand Fallières
+= Q191974 | 1913-02-18 | 1920-02-18 | Raymond Poincaré
+= Q309995 | 1920-02-18 | 1920-09-21 | Paul Deschanel
+= Q274540 | 1920-09-23 | 1924-06-11 | Alexandre Millerand
+= Q296064 | 1924-06-13 | 1931-06-13 | Gaston Doumergue
+= Q12680 | 1931-06-13 | 1932-05-07 | Paul Doumer | | Assassiné
+= Q158749 | 1932-05-10 | 1940-07-11 | Albert Lebrun
+
+% vichy | État français | 1940 | 1944 | #6d6d6d
+= Q5721 | 1940-07-11 | 1944-08-20 | Philippe Pétain | chef de l'État français
+
+% gprf | Gouvernement provisoire | 1944 | 1947 | #3d7a4d
+titre: président du Gouvernement provisoire
+= Q2042 | 1944-06-03 | 1946-01-20 | Charles de Gaulle
+= Q381187 | 1946-01-26 | 1946-06-24 | Félix Gouin
+= Q312026 | 1946-06-24 | 1946-12-16 | Georges Bidault
+= Q18434 | 1946-12-16 | 1947-01-16 | Léon Blum
+
+% republique4 | Quatrième République | 1947 | 1958 | #3d7a4d
+titre: président de la République
+= Q158772 | 1947-01-16 | 1954-01-16 | Vincent Auriol
+= Q158768 | 1954-01-16 | 1959-01-08 | René Coty
+
+% republique5 | Cinquième République | 1958 |  | #3d7a4d
+titre: président de la République
+= Q2042 | 1959-01-08 | 1969-04-28 | Charles de Gaulle
+= Q12950 | 1969-04-28 | 1969-06-20 | Alain Poher | président par intérim
+= Q2185 | 1969-06-20 | 1974-04-02 | Georges Pompidou | | Mort en fonction
+= Q12950 | 1974-04-02 | 1974-05-27 | Alain Poher | président par intérim
+= Q2124 | 1974-05-27 | 1981-05-21 | Valéry Giscard d'Estaing
+= Q2038 | 1981-05-21 | 1995-05-17 | François Mitterrand
+= Q2105 | 1995-05-17 | 2007-05-16 | Jacques Chirac
+= Q329 | 2007-05-16 | 2012-05-15 | Nicolas Sarkozy
+= Q157 | 2012-05-15 | 2017-05-14 | François Hollande
+= Q3052772 | 2017-05-14 |  | Emmanuel Macron

@@ -1,0 +1,115 @@
+@ hospitaliers
+nom: Hospitaliers
+titre: Grands maîtres de l'ordre de Saint-Jean, de Rhodes et de Malte
+groupe: ordres
+couleur: #2f5fa3
+voie: maitres | Grands maîtres
+
+% hosp-jerusalem | Jérusalem | 1099 | 1187 | #8e5a3c
+titre: maître de l'Hôpital
+= Q559527 | 1099 | 1120-09-03 | Frère Gérard | recteur de l'Hôpital | Fondateur ; ordre reconnu par le pape en 1113
+= Q963716 | 1120 | 1160 | Raymond du Puy | | Donne à l'ordre sa règle et sa vocation militaire
+= Q760398 | 1160 | 1162 | Auger de Balben
+= Q1524092 | 1163 | 1170 | Gilbert d'Assailly
+= Q1376238 | 1170 | 1172 | Gaston de Murols
+= Q1396990 | 1172 | 1177 | Joubert de Syrie
+= Q559382 | 1177 | 1187-05-01 | Roger des Moulins | | Tué à la fontaine de Cresson
+
+% hosp-margat | Tyr, Margat, Acre | 1188 | 1291 | #c0742f
+titre: maître de l'Hôpital
+= Q1376214 | 1188 | 1190 | Armengaud d'Asp
+= Q1375873 | 1190 | 1192 | Garnier de Naplouse
+= Q950012 | 1193 | 1202 | Geoffroy de Donjon
+= Q727203 | 1203 | 1206 | Alphonse de Portugal
+= Q363893 | 1206 | 1207 | Geoffroy le Rat
+= Q1374289 | 1207 | 1228 | Garin de Montaigu
+= Q828639 | 1228 | 1231 | Bertrand de Thessy
+= Q920696 | 1231 | 1236 | Guérin Lebrun
+= Q363897 | 1236 | 1240 | Bertrand de Comps
+= Q592973 | 1240 | 1242 | Pierre de Vieille-Bride
+= Q1376194 | 1242 | 1258 | Guillaume de Châteauneuf | | Prisonnier en Égypte de 1244 à 1250
+= Q1340414 | 1258 | 1277 | Hugues de Revel | | Premier « grand maître » (1267)
+= Q920789 | 1277 | 1284 | Nicolas Lorgne | grand maître
+= Q1454443 | 1284 | 1294 | Jean de Villiers | grand maître | Chute d'Acre (1291), repli à Chypre
+
+% hosp-chypre | Chypre | 1291 | 1310 | #6f6a2a
+titre: grand maître
+= Q652995 | 1294 | 1296 | Odon de Pins
+= Q1553972 | 1296 | 1305 | Guillaume de Villaret
+= Q1439825 | 1305 | 1319 | Foulques de Villaret | | Conquiert Rhodes (1306-1310) ; reçoit les biens du Temple
+
+% hosp-rhodes | Rhodes | 1310 | 1523 | #3f6b8a
+titre: grand maître
+= Q582198 | 1319 | 1346 | Hélion de Villeneuve
+= Q1224296 | 1346 | 1353 | Dieudonné de Gozon
+= Q580878 | 1353 | 1355 | Pierre de Corneillan
+= Q363736 | 1355 | 1365 | Roger de Pins
+= Q713586 | 1365 | 1374 | Raymond Bérenger
+= Q2035488 | 1374 | 1376 | Robert de Juilly
+= Q538040 | 1376 | 1396 | Juan Fernández de Heredia
+= Q1585024 | 1396 | 1421 | Philibert de Naillac
+= Q601990 | 1421 | 1437 | Antoine Fluvian de la Rivière
+= Q1379150 | 1437 | 1454 | Jean de Lastic | | Repousse le siège de 1444
+= Q657367 | 1454 | 1461 | Jacques de Milly
+= Q926597 | 1461 | 1467 | Pere Ramon Sacosta
+= Q1525907 | 1467 | 1476 | Giovanni Battista Orsini
+= Q553156 | 1476 | 1503 | Pierre d'Aubusson | | Repousse le siège ottoman de 1480
+= Q1335654 | 1503 | 1512 | Émery d'Amboise
+= Q717508 | 1512 | 1513 | Guy de Blanchefort
+= Q163990 | 1513 | 1521 | Fabrizio del Carretto
+= Q379765 | 1521 | 1534 | Philippe de Villiers de L'Isle-Adam | | Perd Rhodes (1522), reçoit Malte (1530)
+
+% hosp-malte | Malte | 1530 | 1798 | #a7322f
+titre: grand maître
+= Q1379630 | 1534 | 1535 | Piero de Ponte
+= Q1210609 | 1535 | 1536 | Didier de Saint-Jaille
+= Q695885 | 1536 | 1553 | Juan de Homedes
+= Q379036 | 1553 | 1557 | Claude de la Sengle
+= Q264097 | 1557 | 1568 | Jean de Valette | | Grand Siège de Malte (1565) ; fonde La Valette
+= Q1542534 | 1568 | 1572 | Pietro del Monte
+= Q1372283 | 1572 | 1581 | Jean de la Cassière
+= Q596564 | 1581 | 1595 | Hugues Loubenx de Verdalle
+= Q1657015 | 1595 | 1601 | Martin Garzez
+= Q658756 | 1601 | 1622 | Alof de Wignacourt
+= Q1876498 | 1622 | 1623 | Luis Mendes de Vasconcellos
+= Q587283 | 1623 | 1636 | Antoine de Paule
+= Q952234 | 1636 | 1657 | Juan de Lascaris-Castellar
+= Q260309 | 1657 | 1660 | Martin de Redin
+= Q74549 | 1660 | 1660 | Annet de Clermont-Gessant
+= Q1379978 | 1660 | 1663 | Rafael Cotoner
+= Q526376 | 1663 | 1680 | Nicolas Cotoner
+= Q1545261 | 1680 | 1690 | Gregorio Carafa
+= Q377338 | 1690 | 1697 | Adrien de Wignacourt
+= Q982547 | 1697 | 1720 | Ramon Perellos y Roccaful
+= Q1535264 | 1720 | 1722 | Marc'Antonio Zondadari
+= Q603165 | 1722 | 1736 | António Manoel de Vilhena
+= Q1809256 | 1736 | 1741 | Ramon Despuig
+= Q1088988 | 1741 | 1773 | Manuel Pinto da Fonseca
+= Q1442253 | 1773 | 1775 | Francisco Ximenes de Texada
+= Q426814 | 1775 | 1797 | Emmanuel de Rohan-Polduc
+= Q77187 | 1797 | 1799 | Ferdinand von Hompesch | | Livre Malte à Bonaparte (1798)
+
+% hosp-exil | Après Malte | 1798 | 1879 | #9a9a9a
+titre: grand maître
+= Q15189 | 1798-12 | 1801-03-24 | Paul Ier de Russie | grand maître de fait | Tsar, élu par les chevaliers réfugiés en Russie
+= Q1379642 | 1803 | 1805-06-13 | Giovanni Battista Tommasi | | Dernier grand maître avant soixante-quatorze ans de lieutenance
+= Q1748403 | 1805 | 1814 | Innico Maria Guevara-Suardo | lieutenant du magistère
+= Q2313724 | 1814 | 1821 | Andrea Di Giovanni | lieutenant du magistère
+= Q2274014 | 1821 | 1834 | Antoine Busca | lieutenant du magistère
+= Q2468377 | 1834 | 1845 | Carlo Candida | lieutenant du magistère | Installe l'ordre à Rome (1834)
+= Q553371 | 1845 | 1864 | Philippe de Colloredo-Mels | lieutenant du magistère
+= Q2197044 | 1865 | 1871 | Alessandro Borgia | lieutenant du magistère
+
+% hosp-rome | Ordre souverain de Malte, à Rome | 1871 |  | #2f5fa3
+titre: prince et grand maître
+= Q79018 | 1871 | 1905-01-24 | Giovanni Battista Ceschi a Santa Croce | | Lieutenant dès 1871, grand maître en 1879
+= Q79019 | 1905-03-06 | 1931-03-26 | Galeazzo von Thun und Hohenstein
+= Q1379650 | 1931-05-30 | 1951-11-14 | Ludovico Chigi Albani della Rovere
+= Q3619714 | 1951 | 1955 | Antonio Hercolani-Fava-Simonetti | lieutenant du magistère
+= Q3732305 | 1955 | 1962 | Ernesto Paternò Castello di Carcaci | lieutenant du magistère
+= Q536838 | 1962-05-08 | 1988-01-18 | Angelo de Mojana di Cologna
+= Q433924 | 1988-04-08 | 2008-02-07 | Andrew Bertie
+= Q371637 | 2008-03-11 | 2017-01-28 | Matthew Festing | | Démissionne à la demande du pape
+= Q364969 | 2018-05-02 | 2020-04-29 | Giacomo Dalla Torre del Tempio di Sanguinetto | | Lieutenant de 2017 à 2018
+= Q101305175 | 2020-11-08 | 2022-06-07 | Marco Luzzago | lieutenant du magistère
+= Q52649819 | 2023-05-03 |  | John Dunlap | | Lieutenant dès 2022 ; premier grand maître nord-américain

@@ -1,0 +1,87 @@
+@ teutoniques
+nom: Teutoniques
+titre: Grands maîtres de l'ordre Teutonique
+groupe: ordres
+couleur: #2b2b2b
+voie: maitres | Grands maîtres
+
+% teut-acre | Terre sainte | 1198 | 1309 | #8e5a3c
+titre: grand maître de l'ordre Teutonique
+= Q571817 | 1198 | 1200-10-24 | Heinrich Walpot | | Premier grand maître, à Acre
+= Q644755 | 1200 | 1208 | Otto von Kerpen
+= Q722011 | 1208 | 1209-06-02 | Heinrich von Tunna
+= Q57994 | 1209 | 1239-03-20 | Hermann von Salza | | Obtient la Prusse (Bulle d'or de Rimini, 1226)
+= Q61952 | 1239 | 1240-07-24 | Conrad de Thuringe
+= Q65456 | 1240 | 1244 | Gerhard von Malberg
+= Q65412 | 1244 | 1249-07-15 | Heinrich von Hohenlohe
+= Q65431 | 1249 | 1252 | Günther von Wüllersleben
+= Q65440 | 1252 | 1256 | Poppo von Osterna
+= Q64252 | 1256 | 1273-07-08 | Anno von Sangerhausen
+= Q615579 | 1273 | 1282-08-19 | Hartmann von Heldrungen
+= Q704511 | 1283 | 1290 | Burchard von Schwanden
+= Q64283 | 1291 | 1296-07-04 | Konrad von Feuchtwangen | | Quitte Acre pour Venise
+= Q693907 | 1297 | 1303 | Gottfried von Hohenlohe
+= Q278914 | 1303 | 1311-03-05 | Siegfried von Feuchtwangen | | Installe le siège à Marienbourg (1309)
+
+% teut-marienbourg | État teutonique de Prusse | 1309 | 1466 | #2b2b2b
+titre: grand maître de l'ordre Teutonique
+= Q698963 | 1311 | 1324-02-11 | Karl von Trier
+= Q240032 | 1324 | 1330-11-18 | Werner von Orseln | | Assassiné
+= Q677345 | 1331 | 1335-04-18 | Luther von Braunschweig
+= Q590388 | 1335 | 1341-10-06 | Dietrich von Altenburg
+= Q672408 | 1342 | 1345 | Ludolf König
+= Q684184 | 1345 | 1351 | Heinrich Dusemer
+= Q683621 | 1351 | 1382-06-24 | Winrich von Kniprode | | Apogée de l'ordre
+= Q819564 | 1382 | 1390-08-20 | Konrad Zöllner von Rotenstein
+= Q65442 | 1391 | 1393-07-23 | Konrad von Wallenrode
+= Q508965 | 1393 | 1407-03-30 | Konrad von Jungingen
+= Q330895 | 1407 | 1410-07-15 | Ulrich von Jungingen | | Tué à Grunwald (Tannenberg)
+= Q221559 | 1410 | 1413 | Heinrich von Plauen | | Sauve Marienbourg, puis déposé
+= Q684456 | 1414 | 1422 | Michael Küchmeister
+= Q77415 | 1422 | 1441-01-02 | Paul von Rusdorf
+= Q65425 | 1441 | 1449-11-07 | Konrad von Erlichshausen
+= Q684194 | 1450 | 1467-04-04 | Ludwig von Erlichshausen | | Guerre de Treize Ans ; perd Marienbourg (1457)
+
+% teut-konigsberg | Königsberg | 1466 | 1525 | #3f6b8a
+titre: grand maître de l'ordre Teutonique
+= Q65458 | 1469 | 1470-01-02 | Heinrich Reuß von Plauen
+= Q695484 | 1470 | 1477-02-20 | Heinrich Reffle von Richtenberg
+= Q700189 | 1477 | 1489-01-03 | Martin Truchseß von Wetzhausen
+= Q702822 | 1489 | 1497-08-25 | Johann von Tiefen
+= Q262986 | 1498 | 1510-12-14 | Frédéric de Saxe
+= Q40433 | 1510 | 1525-04-10 | Albert de Brandebourg | | Sécularise la Prusse et devient duc luthérien (1525)
+
+% teut-mergentheim | Mergentheim | 1527 | 1809 | #6f6a2a
+titre: grand maître de l'ordre Teutonique
+= Q698426 | 1527 | 1543-04-04 | Walter von Cronberg | | Rétablit l'ordre catholique à Mergentheim
+= Q662386 | 1543 | 1566-02-11 | Wolfgang Schutzbar
+= Q571507 | 1566 | 1572-06-17 | Georg Hund von Wenkheim
+= Q560804 | 1572 | 1590 | Heinrich von Bobenhausen
+= Q283909 | 1590 | 1618-11-02 | Maximilien III d'Autriche | | Premier des Habsbourg à la tête de l'ordre
+= Q112083 | 1619 | 1624-12-28 | Charles d'Autriche
+= Q476327 | 1625 | 1627-10-25 | Johann Eustach von Westernach
+= Q560764 | 1627 | 1641-11-21 | Johann Kaspar von Stadion
+= Q437295 | 1641 | 1662-11-27 | Léopold-Guillaume d'Autriche
+= Q647419 | 1662 | 1664-01-27 | Charles-Joseph d'Autriche
+= Q70832 | 1664 | 1684-09-09 | Johann Kaspar von Ampringen
+= Q67431 | 1684 | 1694-05-04 | Louis-Antoine de Palatinat-Neubourg
+= Q53109 | 1694 | 1732-04-18 | François-Louis de Palatinat-Neubourg
+= Q215086 | 1732 | 1761-02-06 | Clément-Auguste de Bavière | | Prince-électeur de Cologne
+= Q158232 | 1761 | 1780-07-04 | Charles-Alexandre de Lorraine
+= Q93362 | 1780 | 1801-07-27 | Maximilien-François d'Autriche
+= Q84201 | 1801 | 1804 | Charles-Louis d'Autriche | | Le vainqueur d'Aspern-Essling
+= Q595088 | 1804 | 1835-04-02 | Antoine-Victor d'Autriche | | Napoléon supprime l'ordre dans le Rhin (1809)
+
+% teut-vienne | Vienne | 1809 |  | #a7322f
+titre: grand maître de l'ordre Teutonique
+= Q78549 | 1835 | 1863-06-01 | Maximilien d'Autriche-Este
+= Q702090 | 1863 | 1894-07-29 | Guillaume d'Autriche
+= Q78578 | 1894 | 1923-04-30 | Eugène d'Autriche-Teschen | | Dernier grand maître chevalier ; l'ordre devient clérical
+= Q668073 | 1923 | 1933-03-10 | Norbert Klein | | Premier grand maître prêtre
+= Q477327 | 1933 | 1936 | Paul Heider
+= Q112946 | 1936 | 1948-01-27 | Robert Schälzky
+= Q571621 | 1948 | 1970 | Marian Tumler
+= Q667941 | 1970 | 1988 | Ildefons Pauler
+= Q657831 | 1988 | 2000 | Arnold Wieland
+= Q523172 | 2000 | 2018 | Bruno Platter
+= Q56379636 | 2018-08-22 |  | Frank Bayard

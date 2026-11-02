@@ -1,0 +1,324 @@
+@ papes
+nom: Papes
+titre: Papes de Rome, papauté d’Avignon et Grand Schisme
+groupe: souverains
+couleur: #b8860b
+voie: rome | Papes
+voie: avignon | Avignon et Pise
+
+
+% origines | Les premiers siècles | 30 | 313 | #8e5a3c | Dates traditionnelles, incertaines avant le IIIe siècle
+titre: pape
+= Q33923 | ~33 | ~67 | Saint Pierre | | Apôtre ; dates traditionnelles
+= Q47144 | ~67 | ~79 | Lin
+= Q80450 | ~79 | ~92 | Anaclet (Clet)
+= Q42887 | ~88 | ~99 | Clément Ier | | Auteur de l’épître aux Corinthiens
+= Q47746 | ~99 | ~105 | Évariste
+= Q80028 | ~107 | ~110 | Alexandre Ier
+= Q81634 | ~115 | ~120 | Sixte Ier
+= Q81647 | ~126 | ~130 | Télesphore
+= Q80604 | ~138 | ~140 | Hygin
+= Q83198 | ~140 | ~154 | Pie Ier
+= Q546590 | ~150 | ~160 | Anicet
+= Q101280 | ~168 | ~174 | Soter
+= Q101090 | ~175 | ~189 | Éleuthère
+= Q127989 | ~189 | ~199 | Victor Ier
+= Q101306 | ~199 | ~217 | Zéphyrin
+= Q122376 | ~218 | ~222 | Calixte Ier
+= Q125631 | ~222 | ~230 | Urbain Ier
+= Q132113 | ~230 | ~235 | Pontien
+= Q132100 | ~235 | ~236 | Antère
+= Q131159 | ~236 | ~250 | Fabien
+= Q54798 | ~251 | ~253 | Corneille
+= Q132793 | ~253 | ~254 | Lucius Ier
+= Q134666 | ~254 | ~257 | Étienne Ier
+= Q127385 | ~257 | ~258 | Sixte II
+= Q131162 | ~259 | ~268 | Denys
+= Q134687 | ~269 | ~274 | Félix Ier
+= Q162972 | ~275 | ~283 | Eutychien
+= Q160882 | ~283 | ~296 | Caïus
+= Q160373 | ~296 | ~304 | Marcellin
+= Q102131 | 308-01-01 | 309-01-17 | Marcel Ier
+= Q160514 | 309-04-19 | 309-08-18 | Eusèbe
+= Q162090 | 311-07-03 | 314-01-11 | Miltiade
+
+% empire-chretien | Empire chrétien | 313 | 476 | #b4702e
+titre: pape
+= Q47149 | 314-02-01 | 336-01-01 | Sylvestre Ier
+= Q132797 | 336-01-20 | 336-10-08 | Marc
+= Q103101 | 337-02-08 | 352-04-13 | Jules Ier
+= Q102105 | 352-05-18 | 366-09-25 | Libère
+= Q130997 | 366-10-01 | 384-12-12 | Damase Ier
+= Q161443 | 384-12-01 | 399-11-26 | Sirice
+= Q134682 | 399-11-28 | 401-12-19 | Anastase Ier
+= Q134694 | 402-01-01 | 417-03-12 | Innocent Ier
+= Q162571 | 417-03-20 | 418-12-28 | Zosime
+= Q160907 | 418-12-30 | 422-09-04 | Boniface Ier
+= Q160922 | 422-09-12 | 432-07-27 | Célestin Ier
+= Q167065 | 432-08-02 | 440-08-18 | Sixte III
+= Q43954 | 440-09-29 | 461-11-10 | Léon Ier | | Arrête Attila (452)
+= Q172377 | 461-11-21 | 468-02-28 | Hilaire
+= Q168741 | 468-03-03 | 483-03-10 | Simplice
+
+% byzantine | Papauté sous l’Empire byzantin | 476 | 752 | #5b4b8a
+titre: pape
+= Q174029 | 483-03-15 | 492-01-03 | Félix III
+= Q162135 | 492-03-03 | 496-11-19 | Gélase Ier
+= Q132786 | 496-11-26 | 498-11-16 | Anastase II
+= Q160935 | 498-11-24 | 514-07-19 | Symmaque
+= Q160931 | 514-07-24 | 523-08-06 | Hormisdas
+= Q160916 | 523-08-17 | 526-05-18 | Jean Ier
+= Q162080 | 526-07-17 | 530-09-24 | Félix IV
+= Q103300 | 530-09-24 | 532-10-19 | Boniface II
+= Q168736 | 533-01-06 | 535-05-08 | Jean II
+= Q160900 | 535-05-17 | 536-04-22 | Agapet Ier
+= Q149315 | 536-06-12 | 537-03-01 | Silvère
+= Q168734 | 537-04-02 | 555-06-07 | Vigile
+= Q170303 | 556-01-01 | 561-03-03 | Pélage Ier
+= Q103260 | 561-07-21 | 574-07-13 | Jean III
+= Q151902 | 575-06-06 | 579-07-30 | Benoît Ier
+= Q151908 | 579-11-30 | 590-02-07 | Pélage II
+= Q42827 | 590-09-03 | 604-03-12 | Grégoire Ier | | Grégoire le Grand
+= Q170498 | 604-09-19 | 606-02-22 | Sabinien
+= Q170297 | 607-02-25 | 607-11-12 | Boniface III
+= Q170505 | 608-10-01 | 615-05-08 | Boniface IV
+= Q170550 | 615-11-19 | 618-11-08 | Adéodat Ier
+= Q170299 | 619-12-29 | 625-10-25 | Boniface V
+= Q170502 | 625-11-02 | 638-10-12 | Honorius Ier
+= Q199486 | 640-06-03 | 640-08-02 | Séverin
+= Q199491 | 640-12-30 | 642-10-12 | Jean IV
+= Q104244 | 642-11-30 | 649-05-14 | Théodore Ier
+= Q172390 | 649-07-27 | 655-09-16 | Martin Ier
+= Q199498 | 656-01-01 | 657-06-01 | Eugène Ier
+= Q199612 | 657-08-05 | 672-01-27 | Vitalien
+= Q103396 | 672-04-11 | 676-06-16 | Adéodat II
+= Q103545 | 676-11-08 | 678-04-11 | Donus
+= Q104467 | 678-07-03 | 681-01-10 | Agathon
+= Q103328 | 682-08-23 | 683-06-28 | Léon II
+= Q163787 | 684-07-02 | 685-05-08 | Benoît II
+= Q199533 | 685-07-26 | 686-08-02 | Jean V
+= Q171537 | 686-10-27 | 687-09-21 | Conon
+= Q173086 | 687-12-21 | 701-09-08 | Serge Ier
+= Q199487 | 701-11-03 | 705-01-15 | Jean VI
+= Q199496 | 705-03-09 | 707-10-18 | Jean VII
+= Q103277 | 708-01-23 | 708-02-04 | Sisinnius
+= Q103314 | 708-03-29 | 715-04-13 | Constantin
+= Q103321 | 715-05-27 | 731-02-11 | Grégoire II
+= Q103268 | 731-02-19 | 741-11-28 | Grégoire III
+= Q139467 | 741-12-18 | 752-03-19 | Zacharie
+
+% carolingienne | Papauté et Carolingiens | 752 | 904 | #c0742f
+titre: pape
+= Q211789 | 752-04-03 | 757-04-26 | Étienne II
+= Q103404 | 757-06-06 | 767-06-28 | Paul Ier
+= Q320531 | 768-08-15 | 772-02-01 | Étienne III
+= Q103292 | 772-02-09 | 795-12-29 | Adrien Ier
+= Q132086 | 796-01-04 | 816-06-12 | Léon III | | Couronne Charlemagne (800)
+= Q193854 | 816-06-30 | 817-01-28 | Étienne IV
+= Q103308 | 817-02-02 | 824-02-11 | Pascal Ier
+= Q104205 | 824-05-19 | 827-08-27 | Eugène II
+= Q168733 | 827-09-08 | 827-10-10 | Valentin
+= Q167052 | 827-10-01 | 844-01-25 | Grégoire IV
+= Q228644 | 844-01-01 | 847-01-24 | Serge II
+= Q228205 | 847-01-31 | 855-07-17 | Léon IV
+= Q172445 | 855-10-07 | 858-04-17 | Benoît III
+= Q170503 | 858-05-02 | 867-11-13 | Nicolas Ier
+= Q173995 | 867-12-22 | 872-12-14 | Adrien II
+= Q170504 | 872-12-21 | 882-12-16 | Jean VIII
+= Q227721 | 882-12-24 | 884-05-19 | Marin Ier
+= Q172398 | 884-05-25 | 885-07-12 | Adrien III
+= Q245030 | 885-09-01 | 891-09-18 | Étienne V
+= Q170499 | 891-10-14 | 896-04-08 | Formose
+= Q178071 | 896-04-15 | 896-04-30 | Boniface VI
+= Q238947 | 896-05-30 | 897-08-18 | Étienne VI
+= Q170500 | 897-08-01 | 897-11-01 | Romain
+= Q172432 | 897-12-01 | 897-12-24 | Théodore II
+= Q227961 | 898-01-22 | 900-01-09 | Jean IX
+= Q182463 | 900-02-09 | 903-07-01 | Benoît IV
+= Q172404 | 903-07-01 | 904-02-01 | Léon V
+
+% obscurum | Le « siècle de fer » | 904 | 1046 | #6d6d6d
+titre: pape
+= Q172424 | 904-02-08 | 911-04-19 | Serge III
+= Q103431 | 911-04-01 | 913-06-01 | Anastase III
+= Q104798 | 913-07-01 | 914-01-01 | Landon
+= Q227976 | 914-03-01 | 928-05-01 | Jean X
+= Q103795 | 928-06-01 | 928-12-01 | Léon VI
+= Q235920 | 929-02-01 | 931-03-15 | Étienne VII
+= Q181959 | 931-03-01 | 935-12-01 | Jean XI
+= Q182489 | 936-01-13 | 939-07-13 | Léon VII
+= Q222500 | 939-07-24 | 942-10-01 | Étienne VIII
+= Q103423 | 942-11-09 | 946-05-01 | Marin II
+= Q103389 | 946-05-20 | 955-11-08 | Agapet II
+= Q172933 | 955-12-21 | 964-05-14 | Jean XII | | Couronne Otton Ier empereur (962)
+= Q227965 | 964-06-28 | 965-03-06 | Léon VIII
+= Q170559 | 964-06-01 | 964-06-28 | Benoît V
+= Q181952 | 965-10-11 | 972-09-06 | Jean XIII
+= Q179882 | 973-01-29 | 974-06-01 | Benoît VI
+= Q179697 | 974-10-01 | 983-07-10 | Benoît VII
+= Q227972 | 983-11-01 | 984-08-20 | Jean XIV
+= Q228649 | 985-08-01 | 996-03-01 | Jean XV
+= Q58571 | 996-05-13 | 999-02-18 | Grégoire V | | Premier pape allemand
+= Q172383 | 999-04-12 | 1003-05-12 | Sylvestre II | | Gerbert d’Aurillac, premier pape français
+= Q227963 | 1003-05-28 | 1003-12-06 | Jean XVII
+= Q179702 | 1003-12-31 | 1009-07-24 | Jean XVIII
+= Q227970 | 1009-08-12 | 1012-05-12 | Serge IV
+= Q162102 | 1012-05-30 | 1024-04-09 | Benoît VIII
+= Q227978 | 1024-04-25 | 1032-10-15 | Jean XIX
+= Q178799 | 1032-10-01 | 1044-09-01 | Benoît IX | | Trois pontificats
+= Q46090 | 1045-01-26 | 1045-03-16 | Sylvestre III
+= Q178799 | 1045-04-01 | 1045-05-01 | Benoît IX | | Trois pontificats
+= Q227981 | 1045-05-17 | 1047-01-01 | Grégoire VI
+
+% gregorienne | Réforme grégorienne | 1046 | 1122 | #3f6b8a
+titre: pape
+= Q58573 | 1047-01-06 | 1047-10-01 | Clément II
+= Q178799 | 1047-11-01 | 1048-07-01 | Benoît IX | | Trois pontificats
+= Q60063 | 1048-07-29 | 1048-08-09 | Damase II
+= Q58559 | 1049-02-24 | 1054-04-25 | Léon IX
+= Q58563 | 1055-04-25 | 1057-07-28 | Victor II
+= Q58568 | 1057-08-15 | 1058-03-29 | Étienne IX
+= Q117840 | 1059-02-05 | 1061-07-27 | Nicolas II
+= Q171112 | 1061-10-12 | 1073-04-21 | Alexandre II
+= Q133063 | 1073-04-22 | 1085-05-25 | Grégoire VII | | Querelle des Investitures ; Canossa
+= Q227724 | 1086-06-05 | 1087-09-16 | Victor III
+= Q30578 | 1088-03-24 | 1099-08-04 | Urbain II | | Prêche la première croisade (1095)
+= Q227967 | 1099-08-19 | 1118-01-28 | Pascal II
+= Q180882 | 1118-02-07 | 1119-01-29 | Gélase II
+= Q170654 | 1119-02-15 | 1124-12-20 | Calixte II
+
+% apogee | Apogée médiéval | 1122 | 1305 | #a7322f
+titre: pape
+= Q173071 | 1125-01-04 | 1130-02-13 | Honorius II
+= Q170386 | 1130-02-28 | 1143-09-24 | Innocent II
+= Q171144 | 1143-10-09 | 1144-03-15 | Célestin II
+= Q170385 | 1144-03-23 | 1145-02-22 | Lucius II
+= Q167610 | 1145-03-01 | 1153-07-08 | Eugène III
+= Q179389 | 1153-07-23 | 1154-12-10 | Anastase IV
+= Q132845 | 1154-12-18 | 1159-09-08 | Adrien IV
+= Q160116 | 1159-09-21 | 1181-08-30 | Alexandre III
+= Q182474 | 1181-09-15 | 1185-12-02 | Lucius III
+= Q171520 | 1185-12-09 | 1187-10-20 | Urbain III
+= Q101866 | 1187-11-08 | 1187-12-17 | Grégoire VIII
+= Q171001 | 1188-01-07 | 1191-03-27 | Clément III
+= Q103437 | 1191-04-04 | 1198-01-15 | Célestin III
+= Q128076 | 1198-01-22 | 1216-07-23 | Innocent III | | Apogée de la théocratie pontificale
+= Q160182 | 1216-08-01 | 1227-03-18 | Honorius III
+= Q124831 | 1227-04-02 | 1241-08-22 | Grégoire IX
+= Q171238 | 1241-11-08 | 1241-11-17 | Célestin IV
+= Q160609 | 1243-07-02 | 1254-12-14 | Innocent IV
+= Q169915 | 1254-12-26 | 1261-05-25 | Alexandre IV
+= Q169305 | 1261-09-12 | 1264-10-02 | Urbain IV
+= Q172928 | 1265-02-12 | 1268-11-29 | Clément IV
+= Q161740 | 1271-09-15 | 1276-01-10 | Grégoire X
+= Q170871 | 1276-02-04 | 1276-06-22 | Innocent V
+= Q173000 | 1276-07-18 | 1276-08-18 | Adrien V
+= Q172916 | 1276-09-27 | 1277-05-27 | Jean XXI
+= Q170859 | 1277-12-09 | 1280-08-22 | Nicolas III
+= Q227719 | 1281-03-07 | 1285-03-28 | Martin IV
+= Q227743 | 1285-04-16 | 1287-04-10 | Honorius IV
+= Q103625 | 1288-03-07 | 1292-04-18 | Nicolas IV
+= Q118081 | 1294-07-19 | 1294-12-27 | Célestin V | | L’ermite qui renonça
+= Q134646 | 1295-01-07 | 1303-10-11 | Boniface VIII | | Affronte Philippe le Bel
+= Q169301 | 1303-11-07 | 1304-07-07 | Benoît XI
+
+% avignon | Papauté d’Avignon | 1305 | 1378 | #6f6a2a | Siège à Avignon de 1309 à 1377
+titre: pape
+= Q131463 | 1305-06-21 | 1314-04-28 | Clément V | | Installe la papauté à Avignon (1309) ; supprime le Temple (1312)
+= Q165568 | 1316-08-23 | 1334-12-04 | Jean XXII | | Pape d’Avignon
+= Q170389 | 1335-01-05 | 1342-05-03 | Benoît XII | | Pape d’Avignon ; commence le palais des Papes
+= Q170863 | 1342-05-23 | 1352-12-06 | Clément VI | | Pape d’Avignon ; achète Avignon (1348)
+= Q169288 | 1353-01-03 | 1362-09-12 | Innocent VI | | Pape d’Avignon
+= Q133046 | 1362-10-14 | 1370-12-19 | Urbain V | | Pape d’Avignon ; tente un retour à Rome
+= Q169594 | 1371-01-15 | 1378-03-27 | Grégoire XI | | Pape d’Avignon ; ramène la papauté à Rome (1377)
+
+% schisme | Grand Schisme d’Occident | 1378 | 1417 | #9a9a9a
+titre: pape
+= Q171626 | 1378-04-16 | 1389-10-23 | Urbain VI | | Son élection ouvre le Grand Schisme
+= Q165561 | 1389-11-18 | 1404-10-01 | Boniface IX
+= Q227713 | 1404-11-04 | 1406-11-15 | Innocent VII
+= Q227694 | 1406-12-18 | 1415-07-22 | Grégoire XII | | Abdique au concile de Constance pour clore le schisme
+
+% renaissance | Renaissance | 1417 | 1534 | #3d7a4d
+titre: pape
+= Q169612 | 1417-12-02 | 1431-02-20 | Martin V | | Élu à Constance : fin du Grand Schisme
+= Q167561 | 1431-03-21 | 1447-02-23 | Eugène IV
+= Q134588 | 1447-03-15 | 1455-04-02 | Nicolas V
+= Q160369 | 1455-04-26 | 1458-08-15 | Calixte III
+= Q101437 | 1458-08-19 | 1464-08-14 | Pie II
+= Q102605 | 1464-08-30 | 1471-07-26 | Paul II
+= Q163514 | 1471-08-18 | 1484-08-12 | Sixte IV | | Fait bâtir la chapelle Sixtine
+= Q161351 | 1484-09-16 | 1492-07-25 | Innocent VIII
+= Q108316 | 1492-08-29 | 1503-09-07 | Alexandre VI | | Borgia
+= Q160030 | 1503-10-12 | 1503-10-18 | Pie III
+= Q80516 | 1503-11-21 | 1513-02-21 | Jules II | | Mécène de Michel-Ange ; pape guerrier
+= Q49237 | 1513-03-29 | 1521-12-11 | Léon X | | Médicis ; excommunie Luther (1521)
+= Q57087 | 1522-01-29 | 1523-09-24 | Adrien VI | | Dernier pape non italien avant Jean-Paul II
+= Q83159 | 1523-12-09 | 1534-10-05 | Clément VII
+
+% contre-reforme | Réforme catholique | 1534 | 1648 | #5b4b8a
+titre: pape
+= Q133001 | 1534-10-23 | 1549-11-10 | Paul III | | Ouvre le concile de Trente (1545)
+= Q169911 | 1550-02-27 | 1555-03-23 | Jules III
+= Q101776 | 1555-04-29 | 1555-05-11 | Marcel II
+= Q101430 | 1555-05-23 | 1559-08-18 | Paul IV
+= Q161983 | 1560-01-14 | 1565-12-09 | Pie IV
+= Q131945 | 1566-01-27 | 1572-05-11 | Pie V | | Lépante (1571)
+= Q83029 | 1572-06-02 | 1585-04-10 | Grégoire XIII | | Calendrier grégorien (1582)
+= Q133350 | 1585-04-24 | 1590-08-27 | Sixte V
+= Q134337 | 1590-09-15 | 1590-09-27 | Urbain VII
+= Q171622 | 1590-12-05 | 1591-10-16 | Grégoire XIV
+= Q167959 | 1591-10-29 | 1591-12-30 | Innocent IX
+= Q170395 | 1592-01-30 | 1605-03-03 | Clément VIII
+= Q132716 | 1605-04-01 | 1605-04-27 | Léon XI
+= Q132711 | 1605-05-16 | 1621-01-28 | Paul V
+= Q132692 | 1621-02-09 | 1623-07-08 | Grégoire XV
+= Q131579 | 1623-08-06 | 1644-07-29 | Urbain VIII
+= Q101266 | 1644-09-15 | 1655-01-07 | Innocent X
+
+% moderne | Époque moderne | 1648 | 1789 | #2f5fa3
+titre: pape
+= Q127254 | 1655-04-07 | 1667-05-22 | Alexandre VII
+= Q155961 | 1667-06-20 | 1669-12-09 | Clément IX
+= Q155956 | 1670-04-29 | 1676-07-22 | Clément X
+= Q101286 | 1676-09-21 | 1689-08-12 | Innocent XI
+= Q101294 | 1689-10-06 | 1691-02-01 | Alexandre VIII
+= Q132708 | 1691-07-12 | 1700-09-27 | Innocent XII
+= Q129967 | 1700-11-23 | 1721-03-19 | Clément XI | | Bulle Unigenitus (1713)
+= Q133100 | 1721-05-08 | 1724-03-07 | Innocent XIII
+= Q155971 | 1724-05-29 | 1730-02-23 | Benoît XIII
+= Q133108 | 1730-07-12 | 1740-02-06 | Clément XII
+= Q126711 | 1740-08-17 | 1758-05-03 | Benoît XIV
+= Q133121 | 1758-07-06 | 1769-02-02 | Clément XIII
+= Q131587 | 1769-05-19 | 1774-09-22 | Clément XIV | | Supprime les Jésuites (1773)
+= Q128019 | 1775-02-15 | 1799-08-29 | Pie VI | | Mort prisonnier de la France
+
+% contemporaine | Époque contemporaine | 1789 |  | #a7322f
+titre: pape
+= Q124754 | 1800-03-14 | 1823-08-20 | Pie VII | | Couronne Napoléon (1804), puis son prisonnier
+= Q43727 | 1823-09-28 | 1829-02-10 | Léon XII
+= Q4443 | 1829-03-31 | 1830-11-30 | Pie VIII
+= Q43734 | 1831-02-02 | 1846-06-01 | Grégoire XVI
+= Q43720 | 1846-06-16 | 1878-02-07 | Pie IX | | Plus long pontificat ; infaillibilité (1870)
+= Q43922 | 1878-02-20 | 1903-07-20 | Léon XIII | | Rerum novarum (1891)
+= Q43739 | 1903-08-04 | 1914-08-20 | Pie X
+= Q4448 | 1914-09-03 | 1922-01-22 | Benoît XV
+= Q42323 | 1922-02-06 | 1939-02-10 | Pie XI | | Accords du Latran (1929)
+= Q2604 | 1939-03-02 | 1958-10-09 | Pie XII | | Pape de la Seconde Guerre mondiale
+= Q23873 | 1958-10-28 | 1963-06-03 | Jean XXIII | | Convoque Vatican II
+= Q16975 | 1963-06-21 | 1978-08-06 | Paul VI | | Clôt Vatican II
+= Q37278 | 1978-08-26 | 1978-09-28 | Jean-Paul Ier | | Trente-trois jours
+= Q989 | 1978-10-16 | 2005-04-02 | Jean-Paul II | | Premier pape polonais
+= Q2494 | 2005-04-19 | 2013-02-28 | Benoît XVI | | Renonce en 2013
+= Q450675 | 2013-03-13 | 2025-04-21 | François | | Premier pape jésuite et américain
+= Q6109517 | 2025-05-08 |  | Léon XIV | | Premier pape né aux États-Unis
+
+% schisme-avignon | Obédience d’Avignon et de Pise | 1378 | 1449 | #9a9a9a
+voie: avignon
+titre: antipape
+= Q320371 | 1378-09-20 | 1394-09-16 | Clément VII | antipape (Avignon) | Robert de Genève, élu contre Urbain VI
+= Q310371 | 1394-09-28 | 1423-05-23 | Benoît XIII | antipape (Avignon) | Pedro de Luna ; déposé à Constance (1417), ne renonce jamais
+= Q262884 | 1409-06-26 | 1410-05-03 | Alexandre V | antipape (Pise) | Élu par le concile de Pise
+= Q294599 | 1410-05-17 | 1415-05-29 | Jean XXIII | antipape (Pise) | Baldassarre Cossa ; déposé à Constance
+= Q348629 | 1423-06-10 | 1429-07-26 | Clément VIII | antipape (Avignon) | Se soumet à Martin V
+= Q312636 | 1439-11-05 | 1449-04-07 | Félix V | antipape (Bâle) | Amédée VIII de Savoie, élu par le concile de Bâle ; renonce
