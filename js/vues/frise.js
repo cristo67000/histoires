@@ -82,7 +82,8 @@
           if (it.nb > 2 && hauteur >= 44) classes.push('etroit');
           else if (it.nb > 2) classes.push('minuscule');
           const corps = h('div', { class: 'texte' }, h('div', { class: 'nom' }, m.nom), h('div', { class: 'dates' }, annees(m)));
-          if (!o.compact && hauteur >= (f.voies.length > 1 ? 110 : 64)) {
+          const large = window.innerWidth >= 600 || f.voies.length === 1;
+          if (!o.compact && large && hauteur >= (f.voies.length > 1 ? 110 : 64)) {
             corps.appendChild(h('div', { class: 'fonction' }, majuscule(m.titre)));
             if (m.note && hauteur >= 92) corps.appendChild(h('div', { class: 'note' }, m.note));
           }
@@ -90,7 +91,7 @@
             type: 'button', class: classes.join(' '), 'data-mandat': m.id,
             style: { top: y1 + 'px', height: hauteur + 'px', left: (it.col * largeur) + '%', width: 'calc(' + largeur + '% - ' + (it.nb > 1 ? 3 : 0) + 'px)', '--teinte': teinte(m) },
             onclick: () => { if (m.q !== '-') App.aller('#/p/' + m.q); else Communs.toast(m.nom + (m.note ? ' — ' + m.note : '')); },
-          }, (!o.compact && hauteur >= 60 && it.nb <= 2 && !m.inst) ? portrait(m.q) : null, corps);
+          }, (!o.compact && large && hauteur >= 60 && it.nb <= 2 && !m.inst) ? portrait(m.q) : null, corps);
           col.appendChild(bloc);
         }
         voies.appendChild(col);
