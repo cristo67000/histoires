@@ -1,0 +1,37 @@
+@ albigeois
+nom: Croisade des Albigeois
+dates: 1209-06-24 | 1229-04-12
+sous-titre: Une croisade en terre chrétienne, contre les cathares et le Midi
+resume: Après l’assassinat de son légat Pierre de Castelnau, Innocent III proclame en 1208 une croisade contre les hérétiques cathares et les seigneurs qui les protègent, au premier rang desquels Raymond VI de Toulouse. Les barons du Nord, menés par le légat Arnaud Amaury puis par Simon de Montfort, y gagnent les terres confisquées. Béziers est massacrée, Carcassonne prise ; Simon se fait vicomte, puis comte de Toulouse après Muret, où le roi d’Aragon Pierre II, venu secourir son vassal, est tué.
+resume: Le Midi se soulève ; Simon de Montfort meurt sous les murs de Toulouse en 1218. Son fils Amaury cède ses droits au roi de France. Louis VIII mène en 1226 la croisade royale, prend Avignon et meurt au retour. Le traité de Paris de 1229, négocié par Blanche de Castille, soumet Raymond VII : sa fille épousera un frère de Louis IX et le comté de Toulouse reviendra à la Couronne. L’Inquisition, créée en 1233, achève le catharisme ; Montségur tombe en 1244.
+chretien: Q128076 | pape, proclame la croisade
+chretien: Q160182 | pape, soutient Louis VIII
+chretien: Q124831 | pape, traité de Paris, Inquisition
+chretien: Q542518 | légat, assassiné en 1208
+chretien: Q452773 | abbé de Cîteaux, légat, chef de la première campagne
+chretien: Q303703 | chef militaire de la croisade, tué devant Toulouse
+chretien: Q453363 | fils de Simon, cède ses droits au roi
+chretien: Q34428 | roi de France, laisse faire ses barons
+chretien: Q165284 | roi de France, mène la croisade royale de 1226
+chretien: Q346 | roi de France, traité de Paris
+chretien: Q353 | régente, négocie le traité de Paris
+chretien: Q356564 | comte de Toulouse, excommunié
+chretien: Q180073 | comte de Toulouse, soumis en 1229
+chretien: Q315058 | roi d’Aragon, tué à Muret
+chretien: Q561524 | vicomte de Béziers et Carcassonne, mort en prison
+= 1208-01-14 | Pierre de Castelnau, légat du pape, est assassiné près de Saint-Gilles.
+= 1208-03-10 | Innocent III proclame la croisade contre les Albigeois.
+= 1209-06-24 | Les croisés se rassemblent à Lyon ; Raymond VI, qui a fait amende honorable, les rejoint.
+= 1209-07-22 | Sac de Béziers : la population est massacrée.
+= 1209-08-15 | Carcassonne capitule ; Trencavel meurt en prison en novembre. Simon de Montfort reçoit ses terres.
+= 1210-07-22 | Prise de Minerve : cent quarante cathares brûlés.
+= 1211-05-03 | Prise de Lavaur : quatre cents brûlés, Guiraude de Laurac jetée dans un puits.
+= 1213-09-12 | Bataille de Muret : Pierre II d’Aragon est tué, Toulouse perdue pour Raymond VI.
+= 1215-11 | Latran IV : Simon de Montfort reconnu comte de Toulouse.
+= 1217-09-13 | Raymond VI rentre à Toulouse ; Simon assiège la ville.
+= 1218-06-25 | Simon de Montfort est tué par un boulet de pierrière devant Toulouse.
+= 1226-06-10 | Louis VIII assiège Avignon, qui se rend le 9 septembre.
+= 1226-11-08 | Mort de Louis VIII à Montpensier, au retour.
+= 1229-04-12 | Traité de Paris : Raymond VII se soumet ; Jeanne de Toulouse promise à Alphonse de Poitiers.
+= 1244-03-16 | Chute de Montségur : plus de deux cents cathares brûlés.
+bilan: Le Languedoc passe sous l’autorité capétienne : le comté de Toulouse reviendra à la Couronne en 1271. Le catharisme disparaît sous l’Inquisition. La croisade a servi de modèle à d’autres expéditions tournées contre des chrétiens.

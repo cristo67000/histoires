@@ -19,16 +19,22 @@
   let mandatsParPersonne = {};
   let tousMandats = [];
   let precache = {};
+  let croisades = [];
+  let parCroisade = {};
 
   async function charger() {
-    const [f, p, pc] = await Promise.all([
+    const [f, p, pc, c] = await Promise.all([
       fetch('data/frises.json').then((r) => r.json()),
       fetch('data/personnes.json').then((r) => r.json()),
       fetch('data/precache.json').then((r) => r.json()).catch(() => ({})),
+      fetch('data/croisades.json').then((r) => r.json()).catch(() => []),
     ]);
     frises = f;
     personnes = p;
     precache = pc;
+    croisades = c;
+    parCroisade = {};
+    for (const x of croisades) parCroisade[x.id] = x;
     indexer();
   }
 
@@ -67,6 +73,7 @@
   }
 
   function frise(id) { return parFrise[id] || null; }
+  function croisade(id) { return parCroisade[id] || null; }
   function personne(q) { return personnes[q] || null; }
   function mandatsDe(q) { return mandatsParPersonne[q] || []; }
   function periode(m) { return parFrise[m.frise].parPeriode[m.periode]; }
@@ -159,8 +166,9 @@
   }
 
   racine.Donnees = {
-    charger, frise, personne, mandatsDe, periode, voie, groupe, enPlace, tableau, changement, bornes, rechercher, auHasard, urlImage,
+    charger, frise, croisade, personne, mandatsDe, periode, voie, groupe, enPlace, tableau, changement, bornes, rechercher, auHasard, urlImage,
     get frises() { return frises; },
+    get croisades() { return croisades; },
     get personnes() { return personnes; },
     get precache() { return precache; },
   };

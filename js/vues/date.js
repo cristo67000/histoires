@@ -64,7 +64,7 @@
       sousLue.textContent = p.jour ? Dates.siecle(p.annee) : (p.mois ? Dates.siecle(p.annee) + ' — dates au mois près' : Dates.siecle(p.annee) + ' — à l’année près : plusieurs titulaires peuvent se succéder dans l’année');
       resultats.textContent = '';
       const lignes = Donnees.tableau(precis);
-      for (const groupe of [['souverains', 'Souverains et chefs d’État'], ['ordres', 'Ordres et obédiences']]) {
+      for (const groupe of [['souverains', 'Souverains et chefs d’État'], ['croisades', 'Croisades'], ['ordres', 'Ordres et obédiences']]) {
         const part = lignes.filter((l) => l.frise.groupe === groupe[0]);
         if (!part.length) continue;
         resultats.appendChild(h('h3', { class: 'titre-section' }, groupe[1]));

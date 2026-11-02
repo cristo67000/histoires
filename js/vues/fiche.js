@@ -229,6 +229,21 @@
       page.appendChild(h('section', null, h('h3', { class: 'titre-section' }, 'Famille', h('span', { class: 'discret' }, 'les noms dorés ont leur fiche')), fam));
     }
 
+    // Croisades
+    if (p.croisades && p.croisades.length) {
+      const sec = h('section');
+      sec.appendChild(h('h3', { class: 'titre-section' }, 'Croisades', h('span', { class: 'discret' }, p.croisades.some((c) => c.camp === 'musulman') ? 'du côté musulman' : 'du côté chrétien')));
+      for (const part of p.croisades) {
+        const c = Donnees.croisade(part.id);
+        if (!c) continue;
+        sec.appendChild(h('a', { class: 'carte carte-lien carte-frise', href: '#/c/' + c.id, style: { '--teinte': '#9b2335' } },
+          h('div', { class: 'bande' }),
+          h('div', { class: 'corps' }, h('p', { class: 'carte-titre' }, c.nom), h('p', { class: 'discret petit' }, Dates.anneeTexte(c.debut) + ' – ' + Dates.anneeTexte(c.fin) + ' · ' + majuscule(part.role))),
+          icone('droite', 'fleche')));
+      }
+      page.appendChild(sec);
+    }
+
     // Contemporains
     const ct = contemporains(q, mandats);
     if (ct) page.appendChild(ct);

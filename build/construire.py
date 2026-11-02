@@ -9,6 +9,7 @@ portraits.json, vérifie la cohérence et écrit :
     data/frises.json      les frises : voies, périodes, mandats
     data/personnes.json   les fiches : état civil, famille, repères, résumé, portrait
     data/precache.json    la liste des images à ranger hors ligne, avec leur empreinte
+    data/croisades.json   les fiches des croisades
 
 Le script échoue (code 1) à la première incohérence : identifiant inconnu,
 date mal formée, période sans mandat, mandat hors de sa période.
@@ -23,6 +24,7 @@ import unicodedata
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lire_frises import lire, identifiants
+import lire_croisades
 
 ICI = os.path.dirname(os.path.abspath(__file__))
 RACINE = os.path.dirname(ICI)
@@ -88,7 +90,18 @@ def main():
     portraits = json.load(io.open(os.path.join(ATELIER, 'portraits.json'), encoding='utf-8'))
     personnes_wd = wd['personnes']
     liees = wd['liees']
+    croisades = lire_croisades.lire()
+    ids_croisades = {c['id'] for c in croisades}
     ids = identifiants(frises)
+    for q in lire_croisades.identifiants(croisades):
+        if q not in ids:
+            ids.append(q)
+    # les croisades auxquelles chacun a pris part
+    participations = {}
+    for c in croisades:
+        for camp, liste in (('chretien', c['chretiens']), ('musulman', c['musulmans'])):
+            for p in liste:
+                participations.setdefault(p['q'], []).append({'id': c['id'], 'role': p['role'], 'camp': camp})
 
     # ── Frises ──────────────────────────────────────────────────────────
     sortie_frises = []
@@ -106,10 +119,12 @@ def main():
                 erreur('%s : début %s hors de la période %s (%s–%s)' % (m['lieu'], m['debut'], p['id'], p['debut'], p['fin']))
             if m['fin'] and cle_tri(m['fin']) < cle_tri(m['debut']):
                 erreur('%s : fin avant début' % m['lieu'])
+            if m.get('ev') and m['ev'] not in ids_croisades:
+                erreur('%s : croisade inconnue « %s »' % (m['lieu'], m['ev']))
             mandats.append({
                 'q': m['q'], 'nom': m['nom'], 'debut': m['debut'], 'fin': m['fin'] or None,
                 'titre': m['titre'], 'note': m['note'] or None, 'voie': m['voie'], 'periode': m['periode'],
-                'inst': m['inst'] or None,
+                'inst': m['inst'] or None, 'ev': m.get('ev') or None,
             })
         mandats.sort(key=lambda m: (cle_tri(m['debut']), cle_tri(m['fin'])))
         for p in f['periodes']:
@@ -158,6 +173,7 @@ def main():
             'texte': texte.get('texte') or None,
             'wp': texte.get('titre') or p.get('wp'),
             'portrait': None,
+            'croisades': participations.get(q, []),
             'recherche': normaliser((nom_app or '') + ' ' + (p['nom'] or '') + ' ' + (p.get('nom_en') or '')),
         }
         if fiche['pere'] and fiche['pere'].get('app'):
@@ -210,6 +226,24 @@ def main():
     os.makedirs(DATA, exist_ok=True)
     with io.open(os.path.join(DATA, 'frises.json'), 'w', encoding='utf-8', newline='\n') as f:
         json.dump(sortie_frises, f, ensure_ascii=False, separators=(',', ':'))
+    sortie_croisades = []
+    for c in croisades:
+        for p in c['chretiens'] + c['musulmans']:
+            if p['q'] not in sortie_personnes:
+                erreur('croisade %s : %s sans fiche' % (c['id'], p['q']))
+            else:
+                p['nom'] = sortie_personnes[p['q']]['nom']
+        reperes = sorted(c['reperes'], key=lambda r: cle_tri(r['date']))
+        sortie_croisades.append({
+            'id': c['id'], 'nom': c['nom'], 'sousTitre': c['sous-titre'], 'debut': c['debut'], 'fin': c['fin'],
+            'resume': c['resume'], 'bilan': c['bilan'], 'chretiens': c['chretiens'], 'musulmans': c['musulmans'], 'reperes': reperes,
+        })
+    if erreurs:
+        for e in erreurs:
+            print('ERREUR', e)
+        sys.exit(1)
+    with io.open(os.path.join(DATA, 'croisades.json'), 'w', encoding='utf-8', newline='\n') as f:
+        json.dump(sortie_croisades, f, ensure_ascii=False, separators=(',', ':'))
     with io.open(os.path.join(DATA, 'personnes.json'), 'w', encoding='utf-8', newline='\n') as f:
         json.dump(sortie_personnes, f, ensure_ascii=False, separators=(',', ':'))
     precache = {}
@@ -222,6 +256,7 @@ def main():
             precache['img/' + q + '.webp'] = hashlib.sha256(open(chemin, 'rb').read()).hexdigest()[:12]
     with io.open(os.path.join(DATA, 'precache.json'), 'w', encoding='utf-8', newline='\n') as f:
         json.dump(precache, f, ensure_ascii=False, separators=(',', ':'))
+    print('%d croisades, %d repères' % (len(sortie_croisades), sum(len(c['reperes']) for c in sortie_croisades)))
     nb_m = sum(len(f['mandats']) for f in sortie_frises)
     taille = sum(os.path.getsize(os.path.join(IMG, k[4:])) for k in precache)
     print('%d frises, %d mandats, %d fiches, %d avec résumé, %d portraits (%.1f Mo)' % (

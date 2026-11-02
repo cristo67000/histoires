@@ -14,7 +14,7 @@
  * qu'au feu vert de js/miseajour.js (le bandeau « Mettre à jour »).
  */
 
-const VERSION = 'v1.0.0';
+const VERSION = 'v1.1.0';
 const COQUILLE = 'histoires-coquille-' + VERSION;
 const IMAGES = 'histoires-images';
 
@@ -35,6 +35,7 @@ const FICHIERS = [
   'js/vues/comparer.js',
   'js/vues/date.js',
   'js/vues/fiche.js',
+  'js/vues/croisade.js',
   'js/vues/recherche.js',
   'js/vues/reglages.js',
   'js/miseajour.js',
@@ -43,6 +44,7 @@ const FICHIERS = [
   'data/frises.json',
   'data/personnes.json',
   'data/precache.json',
+  'data/croisades.json',
   'icons/icon-192.png',
   'icons/icon-512.png',
   'icons/icon-maskable-512.png',

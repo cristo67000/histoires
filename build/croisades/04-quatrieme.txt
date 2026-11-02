@@ -1,0 +1,32 @@
+@ quatrieme
+nom: Quatrième croisade
+dates: 1198-08-15 | 1204-05-16
+sous-titre: Partie pour l’Égypte, la croisade prend Constantinople
+resume: Innocent III, à peine élu, appelle à une nouvelle croisade. Sans roi — Philippe Auguste et Jean sans Terre sont en guerre, l’Empire disputé —, elle réunit des barons français : Thibaut de Champagne, Louis de Blois, Baudouin de Flandre, Simon de Montfort, Geoffroi de Villehardouin, son chroniqueur. Ils louent à Venise une flotte pour frapper l’Égypte. Trop peu nombreux pour payer, ils acceptent de prendre pour le doge Dandolo la ville chrétienne de Zara, puis de rétablir sur le trône byzantin le prince Alexis Ange, qui promet or et soumission de l’Église grecque.
+resume: Constantinople est prise une première fois en juillet 1203 ; Alexis IV ne peut tenir ses promesses et meurt dans une révolte. Le 12 avril 1204, les croisés prennent la ville d’assaut et la pillent trois jours durant, reliques comprises. Baudouin de Flandre devient empereur latin, Boniface de Montferrat roi de Thessalonique, Venise se taille un empire maritime. Aucun croisé n’atteint la Terre sainte.
+chretien: Q128076 | pape, excommunie les croisés après Zara
+chretien: Q282436 | premier chef désigné, meurt avant le départ
+chretien: Q312369 | chef de la croisade, roi de Thessalonique
+chretien: Q298896 | comte de Flandre, premier empereur latin de Constantinople
+chretien: Q205688 | doge de Venise, nonagénaire et aveugle
+chretien: Q330697 | comte de Blois
+chretien: Q5361 | maréchal de Champagne, chroniqueur
+chretien: Q303703 | quitte la croisade au moment de Zara
+chretien: Q37069 | prétendant byzantin rétabli par les croisés, puis tué
+chretien: Q37076 | empereur byzantin, défenseur de Constantinople
+chretien: Q34428 | roi de France, absent
+chretien: Q129308 | roi d’Angleterre, absent
+musulman: Q285133 | sultan ayyoubide, cible initiale de l’expédition, épargné
+= 1198-08-15 | Innocent III appelle à la croisade.
+= 1199-11-28 | Tournoi d’Écry : Thibaut de Champagne et Louis de Blois prennent la croix.
+= 1201-04 | Traité de Venise : la République fournit une flotte pour 85 000 marcs.
+= 1201-05-24 | Mort de Thibaut de Champagne ; Boniface de Montferrat devient chef.
+= 1202-10-08 | La flotte quitte Venise, les croisés endettés envers le doge.
+= 1202-11-24 | Prise et sac de Zara, ville chrétienne du roi de Hongrie ; Innocent III excommunie l’armée.
+= 1203-06-24 | La flotte arrive devant Constantinople.
+= 1203-07-17 | Premier assaut ; Alexis III s’enfuit, Isaac II et Alexis IV sont installés.
+= 1204-01-28 | Alexis IV est renversé et étranglé ; Murzuphle devient Alexis V.
+= 1204-04-12 | Assaut final : Constantinople est prise.
+= 1204-04-13 | Trois jours de pillage ; les reliques et les bronzes partent vers l’Occident.
+= 1204-05-16 | Baudouin de Flandre couronné empereur latin à Sainte-Sophie.
+bilan: L’Empire latin de Constantinople durera jusqu’en 1261, l’Empire byzantin ne s’en relèvera jamais vraiment, et le schisme entre Rome et l’Orient devient une haine. Venise sort gagnante. Innocent III, qui avait tout interdit, finit par accepter le fait accompli.

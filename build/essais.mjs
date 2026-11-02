@@ -61,7 +61,17 @@ console.log('données');
 const frises = JSON.parse(lire('data/frises.json'));
 const personnes = JSON.parse(lire('data/personnes.json'));
 const precache = JSON.parse(lire('data/precache.json'));
-ok(frises.length === 8, 'huit frises');
+ok(frises.length === 10, 'dix frises');
+const croisades = JSON.parse(lire('data/croisades.json'));
+ok(croisades.length === 12, 'douze croisades');
+for (const c of croisades) {
+  ok(c.resume.length && c.reperes.length >= 7 && c.chretiens.length, 'croisade ' + c.id + ' incomplète');
+  for (const p of c.chretiens.concat(c.musulmans)) ok(personnes[p.q], 'croisade ' + c.id + ' : ' + p.q + ' sans fiche');
+  for (let i = 1; i < c.reperes.length; i++) ok(c.reperes[i].date.replace('~', '').padStart(4, '0') >= c.reperes[i - 1].date.replace('~', '').padStart(4, '0').slice(0, c.reperes[i].date.length), c.id + ' : repères dans le désordre vers ' + c.reperes[i].date);
+}
+ok(personnes.Q346.croisades.map((c) => c.id).join(',') === 'albigeois,septieme,huitieme', 'Louis IX : Albigeois, septième, huitième');
+ok(personnes.Q8581.croisades.some((c) => c.id === 'troisieme' && c.camp === 'musulman'), 'Saladin du côté musulman de la troisième croisade');
+for (const f of frises) for (const m of f.mandats) if (m.ev) ok(croisades.some((c) => c.id === m.ev), 'événement inconnu ' + m.ev);
 for (const f of frises) {
   for (const v of f.voies) {
     const liste = f.mandats.filter((m) => m.voie === v.id);
@@ -121,7 +131,10 @@ const attendu = {
   '1933-01-30': { allemagne: 'Paul von Hindenburg', france: 'Albert Lebrun', papes: 'Pie XI', 'grand-orient': 'Arthur Groussier' },
   '1945-05-01': { allemagne: 'Karl Dönitz', france: 'Charles de Gaulle' },
   '2024-01-01': { france: 'Emmanuel Macron', angleterre: 'Charles III', allemagne: 'Frank-Walter Steinmeier', papes: 'François', hospitaliers: 'John Dunlap', teutoniques: 'Frank Bayard', 'grand-orient': 'Guillaume Trichard' },
-  '0800-12-25': { france: 'Charlemagne', papes: 'Léon III' },
+  '0800-12-25': { france: 'Charlemagne', papes: 'Léon III', islam: 'Haroun ar-Rachid' },
+  '1187-07-04': { islam: 'An-Nasir', croisades: 'Guy de Lusignan' },
+  '1453-05-29': { islam: 'Al-Qaim' },
+  '0732-10-25': { islam: 'Hicham', france: 'Thierry IV' },
 };
 for (const [date, reponses] of Object.entries(attendu)) {
   for (const [frise, nom] of Object.entries(reponses)) {
@@ -133,9 +146,15 @@ for (const [date, reponses] of Object.entries(attendu)) {
 ok(Donnees.enPlace('allemagne', '1933-01-30', 'chancelier').some((m) => m.nom === 'Adolf Hitler'), 'Hitler chancelier le 30 janvier 1933');
 ok(Donnees.enPlace('allemagne', '1871-05-10', 'chancelier').some((m) => m.nom === 'Otto von Bismarck'), 'Bismarck chancelier en 1871');
 ok(Donnees.enPlace('papes', '1400-01-01', 'avignon').some((m) => m.nom === 'Benoît XIII'), 'Benoît XIII à Avignon en 1400');
+ok(Donnees.enPlace('islam', '1187-07-04', 'egypte').some((m) => m.nom === 'Saladin'), 'Saladin sultan à Hattin');
+ok(Donnees.enPlace('islam', '1453-05-29', 'sultans').some((m) => m.nom === 'Mehmed II'), 'Mehmed II prend Constantinople');
+ok(Donnees.enPlace('islam', '1250-03-01', 'egypte').some((m) => m.nom === 'Turanshah'), 'Turanshah face à saint Louis');
+ok(Donnees.enPlace('croisades', '1190-06-10', 'expeditions').some((m) => m.ev === 'troisieme'), 'troisième croisade en cours en 1190');
+ok(Donnees.tableau('1099-07-15').some((l) => l.frise.id === 'croisades' && l.mandats.some((m) => m.ev === 'premiere')), 'tableau de 1099 : première croisade');
+ok(Donnees.croisade('septieme').chretiens.some((p) => p.q === 'Q346' && p.nom === 'Louis IX (Saint Louis)'), 'Louis IX nommé dans la septième');
 ok(Donnees.changement('1715-01-01', 1) === '1715-09-01', 'prochain changement après le 1er janvier 1715 : mort de Louis XIV');
 const tableau = Donnees.tableau('1515-09-13');
-ok(tableau.length === 6 && tableau.every((l) => l.mandats.length), 'tableau de 1515 : six lignes, toutes pourvues');
+ok(tableau.length === 9 && tableau.every((l) => l.mandats.length), 'tableau de 1515 : neuf lignes (trois pour l’islam), toutes pourvues');
 const vacances = Donnees.tableau('1741-01-01').filter((l) => !l.mandats.length);
 ok(vacances.length === 1 && vacances[0].frise.id === 'allemagne', 'vacance en 1741 : le trône impérial seulement');
 ok(Donnees.tableau('1330-01-01').some((l) => l.frise.id === 'templiers' && !l.mandats.length), 'en 1330, le Temple disparu depuis peu a encore sa ligne');

@@ -1,0 +1,31 @@
+@ cinquieme
+nom: Cinquième croisade
+dates: 1217-08 | 1221-09-08
+sous-titre: Damiette prise, puis perdue dans la crue du Nil
+resume: Décidée au concile de Latran IV, la croisade vise l’Égypte, cœur de la puissance ayyoubide. André II de Hongrie et Léopold VI d’Autriche arrivent les premiers en Syrie, sans résultat. En 1218, avec Jean de Brienne, roi de Jérusalem, les croisés mettent le siège devant Damiette, à l’embouchure du Nil. La ville tombe après dix-huit mois, pendant lesquels François d’Assise vient prêcher au sultan al-Kamil.
+resume: Al-Kamil offre Jérusalem contre Damiette ; le légat Pélage refuse, attendant l’empereur Frédéric II, qui ne vient pas. Marchant sur Le Caire en pleine crue, l’armée est encerclée à Mansourah et doit rendre Damiette pour sauver sa vie.
+chretien: Q160182 | pape, dirige la croisade par son légat
+chretien: Q703852 | cardinal-légat, refuse l’échange de Damiette contre Jérusalem
+chretien: Q332704 | roi de Jérusalem, chef militaire
+chretien: Q271104 | roi de Hongrie, rentre en 1218
+chretien: Q437303 | duc d’Autriche
+chretien: Q676555 | rencontre le sultan al-Kamil à Damiette
+chretien: Q130221 | empereur, promet de venir et ne vient pas
+chretien: Q523344 | maître du Temple
+chretien: Q1374289 | maître de l’Hôpital
+chretien: Q57994 | grand maître teutonique
+musulman: Q285133 | sultan ayyoubide, meurt pendant le siège
+musulman: Q293464 | sultan d’Égypte, propose Jérusalem, reprend Damiette
+musulman: Q286553 | sultan de Damas, frère d’al-Kamil, rase les murs de Jérusalem
+= 1215-11-30 | Latran IV : Ad liberandam fixe le départ pour 1217.
+= 1217-11 | André II de Hongrie et Léopold VI campent en Galilée sans résultat.
+= 1218-05-27 | Début du siège de Damiette.
+= 1218-08-24 | Prise de la tour de la Chaîne, sur le Nil.
+= 1218-08-31 | Mort du sultan al-Adil ; al-Kamil lui succède en Égypte.
+= 1219-09 | François d’Assise est reçu par al-Kamil.
+= 1219-10 | Al-Kamil propose Jérusalem contre Damiette ; Pélage refuse.
+= 1219-11-05 | Prise de Damiette, dont la population est décimée par la famine.
+= 1221-07-12 | L’armée marche sur Le Caire malgré la crue.
+= 1221-08-26 | Encerclée à Mansourah, l’armée capitule.
+= 1221-09-08 | Damiette est rendue ; trêve de huit ans.
+bilan: Une occasion perdue : Jérusalem avait été offerte. L’échec est imputé au légat et à l’absence de Frédéric II, que le pape presse désormais de tenir son vœu.

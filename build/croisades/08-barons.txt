@@ -1,0 +1,23 @@
+@ barons
+nom: Croisade des barons
+dates: 1239-09-01 | 1241-05-03
+sous-titre: Thibaut de Champagne et Richard de Cornouailles, à l’expiration de la trêve
+resume: La trêve de dix ans conclue par Frédéric II expire en 1239. Grégoire IX a prêché une nouvelle croisade, que mènent Thibaut IV, comte de Champagne et roi de Navarre, puis Richard de Cornouailles, frère du roi d’Angleterre. Battus à Gaza, les Francs tirent pourtant parti des querelles entre Ayyoubides d’Égypte et de Damas : par deux traités successifs, ils obtiennent la Galilée, Ascalon et la confirmation de Jérusalem. C’est la plus grande étendue du royaume depuis Hattin — pour trois ans.
+chretien: Q314562 | comte de Champagne, roi de Navarre, chef de la première expédition
+chretien: Q314527 | comte de Cornouailles, frère d’Henri III, négocie le second traité
+chretien: Q536174 | duc de Bourgogne
+chretien: Q465182 | duc de Bretagne, seul chef victorieux
+chretien: Q573433 | comte de Bar, tué à Gaza
+chretien: Q124831 | pape, prêche la croisade
+chretien: Q160311 | roi d’Angleterre, envoie son frère
+musulman: Q293559 | sultan d’Égypte
+musulman: Q287848 | émir de Damas, s’allie aux Francs contre l’Égypte
+musulman: Q287145 | émir de Kérak, maître de Jérusalem
+= 1239-09-01 | Thibaut de Champagne débarque à Acre.
+= 1239-11-13 | Désastre de Gaza : Henri de Bar tué, Amaury de Montfort captif.
+= 1239-12-07 | An-Nasir Dawud reprend Jérusalem et rase la tour de David.
+= 1240-09 | Thibaut traite avec Damas puis rembarque ; Jérusalem rendue.
+= 1240-10-08 | Richard de Cornouailles arrive à Acre.
+= 1241-04-23 | Traité avec l’Égypte : Ascalon, la Galilée, les prisonniers de Gaza libérés.
+= 1241-05-03 | Richard de Cornouailles rembarque.
+bilan: Gagnée par la diplomatie plus que par les armes, cette extension ne survit pas à la réconciliation des Ayyoubides : en 1244, Jérusalem tombe définitivement et l’armée franque périt à La Forbie.

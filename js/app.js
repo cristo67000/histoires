@@ -15,7 +15,7 @@
   const { h } = Outils;
   const VUES = {
     '': () => VueAccueil, frise: () => VueFrise, comparer: () => VueComparer, date: () => VueDate,
-    p: () => VueFiche, recherche: () => VueRecherche, reglages: () => VueReglages,
+    p: () => VueFiche, c: () => VueCroisade, recherche: () => VueRecherche, reglages: () => VueReglages,
   };
   const defilements = new Map();
   let routeCourante = null;

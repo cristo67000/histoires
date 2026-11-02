@@ -9,6 +9,10 @@ au téléphone :
   présidents, chefs d’État de la RDA, et les chanceliers (843 → aujourd’hui) ;
 - **Papes** : les 267 papes, avec la papauté d’Avignon et l’obédience d’Avignon et de Pise
   du Grand Schisme ;
+- **Islam** : califes (bien guidés, omeyyades, abbassides de Bagdad et du Caire, califat ottoman),
+  Égypte et Syrie (Fatimides, Ayyoubides, Mamelouks), Seldjoukides, sultans de Roum, Ottomans ;
+- **Croisades** : rois de Jérusalem et douze expéditions (de Clermont à Nicopolis), chacune avec
+  sa fiche : résumé, chefs chrétiens et musulmans, chronologie des sièges, batailles et morts ;
 - **Ordres** : maîtres du Temple, grands maîtres de l’Hôpital (Saint-Jean, Rhodes, Malte),
   de l’ordre Teutonique et du Grand Orient de France.
 
@@ -27,6 +31,7 @@ En ligne : <https://cristo67000.github.io/histoires/>
     data/precache.json                                    portraits, avec leur empreinte
     img/Q….webp                                           portraits (320 px de large)
     build/frises/*.txt                                    LES LISTES, écrites à la main (format en tête de 01-france.txt)
+    build/croisades/*.txt                                 les fiches des croisades, rédigées à la main (format en tête de 01-premiere.txt)
     build/                                                scripts de construction (Python 3.11, Pillow)
 
 ## Reconstruire les données

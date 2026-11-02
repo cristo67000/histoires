@@ -43,7 +43,7 @@
     exemples.appendChild(h('button', { type: 'button', onclick: () => App.aller('#/date/' + Dates.aujourdhui()) }, 'Aujourd’hui'));
     page.appendChild(h('section', { class: 'heros' },
       h('h2', null, 'Qui régnait en… ?'),
-      h('p', null, 'Rois, empereurs, présidents, chanceliers, papes et grands maîtres : entrez une date, voyez qui était en place.'),
+      h('p', null, 'Rois, empereurs, présidents, chanceliers, papes, califes, sultans et grands maîtres : entrez une date, voyez qui était en place.'),
       h('div', { class: 'saisie-date' }, champ, h('button', { type: 'button', onclick: aller }, 'Voir')),
       exemples));
 
@@ -54,8 +54,11 @@
       h('a', { class: 'bouton-discret', href: '#/comparer' }, icone('comparer'), 'Frises côte à côte'),
       h('button', { type: 'button', class: 'bouton-discret', onclick: () => App.aller('#/p/' + Donnees.auHasard()) }, icone('hasard'), 'Un personnage au hasard')));
 
-    page.appendChild(h('h2', { class: 'titre-section' }, 'Souverains et chefs d’État', h('span', { class: 'discret' }, 'France, Angleterre, Allemagne, papauté')));
+    page.appendChild(h('h2', { class: 'titre-section' }, 'Souverains et chefs d’État', h('span', { class: 'discret' }, 'France, Angleterre, Allemagne, papauté, islam')));
     for (const f of Donnees.groupe('souverains')) page.appendChild(carteFrise(f));
+    page.appendChild(h('h2', { class: 'titre-section' }, 'Croisades', h('span', { class: 'discret' }, '1095 – 1396')));
+    for (const f of Donnees.groupe('croisades')) page.appendChild(carteFrise(f));
+    page.appendChild(VueCroisade.cartes());
     page.appendChild(h('h2', { class: 'titre-section' }, 'Ordres et obédiences', h('span', { class: 'discret' }, 'grands maîtres')));
     for (const f of Donnees.groupe('ordres')) page.appendChild(carteFrise(f));
 

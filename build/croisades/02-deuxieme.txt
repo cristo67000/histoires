@@ -1,0 +1,36 @@
+@ deuxieme
+nom: Deuxième croisade
+dates: 1145-12-01 | 1149-06
+sous-titre: Deux rois pour venger Édesse, et l’échec devant Damas
+resume: La chute d’Édesse, prise par l’atabeg Zengi le 24 décembre 1144, bouleverse l’Occident. Le pape Eugène III proclame la croisade, et Bernard de Clairvaux la prêche à Vézelay devant Louis VII, puis en Allemagne devant Conrad III. Pour la première fois, des rois prennent la croix. Les deux armées traversent l’Anatolie séparément et y sont décimées : celle de Conrad à Dorylée, celle de Louis au mont Cadmos, où seuls les Templiers sauvent le roi.
+resume: Arrivés en Terre sainte par mer, les rois décident avec Baudouin III d’attaquer Damas, alliée jusque-là des Francs. Le siège tourne court en quatre jours ; Damas se jette dans les bras de Nur ad-Din. La croisade se termine sans rien avoir repris, et discrédite pour longtemps l’idée même d’expédition royale. En marge, des croisés anglais et flamands aident Alphonse de Portugal à prendre Lisbonne.
+chretien: Q167610 | pape, bulle Quantum praedecessores
+chretien: Q188411 | abbé de Clairvaux, prédicateur de la croisade
+chretien: Q134259 | roi de France
+chretien: Q178525 | reine de France, accompagne Louis VII
+chretien: Q157133 | roi des Romains
+chretien: Q146465 | roi de Jérusalem
+chretien: Q232151 | reine de Jérusalem, mère de Baudouin III
+chretien: Q437271 | prince d’Antioche, oncle d’Aliénor
+chretien: Q439794 | maître du Temple, sauve l’armée au mont Cadmos
+chretien: Q963716 | maître de l’Hôpital
+chretien: Q587697 | roi de Portugal, prend Lisbonne avec les croisés
+musulman: Q189550 | atabeg de Mossoul et d’Alep, prend Édesse
+musulman: Q312973 | fils de Zengi, unifie la Syrie musulmane
+musulman: Q29225 | atabeg de Damas, repousse le siège
+musulman: Q58810 | sultan seldjoukide de Roum, bat les deux armées en Anatolie
+= 1144-12-24 | Zengi prend Édesse, première des quatre principautés latines à tomber.
+= 1145-12-01 | Eugène III proclame la croisade (Quantum praedecessores).
+= 1146-03-31 | Vézelay : Bernard de Clairvaux prêche, Louis VII prend la croix.
+= 1146-09-14 | Zengi est assassiné ; Nur ad-Din lui succède à Alep.
+= 1146-12-27 | À Spire, Conrad III prend la croix à son tour.
+= 1147-06 | Départ des armées allemande puis française par la route de terre.
+= 1147-10-24 | Prise de Lisbonne par les croisés du Nord et Alphonse Ier de Portugal.
+= 1147-10-25 | Conrad III est écrasé par les Turcs près de Dorylée.
+= 1148-01-08 | Mont Cadmos : l’armée de Louis VII est surprise dans un défilé ; les Templiers prennent le commandement.
+= 1148-03-19 | Louis VII et Aliénor à Antioche ; brouille avec Raymond de Poitiers.
+= 1148-06-24 | Assemblée d’Acre : les rois et Baudouin III choisissent d’attaquer Damas.
+= 1148-07-24 | Siège de Damas ; il est levé le 28 juillet.
+= 1148-09-08 | Conrad III rembarque ; Louis VII reste jusqu’à Pâques 1149.
+= 1149-06-29 | Nur ad-Din écrase Raymond de Poitiers à Inab ; le prince d’Antioche est tué.
+bilan: Rien de repris, et la fragile alliance avec Damas brisée : la ville tombe aux mains de Nur ad-Din en 1154, qui encercle désormais les États latins. Le couple royal français sort brisé de l’aventure ; Aliénor, répudiée en 1152, épousera Henri Plantagenêt.

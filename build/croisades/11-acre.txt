@@ -1,0 +1,27 @@
+@ acre
+nom: Chute d’Acre et fin des États latins
+dates: 1289-04-26 | 1291-08-14
+sous-titre: Qalawun prend Tripoli, al-Ashraf Khalil prend Acre
+resume: Après Baybars, le sultan Qalawun poursuit la conquête : Tripoli tombe en 1289. Un massacre de marchands musulmans par des croisés italiens fraîchement débarqués lui donne prétexte à rompre la trêve. Il meurt en préparant le siège ; son fils al-Ashraf Khalil arrive devant Acre en avril 1291 avec une armée immense et des dizaines de machines de siège. Henri II, roi de Chypre et de Jérusalem, vient en personne ; Templiers, Hospitaliers et Teutoniques tiennent les murs.
+resume: Le 18 mai, la tour Maudite cède ; Guillaume de Beaujeu, maître du Temple, est tué ; la ville est prise rue par rue, la population massacrée ou vendue. La forteresse du Temple résiste dix jours encore. Tyr, Sidon, Beyrouth, Tortose, le château Pèlerin sont évacués l’un après l’autre : il ne reste plus rien des États latins, hors Chypre.
+chretien: Q546497 | roi de Chypre et de Jérusalem, défend Acre puis s’enfuit
+chretien: Q552712 | maître du Temple, tué sur les remparts
+chretien: Q1454443 | grand maître de l’Hôpital, blessé, évacué
+chretien: Q92982212 | maréchal du Temple, tient la forteresse jusqu’au bout
+chretien: Q453370 | frère d’Henri II, connétable
+chretien: Q445951 | chevalier savoyard au service d’Édouard Ier
+chretien: Q103625 | pape, envoie des croisés italiens
+musulman: Q249121 | sultan mamelouk, prend Tripoli
+musulman: Q392815 | sultan mamelouk, prend Acre
+= 1289-04-26 | Qalawun prend Tripoli.
+= 1290-08 | Des croisés lombards massacrent des marchands musulmans à Acre : la trêve est rompue.
+= 1290-11-10 | Mort de Qalawun ; al-Ashraf Khalil reprend ses plans.
+= 1291-04-05 | Début du siège d’Acre.
+= 1291-05-04 | Henri II débarque avec les renforts de Chypre.
+= 1291-05-18 | Assaut général : la tour Maudite tombe, Guillaume de Beaujeu est tué, la ville est prise.
+= 1291-05-28 | La forteresse du Temple s’effondre sur ses défenseurs et ses assaillants.
+= 1291-05-19 | Tyr est abandonnée sans combat.
+= 1291-07-14 | Sidon évacuée par les Templiers ; Beyrouth se rend le 31 juillet.
+= 1291-08-03 | Tortose évacuée.
+= 1291-08-14 | Le château Pèlerin (Athlit), dernière place franque, est abandonné.
+bilan: Deux siècles après la prise de Jérusalem, la Terre sainte est entièrement perdue. Les ordres militaires se replient sur Chypre ; le Temple, désormais sans mission, sera supprimé vingt ans plus tard, l’Hôpital se trouvera un royaume à Rhodes.

@@ -41,7 +41,7 @@
     return f.voies.length > 1 ? f.nom + ' · ' + v.nom : f.nom;
   }
 
-  function lienFiche(m) { return m.q === '-' ? null : '#/p/' + m.q; }
+  function lienFiche(m) { return m.ev ? '#/c/' + m.ev : (m.q === '-' ? null : '#/p/' + m.q); }
 
   /* La carte d'un titulaire (vue Date, accueil). `date` : la clé de la date
    * regardée, pour « depuis … ». */
@@ -53,7 +53,7 @@
     const corps = h('div', { class: 'corps' });
     corps.appendChild(h('div', { class: 'cadre' }, o.cadre || cadre(m)));
     corps.appendChild(h('div', { class: 'nom' }, m.nom));
-    corps.appendChild(h('div', { class: 'fonction' }, majuscule(m.titre) + (per ? ' · ' + per.nom : '')));
+    corps.appendChild(h('div', { class: 'fonction' }, m.ev ? (m.note || 'Expédition en cours') : majuscule(m.titre) + (per ? ' · ' + per.nom : '')));
     if (o.date) {
       const morceaux = [];
       morceaux.push('depuis ' + Dates.lireAvecPreposition(m.debut).replace(/^(le|en) /, '$1 '));
@@ -67,10 +67,10 @@
     } else {
       corps.appendChild(h('div', { class: 'depuis' }, annees(m)));
     }
-    const el = h(m.inst ? 'div' : 'a', {
+    const el = h(m.inst && !m.ev ? 'div' : 'a', {
       class: 'carte carte-lien carte-titulaire' + (m.inst ? ' vacance' : ''),
       href: lienFiche(m), style: { '--teinte': teinte(m), '--teinte-frise': f.couleur },
-    }, portrait(m.inst ? null : m.q), corps, m.inst ? null : icone('droite', 'fleche discret'));
+    }, portrait(m.inst ? null : m.q), corps, m.inst && !m.ev ? null : icone('droite', 'fleche discret'));
     return el;
   }
 

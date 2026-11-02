@@ -1,0 +1,48 @@
+@ troisieme
+nom: Troisième croisade
+dates: 1187-10-29 | 1192-09-02
+sous-titre: Saladin, Barberousse, Philippe Auguste et Richard Cœur de Lion
+resume: Le 4 juillet 1187, à Hattin, Saladin anéantit l’armée du royaume de Jérusalem : le roi Guy de Lusignan est pris, Renaud de Châtillon exécuté de la main du sultan, les Templiers et Hospitaliers captifs décapités. Jérusalem capitule le 2 octobre. À la nouvelle, le pape Urbain III meurt de saisissement, dit-on ; Grégoire VIII lance la croisade (Audita tremendi). Henri II et Philippe Auguste, en guerre, font la paix à Gisors et prennent la croix ; une « dîme saladine » finance l’expédition.
+resume: L’empereur Frédéric Barberousse part le premier, par la terre, avec une immense armée ; il se noie dans le Saleph en Cilicie, et son armée se disperse. Richard, devenu roi, et Philippe partent par mer en 1190. Richard conquiert Chypre en chemin. Les deux rois rejoignent le siège d’Acre, qui capitule en juillet 1191 ; Philippe rentre aussitôt. Richard bat Saladin à Arsouf, reprend la côte, s’approche deux fois de Jérusalem sans oser l’assiéger, et conclut en septembre 1192 une trêve : la côte aux Francs, Jérusalem à Saladin, les pèlerins libres d’y aller.
+chretien: Q101866 | pape, lance la croisade (Audita tremendi)
+chretien: Q102140 | roi d’Angleterre, prend la croix à Gisors, meurt avant de partir
+chretien: Q42305 | roi d’Angleterre, chef de la croisade après le départ de Philippe
+chretien: Q34428 | roi de France, rentre après la prise d’Acre
+chretien: Q79789 | empereur, se noie en Cilicie
+chretien: Q504733 | fils de Barberousse, meurt devant Acre
+chretien: Q294192 | roi de Jérusalem, vaincu à Hattin, reçoit Chypre
+chretien: Q169329 | défenseur de Tyr, élu roi, assassiné
+chretien: Q354422 | neveu des deux rois, seigneur de Jérusalem
+chretien: Q316831 | seigneur d’Outre-Jourdain, exécuté par Saladin
+chretien: Q374385 | négocie la capitulation de Jérusalem
+chretien: Q319713 | duc d’Autriche, humilié à Acre, capture Richard au retour
+chretien: Q371345 | maître du Temple, pris à Hattin, tué devant Acre
+chretien: Q559382 | maître de l’Hôpital, tué à Cresson
+chretien: Q353081 | maître du Temple, compagnon de Richard
+musulman: Q8581 | sultan d’Égypte et de Syrie
+musulman: Q285133 | frère de Saladin, négociateur de la trêve
+musulman: Q4703002 | neveu de Saladin
+musulman: Q58982 | sultan de Roum, traverse par Barberousse
+= 1187-05-01 | Cresson : Gérard de Ridefort et Roger des Moulins se font écraser ; Roger est tué.
+= 1187-07-04 | Bataille de Hattin : l’armée franque est anéantie, Guy de Lusignan captif, Renaud de Châtillon exécuté.
+= 1187-10-02 | Saladin entre dans Jérusalem, après une capitulation négociée par Balian d’Ibelin.
+= 1187-10-29 | Grégoire VIII lance la croisade par la bulle Audita tremendi.
+= 1188-01-21 | Gisors : Henri II et Philippe Auguste prennent la croix ; dîme saladine.
+= 1189-05-11 | Frédéric Barberousse quitte Ratisbonne avec son armée.
+= 1189-07-06 | Mort d’Henri II ; Richard lui succède et confirme sa croisade.
+= 1189-08-28 | Guy de Lusignan met le siège devant Acre.
+= 1190-05-18 | Barberousse prend Iconium, capitale de Kilij Arslan II.
+= 1190-06-10 | Barberousse se noie dans le Saleph ; son armée se disperse.
+= 1190-07-04 | Philippe Auguste et Richard partent de Vézelay.
+= 1191-01-20 | Frédéric de Souabe meurt devant Acre.
+= 1191-06-05 | Richard achève la conquête de Chypre.
+= 1191-07-12 | Acre capitule ; Léopold d’Autriche voit sa bannière jetée dans le fossé.
+= 1191-07-31 | Philippe Auguste rembarque pour la France.
+= 1191-08-20 | Richard fait exécuter près de trois mille prisonniers musulmans d’Acre.
+= 1191-09-07 | Victoire de Richard à Arsouf.
+= 1192-04-28 | Conrad de Montferrat, élu roi, est assassiné à Tyr par deux Assassins.
+= 1192-08-05 | Richard sauve Jaffa.
+= 1192-09-02 | Traité de Jaffa : trêve de trois ans, la côte aux Francs, Jérusalem ouverte aux pèlerins.
+= 1192-12-21 | Richard, rentrant déguisé, est capturé près de Vienne par Léopold d’Autriche.
+= 1193-03-04 | Mort de Saladin à Damas.
+bilan: Jérusalem reste musulmane, mais le royaume survit sur la côte, d’Acre à Jaffa, et Chypre devient un royaume latin pour un siècle et demi. Richard rentre captif, Philippe en profite pour s’attaquer à ses terres : la croisade a nourri la rivalité capétienne-plantagenêt plus que la cause de la Terre sainte.

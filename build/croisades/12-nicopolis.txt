@@ -1,0 +1,27 @@
+@ nicopolis
+nom: Croisade de Nicopolis
+dates: 1396-04-30 | 1396-09-25
+sous-titre: La chevalerie d’Occident contre les Ottomans de Bayezid
+resume: Un siècle après Acre, c’est l’avance ottomane dans les Balkans qui ranime la croisade. Sigismond, roi de Hongrie, appelle à l’aide ; Charles VI, retenu par sa folie, laisse partir la fleur de la chevalerie française sous Jean de Nevers, fils du duc de Bourgogne, avec Boucicaut, Enguerrand de Coucy, Philippe d’Artois. Les papes rivaux de Rome et d’Avignon bénissent chacun leurs croisés.
+resume: Descendue le long du Danube, l’armée assiège Nicopolis. Bayezid Ier survient ; les chevaliers français, refusant d’attendre, chargent et se font écraser. Les prisonniers sont massacrés sauf les plus riches, rançonnés pour des sommes énormes ; Jean de Nevers, le futur Jean sans Peur, en revient avec son surnom.
+chretien: Q57124 | roi de Hongrie, chef de la croisade
+chretien: Q298901 | comte de Nevers, chef des Français, captif
+chretien: Q930796 | maréchal Boucicaut, captif
+chretien: Q1342999 | sire de Coucy, meurt en captivité
+chretien: Q2007294 | comte d’Eu, connétable, meurt en captivité
+chretien: Q1398338 | amiral de France, tué
+chretien: Q298892 | duc de Bourgogne, finance l’expédition et la rançon de son fils
+chretien: Q160349 | roi de France
+chretien: Q165561 | pape de Rome
+chretien: Q310371 | pape d’Avignon
+chretien: Q1585024 | grand maître de l’Hôpital, à Nicopolis
+musulman: Q128358 | sultan ottoman, vainqueur
+musulman: Q336531 | prince de Serbie, vassal du sultan, décide la bataille
+= 1396-04-30 | Les Français quittent Dijon.
+= 1396-08 | Jonction avec Sigismond à Buda ; descente du Danube.
+= 1396-09-12 | Début du siège de Nicopolis.
+= 1396-09-25 | Bataille de Nicopolis : la charge française est brisée, l’armée s’enfuit, Sigismond s’échappe par le fleuve.
+= 1396-09-26 | Massacre des prisonniers ; les grands seigneurs sont épargnés pour rançon.
+= 1397-02-18 | Mort d’Enguerrand de Coucy à Brousse.
+= 1398-02 | Retour de Jean de Nevers, racheté 200 000 ducats.
+bilan: La dernière grande croisade chevaleresque. Les Ottomans ne seront arrêtés que par Tamerlan, à Ankara en 1402 ; Constantinople tombera en 1453.

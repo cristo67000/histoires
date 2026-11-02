@@ -1,0 +1,52 @@
+@ croisades
+nom: Croisades
+titre: Rois de Jérusalem et expéditions, 1095-1396
+groupe: croisades
+couleur: #b8860b
+voie: jerusalem | Rois de Jérusalem
+voie: expeditions | Croisades
+
+% jerusalem1 | Royaume de Jérusalem | 1099 | 1187 | #b8860b
+titre: roi de Jérusalem
+= Q76721 | 1099-07-22 | 1100-07-18 | Godefroy de Bouillon | avoué du Saint-Sépulcre | Refuse le titre de roi
+= Q51717 | 1100-12-25 | 1118-04-02 | Baudouin Ier | | Frère de Godefroy, premier roi couronné
+= Q51718 | 1118-04-14 | 1131-08-21 | Baudouin II | | Cousin de Baudouin Ier
+= Q312904 | 1131-09-14 | 1143-11-13 | Foulques d’Anjou | | Époux de Mélisende ; père de Geoffroy Plantagenêt
+= Q232151 | 1131-09-14 | 1153 | Mélisende | reine de Jérusalem | Règne avec Foulques, puis avec son fils Baudouin III jusqu’en 1152
+= Q146465 | 1143-11-13 | 1163-02-10 | Baudouin III | | Prend Ascalon (1153)
+= Q311808 | 1163-02-18 | 1174-07-11 | Amaury Ier | | Campagnes d’Égypte
+= Q296850 | 1174-07-15 | 1185-03-16 | Baudouin IV | | Le roi lépreux ; Montgisard (1177)
+= Q345687 | 1185-03-16 | 1186-08 | Baudouin V | | Roi enfant
+= Q234782 | 1186-08 | 1190-07-25 | Sibylle | reine de Jérusalem | Fait couronner son époux Guy
+= Q294192 | 1186-08 | 1192-04 | Guy de Lusignan | | Vaincu à Hattin (1187) ; reçoit Chypre
+
+% jerusalem2 | Royaume d’Acre | 1191 | 1291 | #c0742f
+titre: roi de Jérusalem
+= Q235629 | 1192-04 | 1205-04-05 | Isabelle Ire | reine de Jérusalem | Quatre époux successifs portent la couronne par elle
+= Q169329 | 1192-04-24 | 1192-04-28 | Conrad de Montferrat | | Élu roi, assassiné quatre jours plus tard
+= Q354422 | 1192-05-05 | 1197-09-10 | Henri II de Champagne | seigneur de Jérusalem | Jamais couronné ; meurt en tombant d’une fenêtre
+= Q453325 | 1197-10 | 1205-04-01 | Amaury II de Lusignan | | Aussi roi de Chypre
+= Q234706 | 1205-04-05 | 1212 | Marie de Montferrat | reine de Jérusalem | Fille de Conrad et d’Isabelle
+= Q332704 | 1210-10-03 | 1225 | Jean de Brienne | | Époux de Marie ; chef de la cinquième croisade
+= Q233809 | 1212 | 1228-04-25 | Isabelle II | reine de Jérusalem | Épouse Frédéric II en 1225
+= Q130221 | 1225-11-09 | 1228-04-25 | Frédéric II | roi de Jérusalem par mariage | Se couronne à Jérusalem en 1229
+= Q157179 | 1228-04-25 | 1254-05-21 | Conrad IV | | Roi absent ; les baillis gouvernent
+= Q158246 | 1254-05-21 | 1268-10-29 | Conradin | | Roi absent, décapité à Naples
+= Q544496 | 1268-10-29 | 1284-03-24 | Hugues III de Chypre | | Roi de Chypre, reconnu à Acre
+= Q712018 | 1284-03-24 | 1285-05-20 | Jean Ier de Chypre
+= Q546497 | 1285-05-20 | 1291-05-18 | Henri II de Chypre | | Couronné à Tyr ; s’enfuit d’Acre lors de la chute de la ville
+
+% expeditions | Expéditions | 1096 | 1396 | #9b2335
+voie: expeditions
+> premiere | 1096-08-15 | 1099-08-12 | Première croisade | Prise de Jérusalem
+> deuxieme | 1147-06 | 1149-06 | Deuxième croisade | Louis VII et Conrad III
+> troisieme | 1189-05-11 | 1192-09-02 | Troisième croisade | Barberousse, Philippe Auguste, Richard
+> quatrieme | 1202-10-08 | 1204-05-16 | Quatrième croisade | Sac de Constantinople
+> albigeois | 1209-06-24 | 1229-04-12 | Croisade des Albigeois | Contre les cathares
+> cinquieme | 1217-08 | 1221-09-08 | Cinquième croisade | Damiette
+> sixieme | 1228-06-28 | 1229-05-01 | Sixième croisade | Frédéric II
+> barons | 1239-09-01 | 1241-05-03 | Croisade des barons | Thibaut de Champagne, Richard de Cornouailles
+> septieme | 1248-08-25 | 1254-04-24 | Septième croisade | Saint Louis en Égypte
+> huitieme | 1270-07-01 | 1272-09-22 | Huitième et neuvième croisades | Tunis ; Édouard à Acre
+> acre | 1289-04-26 | 1291-08-14 | Chute d’Acre | Fin des États latins
+> nicopolis | 1396-04-30 | 1396-09-25 | Croisade de Nicopolis | Contre Bayezid

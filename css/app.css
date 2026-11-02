@@ -314,6 +314,12 @@ p { margin: 0 0 0.7em; }
 .visionneuse .credit { color: #c9c1b3; text-align: center; }
 .visionneuse .bouton-icone { position: absolute; top: calc(var(--sup) + 8px); right: 8px; color: #fff; }
 
+/* ── Croisade ───────────────────────────────────────────────────────────── */
+.entete-croisade { margin: 8px 0 14px; }
+.entete-croisade h2 { font-size: 1.7rem; margin: 4px 0 6px; }
+.sous-titre-croisade { font-family: var(--serif); font-style: italic; color: var(--encre-2); font-size: 1.05rem; }
+.entete-croisade .puces { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+
 /* ── Recherche ──────────────────────────────────────────────────────────── */
 .champ-recherche { display: flex; align-items: center; gap: 8px; height: 48px; padding: 0 14px; border-radius: 14px; border: 1px solid var(--trait-fort); background: var(--surface); }
 .champ-recherche input { flex: 1; min-width: 0; border: 0; background: transparent; font-size: 1.05rem; outline: none; }

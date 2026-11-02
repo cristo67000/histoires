@@ -1,0 +1,36 @@
+@ septieme
+nom: Septième croisade
+dates: 1248-08-25 | 1254-04-24
+sous-titre: Saint Louis en Égypte : Damiette, Mansourah, la captivité
+resume: Guéri d’une grave maladie, Louis IX a fait vœu de croisade en décembre 1244, au moment où tombait Jérusalem. Il prépare l’expédition quatre ans, fait bâtir Aigues-Mortes, et part en août 1248 avec ses frères Robert d’Artois, Alphonse de Poitiers et Charles d’Anjou, la reine Marguerite, et l’élite de la chevalerie française. Après un hiver à Chypre, l’armée débarque devant Damiette, qui tombe sans combat.
+resume: La marche sur Le Caire s’arrête à Mansourah : Robert d’Artois, chargeant dans la ville avec les Templiers, y est tué ; l’armée, minée par le scorbut et la dysenterie, se rend en avril 1250 ; le roi est prisonnier. Pendant sa captivité, les Mamelouks assassinent le sultan Turanshah : la dynastie ayyoubide d’Égypte s’éteint. Libéré contre Damiette et une énorme rançon, Louis reste quatre ans en Terre sainte à fortifier les villes de la côte, et ne rentre qu’à la mort de sa mère, la régente Blanche de Castille.
+chretien: Q346 | roi de France, chef de la croisade, prisonnier
+chretien: Q375325 | frère du roi, tué à Mansourah
+chretien: Q343969 | frère du roi
+chretien: Q203829 | frère du roi
+chretien: Q230889 | reine de France, accouche à Damiette assiégée
+chretien: Q353 | régente du royaume pendant la croisade
+chretien: Q328747 | sénéchal de Champagne, chroniqueur du roi
+chretien: Q514144 | maître du Temple, tué à Mansourah
+chretien: Q561756 | maître du Temple, avance la rançon du roi
+chretien: Q160609 | pape, prêche la croisade à Lyon
+musulman: Q293559 | sultan d’Égypte, meurt pendant la campagne
+musulman: Q464920 | sultane, cache la mort de son époux puis règne
+musulman: Q327189 | dernier sultan ayyoubide d’Égypte, assassiné
+musulman: Q192960 | émir mamelouk, vainqueur de Mansourah, futur sultan
+musulman: Q1393675 | émir, commandant de l’armée égyptienne, tué à Mansourah
+musulman: Q327441 | premier sultan mamelouk
+= 1244-12 | Louis IX, malade, fait vœu de croisade.
+= 1245-06-28 | Concile de Lyon : Innocent IV prêche la croisade.
+= 1248-08-25 | Départ d’Aigues-Mortes.
+= 1248-09-17 | Arrivée à Chypre, où l’armée hiverne.
+= 1249-06-06 | Prise de Damiette, abandonnée par sa garnison.
+= 1249-11-22 | Mort du sultan as-Salih Ayyub ; Chajar ad-Durr dissimule la nouvelle.
+= 1250-02-08 | Bataille de Mansourah : Robert d’Artois et Guillaume de Sonnac tués.
+= 1250-04-06 | Fariskur : l’armée en retraite se rend ; le roi est prisonnier.
+= 1250-05-02 | Turanshah assassiné par les Mamelouks ; fin des Ayyoubides d’Égypte.
+= 1250-05-06 | Damiette rendue, le roi libéré contre 400 000 livres.
+= 1250-05-13 | Louis débarque à Acre ; il y restera quatre ans.
+= 1252-11-27 | Mort de Blanche de Castille.
+= 1254-04-24 | Louis IX quitte la Terre sainte.
+bilan: L’échec le plus coûteux : la rançon, la fleur de la chevalerie, un frère du roi. Mais Louis en sort avec une immense réputation de piété, et ses quatre années de présence prolongent la vie du royaume d’Acre. En Égypte, la croisade a précipité l’avènement des Mamelouks, qui chasseront les Francs.

@@ -90,7 +90,7 @@
           const bloc = h('button', {
             type: 'button', class: classes.join(' '), 'data-mandat': m.id,
             style: { top: y1 + 'px', height: hauteur + 'px', left: (it.col * largeur) + '%', width: 'calc(' + largeur + '% - ' + (it.nb > 1 ? 3 : 0) + 'px)', '--teinte': teinte(m) },
-            onclick: () => { if (m.q !== '-') App.aller('#/p/' + m.q); else Communs.toast(m.nom + (m.note ? ' — ' + m.note : '')); },
+            onclick: () => { if (m.ev) App.aller('#/c/' + m.ev); else if (m.q !== '-') App.aller('#/p/' + m.q); else Communs.toast(m.nom + (m.note ? ' — ' + m.note : '')); },
           }, (!o.compact && large && hauteur >= 60 && it.nb <= 2 && !m.inst) ? portrait(m.q) : null, corps);
           col.appendChild(bloc);
         }
@@ -147,7 +147,7 @@
       for (const m of mandats) {
         const d = Dates.duree(m.debut, m.fin, { finInclusive: true });
         liste.appendChild(h('button', { type: 'button', class: 'rangee', style: { '--teinte': teinte(m) },
-          onclick: () => { if (m.q !== '-') App.aller('#/p/' + m.q); } },
+          onclick: () => { if (m.ev) App.aller('#/c/' + m.ev); else if (m.q !== '-') App.aller('#/p/' + m.q); } },
           m.inst ? portrait(null) : portrait(m.q),
           h('div', { class: 'texte' }, h('div', { class: 'nom' }, m.nom), h('div', { class: 'dates' }, annees(m) + (f.voies.length > 1 ? ' · ' + Donnees.voie(m).nom : '')),
             h('div', { class: 'fonction' }, majuscule(m.titre) + (m.note ? ' — ' + m.note : ''))),

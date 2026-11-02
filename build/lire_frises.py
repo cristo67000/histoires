@@ -54,9 +54,15 @@ def lire():
                 voie = frise['voies'][0]['id'] if frise['voies'] else None
                 titre = ''
                 continue
-            if ligne.startswith('= ') or ligne.startswith('! '):
-                inst = ligne.startswith('! ')
-                if inst:
+            if ligne[0] in '=!>' and ligne[1:2] == ' ':
+                inst = ligne[0] != '='
+                ev = None
+                if ligne[0] == '>':
+                    ev, debut, fin, nom, note = champs(ligne[2:], 5)
+                    q, t = '-', ''
+                    if not re.match(r'^[a-z][a-z0-9-]*$', ev):
+                        raise ValueError('%s : identifiant d’événement invalide « %s »' % (lieu, ev))
+                elif inst:
                     q, debut, fin, nom, note = champs(ligne[2:], 5)
                     t = ''
                 else:
@@ -71,7 +77,7 @@ def lire():
                     raise ValueError(lieu + ' : personne hors de toute période')
                 frise['mandats'].append({
                     'q': q, 'debut': debut, 'fin': fin, 'nom': nom, 'titre': t or titre,
-                    'note': note, 'voie': voie, 'periode': periode['id'], 'inst': inst, 'lieu': lieu,
+                    'note': note, 'voie': voie, 'periode': periode['id'], 'inst': inst, 'lieu': lieu, 'ev': ev,
                 })
                 continue
             m = re.match(r'^([a-z-]+):\s*(.*)$', ligne)

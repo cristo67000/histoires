@@ -1,0 +1,56 @@
+# Fiches des croisades — format
+#   @ identifiant
+#   nom: …                 titre
+#   dates: début | fin     (AAAA-MM-JJ)
+#   sous-titre: …
+#   resume: paragraphe     (plusieurs lignes resume: = plusieurs paragraphes)
+#   chretien: Q… ou ?Nom | rôle       un chef chrétien (souverain, prince, prélat, maître d'ordre)
+#   musulman: Q… ou ?Nom | rôle       un chef musulman
+#   = date | fait          un repère de la chronologie ; « ~ » devant la date = approximatif
+#   bilan: paragraphe
+#   Les renvois [[Q…]] ou [[Q…|libellé]] dans les textes deviennent des liens vers les fiches.
+
+@ premiere
+nom: Première croisade
+dates: 1095-11-27 | 1099-08-12
+sous-titre: De Clermont à Jérusalem : la seule croisade qui atteint son but
+resume: Le 27 novembre 1095, à Clermont, le pape Urbain II appelle les chevaliers d’Occident à secourir les chrétiens d’Orient et à délivrer Jérusalem, tenue par les Turcs seldjoukides depuis 1073. L’empereur byzantin Alexis Ier Comnène avait demandé des mercenaires ; il reçoit des armées entières. Une première vague, populaire, menée par Pierre l’Ermite, massacre les juifs de Rhénanie puis se fait anéantir par Kilij Arslan dès son entrée en Asie Mineure.
+resume: Les barons partent à l’été 1096 : Godefroy de Bouillon et son frère Baudouin, Raymond de Saint-Gilles, Bohémond de Tarente et son neveu Tancrède, Hugues de Vermandois, Robert Courteheuse, Robert de Flandre, Étienne de Blois, sous la direction spirituelle du légat Adhémar du Puy. Aucun roi n’y prend part : Philippe Ier est excommunié, Guillaume le Roux et Henri IV en conflit avec Rome. Nicée tombe en juin 1097, Dorylée ouvre l’Anatolie, Antioche résiste huit mois ; Baudouin se taille un comté à Édesse, Bohémond une principauté à Antioche. Le 15 juillet 1099, Jérusalem, reprise aux Fatimides, est prise d’assaut et sa population massacrée.
+chretien: Q30578 | pape, prêche la croisade à Clermont
+chretien: Q311845 | prédicateur, chef de la croisade populaire
+chretien: Q76721 | duc de Basse-Lotharingie, premier souverain de Jérusalem
+chretien: Q51717 | frère de Godefroy, fonde le comté d’Édesse
+chretien: Q299612 | comte de Toulouse, chef de l’armée provençale
+chretien: Q220806 | prince normand, fonde la principauté d’Antioche
+chretien: Q51720 | neveu de Bohémond, prince de Galilée
+chretien: Q328755 | frère du roi Philippe Ier
+chretien: Q220994 | duc de Normandie, fils de Guillaume le Conquérant
+chretien: Q333306 | comte de Flandre
+chretien: Q316006 | comte de Blois, quitte le siège d’Antioche
+chretien: Q49967 | évêque du Puy, légat du pape
+chretien: Q41600 | empereur byzantin, reçoit puis se défie des croisés
+chretien: Q58907 | roi de France, excommunié, absent
+musulman: Q345544 | sultan seldjoukide de Roum, battu à Dorylée
+musulman: Q943749 | gouverneur d’Antioche, tué à la prise de la ville
+musulman: Q365543 | atabeg de Mossoul, battu devant Antioche
+musulman: Q551601 | vizir fatimide, maître de Jérusalem, battu à Ascalon
+musulman: Q261366 | émir de Damas
+musulman: Q918971 | émir d’Alep
+= 1095-11-27 | Concile de Clermont : Urbain II appelle à la croisade — « Dieu le veut ».
+= 1096-05 | La croisade populaire massacre les communautés juives de Spire, Worms, Mayence et Cologne.
+= 1096-10-21 | Désastre de Civetot : Kilij Arslan anéantit la croisade populaire près de Nicée.
+= 1096-08-15 | Départ des armées des barons ; elles se rassemblent à Constantinople pendant l’hiver.
+= 1097-06-19 | Nicée se rend aux Byzantins, au nez des croisés.
+= 1097-07-01 | Bataille de Dorylée : Kilij Arslan est mis en déroute, la route de l’Anatolie est ouverte.
+= 1097-10-21 | Début du siège d’Antioche.
+= 1098-03-10 | Baudouin de Boulogne devient comte d’Édesse, premier État latin.
+= 1098-06-03 | Antioche tombe par trahison ; Kerbogha arrive et assiège à son tour les croisés.
+= 1098-06-28 | Découverte de la Sainte Lance ; sortie victorieuse contre Kerbogha.
+= 1098-08-01 | Mort du légat Adhémar du Puy, de la peste, à Antioche.
+= 1098-12-12 | Prise de Maarat an-Numan ; famine, scènes de cannibalisme rapportées par les chroniqueurs.
+= 1099-06-07 | Début du siège de Jérusalem, tenue par les Fatimides.
+= 1099-07-15 | Prise de Jérusalem ; massacre des habitants musulmans et juifs.
+= 1099-07-22 | Godefroy de Bouillon élu « avoué du Saint-Sépulcre » ; il refuse le titre de roi.
+= 1099-08-12 | Victoire d’Ascalon sur l’armée fatimide d’al-Afdal : le royaume est sauvé.
+= 1100-07-18 | Mort de Godefroy ; son frère Baudouin est couronné roi de Jérusalem le 25 décembre.
+bilan: Quatre États latins — royaume de Jérusalem, principauté d’Antioche, comtés d’Édesse et de Tripoli — naissent de l’expédition. Les ordres du Temple (1119) et de l’Hôpital (1113) se forment pour les défendre. Les croisés ont profité des divisions entre Seldjoukides sunnites et Fatimides chiites ; la réaction musulmane mettra un demi-siècle à s’organiser, autour de Zengi puis de Nur ad-Din.

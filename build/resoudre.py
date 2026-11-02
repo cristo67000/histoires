@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from wd import chercher
 
 ICI = os.path.dirname(os.path.abspath(__file__))
-FRISES = sorted(glob.glob(os.path.join(ICI, 'frises', '*.txt')))
+FRISES = sorted(glob.glob(os.path.join(ICI, 'frises', '*.txt'))) + sorted(glob.glob(os.path.join(ICI, 'croisades', '*.txt')))
 RESOLUTIONS = os.path.join(ICI, '.atelier', 'resolutions.txt')
 
 
@@ -38,7 +38,7 @@ def main():
     noms = []
     for f in FRISES:
         for ligne in io.open(f, encoding='utf-8'):
-            m = re.match(r'^[=!] \?([^|]+)\|', ligne)
+            m = re.match(r'^(?:[=!] |chretien: |musulman: )\?([^|]+)\|', ligne)
             if m:
                 nom = m.group(1).strip()
                 if nom not in noms:

@@ -18,6 +18,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from wd import entites
 from lire_frises import lire, identifiants
+import lire_croisades
 
 ICI = os.path.dirname(os.path.abspath(__file__))
 SORTIE = os.path.join(ICI, '.atelier', 'wikidata.json')
@@ -139,6 +140,9 @@ def extraire(ent):
 def main():
     frises = lire()
     ids = identifiants(frises)
+    for q in lire_croisades.identifiants(lire_croisades.lire()):
+        if q not in ids:
+            ids.append(q)
     print(len(ids), 'personnes et institutions')
     brut = entites(ids)
     personnes = {}

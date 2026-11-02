@@ -1,0 +1,26 @@
+@ sixieme
+nom: Sixième croisade
+dates: 1228-06-28 | 1229-05-01
+sous-titre: Frédéric II reprend Jérusalem par traité, excommunié
+resume: Roi de Jérusalem par son mariage avec Isabelle de Brienne, l’empereur Frédéric II, qui a repoussé dix ans son vœu, part enfin en 1227 — puis rebrousse chemin, malade. Grégoire IX l’excommunie. Il part quand même l’année suivante, croisé sans pape, avec une petite armée. Plutôt que de combattre, il négocie avec le sultan al-Kamil, lui-même menacé par ses frères : le traité de Jaffa rend aux chrétiens Jérusalem, Bethléem et Nazareth pour dix ans, l’esplanade des mosquées restant aux musulmans.
+resume: Frédéric se couronne lui-même au Saint-Sépulcre, sous l’interdit : le patriarche a mis la ville en interdit. Hué à Acre par les barons et les Templiers, il rembarque pour aller défendre son royaume de Sicile, envahi par les troupes du pape. Jérusalem restera franque jusqu’en 1244.
+chretien: Q130221 | empereur et roi de Jérusalem, excommunié
+chretien: Q124831 | pape, excommunie Frédéric et envahit la Sicile
+chretien: Q57994 | grand maître teutonique, conseiller et négociateur de l’empereur
+chretien: Q332704 | ancien roi de Jérusalem, commande les troupes pontificales contre Frédéric
+chretien: Q5878433 | patriarche de Jérusalem, met la ville en interdit
+chretien: Q523344 | maître du Temple, hostile à l’empereur
+musulman: Q293464 | sultan d’Égypte, cède Jérusalem par traité
+musulman: Q286553 | sultan de Damas, mort en 1227, dont la disparition facilite l’accord
+musulman: Q287145 | émir de Damas, fils d’al-Mu’azzam
+= 1225-11-09 | Frédéric II épouse Isabelle de Brienne, héritière de Jérusalem.
+= 1227-09-29 | Grégoire IX excommunie Frédéric, rentré malade après trois jours de mer.
+= 1228-06-28 | Frédéric rembarque de Brindisi, toujours excommunié.
+= 1228-09-07 | Arrivée à Acre ; les Templiers et le clergé refusent de le suivre.
+= 1229-02-18 | Traité de Jaffa : Jérusalem, Bethléem, Nazareth rendues pour dix ans.
+= 1229-03-17 | Entrée dans Jérusalem.
+= 1229-03-18 | Frédéric se couronne lui-même au Saint-Sépulcre.
+= 1229-05-01 | Il quitte Acre sous les huées et les tripes jetées par la foule.
+= 1244-08-23 | Jérusalem reprise par les Khwarezmiens appelés par le sultan d’Égypte ; perdue pour toujours.
+= 1244-10-17 | La Forbie : l’armée franque est anéantie par les Égyptiens ; le maître du Temple Armand de Périgord disparaît.
+bilan: La seule croisade sans bataille rend Jérusalem aux chrétiens pour quinze ans. Elle montre qu’un accord est possible — et que l’Occident ne le reconnaît pas comme une victoire : le pape préfère combattre l’empereur.

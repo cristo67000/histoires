@@ -1,0 +1,274 @@
+@ islam
+nom: Islam
+titre: Califes, sultans d’Égypte et de Syrie, Seldjoukides et Ottomans
+groupe: souverains
+couleur: #2e7d5b
+voie: califes | Califes
+voie: egypte | Égypte et Syrie
+voie: sultans | Seldjoukides et Ottomans
+
+% rachidun | Califes bien guidés | 632 | 661 | #2e7d5b
+titre: calife
+= Q334923 | 632-06-08 | 634-08-23 | Abou Bakr | | Premier calife, compagnon et beau-père du Prophète
+= Q8467 | 634-08-23 | 644-11-03 | Omar | | Conquête de la Syrie, de l’Égypte et de la Perse ; assassiné
+= Q37731 | 644-11-06 | 656-06-17 | Othman | | Fixe le texte du Coran ; assassiné
+= Q39619 | 656-06-17 | 661-01-28 | Ali | | Gendre du Prophète ; la première guerre civile ; assassiné à Koufa
+= Q182914 | 661-01-28 | 661-08 | Hasan | | Abdique en faveur de Muawiya
+
+% omeyyades | Omeyyades de Damas | 661 | 750 | #6f6a2a
+titre: calife omeyyade
+= Q181154 | 661-08 | 680-04-29 | Muawiya Ier | | Fonde la dynastie, capitale Damas
+= Q217442 | 680-04-29 | 683-11-11 | Yazid Ier | | Kerbala (680) : mort de Husayn
+= Q264210 | 683-11-11 | 684-06 | Muawiya II
+= Q298577 | 684-06 | 685-04-12 | Marwan Ier
+= Q36788 | 685-04-12 | 705-10-08 | Abd al-Malik | | Dôme du Rocher ; arabisation de l’administration
+= Q284003 | 705-10-08 | 715-02-23 | Al-Walid Ier | | Grande mosquée de Damas ; conquête de l’Espagne (711)
+= Q284233 | 715-02-23 | 717-09-22 | Sulayman | | Siège de Constantinople (717-718)
+= Q298403 | 717-09-22 | 720-02-04 | Omar II
+= Q314791 | 720-02-04 | 724-01-26 | Yazid II
+= Q128332 | 724-01-26 | 743-02-06 | Hicham | | Poitiers (732)
+= Q128307 | 743-02-06 | 744-04-17 | Al-Walid II
+= Q128413 | 744-04-17 | 744-10-04 | Yazid III
+= Q128416 | 744-10-04 | 744-12-04 | Ibrahim
+= Q128371 | 744-12-04 | 750-01-25 | Marwan II | | Vaincu au Grand Zab, tué en Égypte
+
+% abbassides | Abbassides de Bagdad | 750 | 1258 | #8e5a3c
+titre: calife abbasside
+= Q252087 | 750-01-25 | 754-06-10 | As-Saffah | | « Le Sanguinaire », fondateur de la dynastie
+= Q31066 | 754-06-10 | 775-10-07 | Al-Mansur | | Fonde Bagdad (762)
+= Q293482 | 775-10-07 | 785-07-24 | Al-Mahdi
+= Q293490 | 785-07-24 | 786-09-14 | Al-Hadi
+= Q131002 | 786-09-14 | 809-03-24 | Haroun ar-Rachid | | Apogée de Bagdad ; échange d’ambassades avec Charlemagne
+= Q293495 | 809-03-24 | 813-09-25 | Al-Amin | | Guerre civile contre son frère ; tué
+= Q61056 | 813-09-25 | 833-08-07 | Al-Mamun | | Maison de la Sagesse ; traduction des Grecs
+= Q284550 | 833-08-09 | 842-01-05 | Al-Mutasim | | Fonde Samarra, garde turque
+= Q284585 | 842-01-05 | 847-08-10 | Al-Wathiq
+= Q220789 | 847-08-10 | 861-12-11 | Al-Mutawakkil | | Assassiné par ses gardes turcs
+= Q284012 | 861-12-11 | 862-06-07 | Al-Muntasir
+= Q284157 | 862-06-08 | 866-01-17 | Al-Mustain
+= Q281989 | 866-01-24 | 869-07-13 | Al-Mutazz
+= Q293458 | 869-07-15 | 870-06-21 | Al-Muhtadi
+= Q284721 | 870-06-21 | 892-10-15 | Al-Mutamid | | Révolte des Zanj
+= Q284567 | 892-10-15 | 902-04-05 | Al-Mutadid
+= Q284701 | 902-04-05 | 908-08-13 | Al-Muktafi
+= Q201465 | 908-08-13 | 932-10-31 | Al-Muqtadir | | Déclin ; assassiné
+= Q284711 | 932-10-31 | 934-04-24 | Al-Qahir
+= Q293442 | 934-04-24 | 940-12-23 | Ar-Radi | | Dernier calife à exercer un vrai pouvoir
+= Q284759 | 940-12-23 | 944-09 | Al-Muttaqi
+= Q293640 | 944-09 | 946-01-28 | Al-Mustakfi | | Les Bouyides prennent Bagdad (945)
+= Q284730 | 946-01-28 | 974-08-05 | Al-Muti
+= Q284779 | 974-08-05 | 991-11 | At-Tai
+= Q284427 | 991-11-22 | 1031-11-29 | Al-Qadir
+= Q293626 | 1031-11-29 | 1075-04-02 | Al-Qaim | | Les Seldjoukides entrent à Bagdad (1055)
+= Q293683 | 1075-04-02 | 1094-02-03 | Al-Muqtadi
+= Q293632 | 1094-02-03 | 1118-08-06 | Al-Mustazhir | | Calife au temps de la première croisade
+= Q293621 | 1118-08-06 | 1135-08-29 | Al-Mustarchid | | Assassiné par des Assassins
+= Q293509 | 1135-08-29 | 1136-08-17 | Ar-Rachid | | Déposé
+= Q293617 | 1136-08-17 | 1160-03-12 | Al-Muqtafi
+= Q293448 | 1160-03-12 | 1170-12-20 | Al-Mustanjid
+= Q293646 | 1170-12-20 | 1180-03-30 | Al-Mustadi | | Saladin rétablit la prière en son nom au Caire (1171)
+= Q284750 | 1180-03-30 | 1225-10-05 | An-Nasir | | Restaure le pouvoir du calife à Bagdad
+= Q293450 | 1225-10-05 | 1226-07-11 | Az-Zahir
+= Q293545 | 1226-07-11 | 1242-12-05 | Al-Mustansir
+= Q293454 | 1242-12-05 | 1258-02-20 | Al-Mustasim | | Bagdad prise par les Mongols de Hülegü ; le calife est exécuté
+
+% abbassides-caire | Abbassides du Caire | 1261 | 1517 | #a08050
+titre: calife abbasside du Caire
+= Q1417881 | 1261-06-13 | 1261-11-28 | Al-Mustansir II | | Installé au Caire par Baybars ; tué en marchant sur Bagdad
+= Q284627 | 1262-11-16 | 1302-01-19 | Al-Hakim Ier | | Califes sans pouvoir, à l’ombre des sultans mamelouks
+= Q285426 | 1302-01-20 | 1340-02 | Al-Mustakfi Ier
+= Q2697944 | 1340-02 | 1341-06-17 | Al-Wathiq Ier
+= Q2402643 | 1341-06-17 | 1352-07 | Al-Hakim II
+= Q198002 | 1352-07 | 1362-03-11 | Al-Mutadid Ier
+= Q198038 | 1362-03-11 | 1383 | Al-Mutawakkil Ier | | Déposé et rétabli plusieurs fois
+= Q210619 | 1383 | 1386 | Al-Wathiq II
+= Q210635 | 1386 | 1389 | Al-Mustasim II
+= Q198038 | 1389 | 1406-01-09 | Al-Mutawakkil Ier | | Rétabli
+= Q210445 | 1406-01-22 | 1414-03-09 | Al-Mustain | | Aussi sultan pendant quelques mois en 1412
+= Q210713 | 1414-03-09 | 1441-06 | Al-Mutadid II
+= Q210497 | 1441-06 | 1451-02-01 | Al-Mustakfi II
+= Q210717 | 1451-02-01 | 1455-04-06 | Al-Qaim | | Déposé
+= Q210614 | 1455-04-06 | 1479-04-10 | Al-Mustanjid
+= Q210630 | 1479-04-10 | 1497-09-27 | Al-Mutawakkil II
+= Q210626 | 1497-09-27 | 1508 | Al-Mustamsik | | Abdique en faveur de son fils ; rétabli en 1516
+= Q210489 | 1508 | 1516 | Al-Mutawakkil III | | Emmené à Constantinople par Sélim Ier après la conquête ottomane (1517)
+= Q210626 | 1516 | 1517-04 | Al-Mustamsik | | Dernier calife du Caire
+
+% califat-ottoman | Califat ottoman | 1517 | 1924 | #2e7d5b
+titre: calife
+! Q2034358 | 1517-04 | 1922-11-01 | Califat ottoman | Les sultans ottomans portent le titre de calife (voir la voie des sultans)
+= Q203768 | 1922-11-19 | 1924-03-03 | Abdülmecid II | calife | Dernier calife ; le califat est aboli par la République turque
+
+% fatimides | Fatimides | 909 | 1171 | #3f6b8a
+voie: egypte
+titre: calife fatimide
+= Q307629 | 909-12-13 | 934-03-04 | Ubayd Allah al-Mahdi | | Fonde le califat chiite en Ifriqiya
+= Q293549 | 934-03-04 | 946-05-17 | Al-Qaim
+= Q982704 | 946-05-17 | 953-03-19 | Al-Mansur
+= Q335443 | 953-03-19 | 975-12-21 | Al-Muizz | | Conquiert l’Égypte, fonde Le Caire (969)
+= Q286542 | 975-12-21 | 996-10-13 | Al-Aziz
+= Q342137 | 996-10-13 | 1021-02-13 | Al-Hakim | | Détruit le Saint-Sépulcre (1009) ; disparaît mystérieusement
+= Q1740272 | 1021-02-13 | 1036-06-13 | Az-Zahir
+= Q284619 | 1036-06-13 | 1094-12-29 | Al-Mustansir | | Le plus long règne ; perte de Jérusalem face aux Seldjoukides (1073)
+= Q285668 | 1094-12-29 | 1101-12-12 | Al-Mustali | | Calife au temps de la prise de Jérusalem (1099)
+= Q285678 | 1101-12-12 | 1130-10-07 | Al-Amir | | Assassiné par les Nizarites
+= Q285731 | 1130-10-07 | 1149-10-10 | Al-Hafiz
+= Q285953 | 1149-10-10 | 1154-04-15 | Az-Zafir | | Assassiné
+= Q285947 | 1154-04-15 | 1160-07-22 | Al-Faiz | | Calife enfant
+= Q286460 | 1160-07-22 | 1171-09-13 | Al-Adid | | Dernier Fatimide ; Saladin supprime le califat
+
+% ayyoubides | Ayyoubides | 1171 | 1250 | #c0742f
+voie: egypte
+titre: sultan d’Égypte
+= Q8581 | 1171-09-13 | 1193-03-04 | Saladin | sultan d’Égypte et de Syrie | Hattin et Jérusalem (1187) ; adversaire de Richard
+= Q249058 | 1193-03-04 | 1198-11-29 | Al-Aziz Uthman | | Fils de Saladin
+= Q294031 | 1198-11-29 | 1200-02 | Al-Mansur Muhammad | | Enfant, écarté par son grand-oncle
+= Q285133 | 1200-02 | 1218-08-31 | Al-Adil | sultan d’Égypte et de Syrie | Frère de Saladin, le « Saphadin » des chroniqueurs
+= Q293464 | 1218-08-31 | 1238-03-06 | Al-Kamil | | Damiette (1219-1221) ; rend Jérusalem à Frédéric II (1229)
+= Q294314 | 1238-03-06 | 1240-05-31 | Al-Adil II | | Déposé
+= Q293559 | 1240-06 | 1249-11-22 | As-Salih Ayyub | | Reprend Jérusalem (1244) ; meurt devant saint Louis
+= Q327189 | 1249-11-22 | 1250-05-02 | Turanshah | | Vainqueur de Louis IX, assassiné par les Mamelouks
+= Q464920 | 1250-05-02 | 1250-07-31 | Chajar ad-Durr | sultane d’Égypte | Veuve d’as-Salih, règne trois mois puis épouse Aybak
+
+% bahrites | Mamelouks bahrites | 1250 | 1382 | #a7322f
+voie: egypte
+titre: sultan mamelouk
+= Q327441 | 1250-07-31 | 1257-04-10 | Aybak | | Premier sultan mamelouk ; assassiné par Chajar ad-Durr
+= Q290392 | 1257-04-15 | 1259-11-12 | Al-Mansur Ali | | Enfant, déposé par Qutuz
+= Q336471 | 1259-11-12 | 1260-10-24 | Qutuz | | Arrête les Mongols à Aïn Djalout (1260) ; assassiné par Baybars
+= Q192960 | 1260-10-24 | 1277-07-01 | Baybars | | Prend Antioche (1268), le Krak (1271) ; adversaire d’Édouard Ier
+= Q349370 | 1277-07-03 | 1279-08 | Baraka Khan | | Fils de Baybars, déposé
+= Q249074 | 1279-08 | 1279-11 | Salamish | | Enfant, déposé par Qalawun
+= Q249121 | 1279-11 | 1290-11-10 | Qalawun | | Prend Tripoli (1289) ; meurt en préparant le siège d’Acre
+= Q392815 | 1290-11-10 | 1293-12-13 | Al-Ashraf Khalil | | Prend Acre (1291) ; assassiné
+= Q293505 | 1293-12-14 | 1294-11 | An-Nasir Muhammad | | Premier règne, enfant
+= Q558359 | 1294-12 | 1296-12-07 | Kitbugha
+= Q558157 | 1296-12-07 | 1299-01-16 | Lajin | | Assassiné
+= Q293505 | 1299-01-16 | 1309-03 | An-Nasir Muhammad | | Deuxième règne
+= Q558305 | 1309-04-05 | 1310-03-05 | Baybars II al-Jashankir
+= Q293505 | 1310-03-05 | 1341-06-07 | An-Nasir Muhammad | | Troisième règne, le plus long
+= Q286582 | 1341-06-07 | 1341-08-05 | Al-Mansur Abu Bakr
+= Q425325 | 1341-08-05 | 1342-01-21 | Al-Ashraf Kujuk
+= Q482338 | 1342-01-21 | 1342-06-27 | An-Nasir Ahmad
+= Q280412 | 1342-06-27 | 1345-08-04 | As-Salih Ismail
+= Q294139 | 1345-08-04 | 1346-09-21 | Al-Kamil Shaban
+= Q294130 | 1346-09-21 | 1347-12-10 | Al-Muzaffar Hajji
+= Q288557 | 1347-12-10 | 1351-08-21 | An-Nasir Hasan | | Premier règne ; la Peste noire (1348)
+= Q288013 | 1351-08-21 | 1354-10-20 | As-Salih Salih
+= Q288557 | 1354-10-20 | 1361-03-17 | An-Nasir Hasan | | Second règne ; assassiné
+= Q288580 | 1361-03-17 | 1363-05-29 | Al-Mansur Muhammad
+= Q286592 | 1363-05-29 | 1377-03-15 | Al-Ashraf Shaban | | Assassiné
+= Q288507 | 1377-03-15 | 1381-05-19 | Al-Mansur Ali
+= Q286573 | 1381-05-19 | 1382-11-26 | As-Salih Hajji | | Déposé par Barquq
+
+% burjites | Mamelouks burjites | 1382 | 1517 | #5b4b8a
+voie: egypte
+titre: sultan mamelouk
+= Q248996 | 1382-11-26 | 1389-06-01 | Barquq | | Premier sultan circassien
+= Q286573 | 1389-06-01 | 1390-02-01 | As-Salih Hajji | | Rétabli quelques mois
+= Q248996 | 1390-02-01 | 1399-06-20 | Barquq | | Second règne
+= Q698037 | 1399-06-20 | 1405-09-20 | An-Nasir Faraj | | Tamerlan pille Damas (1401)
+= Q558111 | 1405-09-20 | 1405-11-28 | Al-Mansur Abd al-Aziz
+= Q698037 | 1405-11-28 | 1412-05-28 | An-Nasir Faraj | | Second règne ; exécuté
+= Q210445 | 1412-05-28 | 1412-11-06 | Al-Mustain | sultan et calife | Le calife abbasside, sultan six mois
+= Q286551 | 1412-11-06 | 1421-01-13 | Al-Muayyad Shaykh
+= Q2829259 | 1421-01-13 | 1421-08-29 | Al-Muzaffar Ahmad
+= Q2875067 | 1421-08-29 | 1421-11-30 | Az-Zahir Tatar
+= Q2829281 | 1421-11-30 | 1422-04-01 | As-Salih Muhammad
+= Q557812 | 1422-04-01 | 1438-06-07 | Barsbay | | Prend Chypre (1426) ; monopole des épices
+= Q557903 | 1438-06-07 | 1438-09-09 | Al-Aziz Yusuf
+= Q647942 | 1438-09-09 | 1453-02-01 | Az-Zahir Jaqmaq
+= Q2829237 | 1453-02-01 | 1453-03-19 | Al-Mansur Uthman
+= Q286532 | 1453-03-19 | 1461-02-26 | Al-Ashraf Inal
+= Q2829257 | 1461-02-26 | 1461-06-28 | Al-Muayyad Ahmad
+= Q2086849 | 1461-06-28 | 1467-10-09 | Az-Zahir Khushqadam
+= Q2875064 | 1467-10-09 | 1467-12-04 | Az-Zahir Bilbay
+= Q301612 | 1467-12-04 | 1468-01-31 | Az-Zahir Timurbugha
+= Q557847 | 1468-01-31 | 1496-08-07 | Qaitbay | | Grand bâtisseur ; guerre contre les Ottomans
+= Q3042922 | 1496-08-07 | 1498-10-31 | An-Nasir Muhammad
+= Q2875062 | 1498-10-31 | 1500-06-30 | Az-Zahir Qansuh
+= Q2386612 | 1500-06-30 | 1501-01-25 | Al-Ashraf Janbalat
+= Q257837 | 1501-01-25 | 1501-04-20 | Al-Adil Tuman Bay
+= Q286337 | 1501-04-20 | 1516-08-24 | Qansuh al-Ghuri | | Tué à Marj Dabiq face à Sélim Ier
+= Q557896 | 1516-10-17 | 1517-04-13 | Tuman Bay II | | Pendu par les Ottomans : fin du sultanat mamelouk
+
+% seldjoukides | Grands Seldjoukides | 1037 | 1194 | #2f5fa3
+voie: sultans
+titre: sultan seldjoukide
+= Q144565 | 1037 | 1063-09-04 | Tughril Beg | | Entre à Bagdad (1055), protecteur du calife
+= Q200193 | 1063-09-04 | 1072-12-15 | Alp Arslan | | Manzikert (1071) : l’Anatolie s’ouvre aux Turcs
+= Q311482 | 1072-12-15 | 1092-11-19 | Malik Shah Ier | | Apogée de l’empire ; vizir Nizam al-Mulk
+= Q1252100 | 1092-11-19 | 1094 | Mahmud Ier
+= Q387011 | 1094 | 1105-01-22 | Barkiyaruq | | Sultan au temps de la première croisade
+= Q1296751 | 1105-02 | 1118-04-18 | Muhammad Ier Tapar
+= Q337506 | 1118-04-18 | 1157-05-08 | Ahmad Sanjar | | Dernier grand sultan ; le Khorassan
+= Q981706 | 1134 | 1152-10 | Mas’ud | sultan seldjoukide d’Irak
+= Q28478392 | 1161 | 1176 | Arslan Shah | sultan seldjoukide d’Irak
+= Q280697 | 1176 | 1194-03 | Tughril III | sultan seldjoukide d’Irak | Dernier Seldjoukide d’Irak, tué par le Khwarezm-Shah
+
+% roum | Seldjoukides de Roum | 1077 | 1308 | #3f6b8a
+voie: sultans
+titre: sultan de Roum
+= Q730338 | 1077 | 1086 | Suleiman Ier | | Fonde le sultanat d’Anatolie, capitale Nicée
+= Q345544 | 1092 | 1107 | Kilij Arslan Ier | | Écrase la croisade populaire, battu à Dorylée (1097)
+= Q1378373 | 1107 | 1116 | Malik Shah | sultan de Roum
+= Q58810 | 1116 | 1156 | Mas’ud Ier | | Bat Conrad III et Louis VII en Anatolie (1147-1148)
+= Q58982 | 1156 | 1192-08 | Kilij Arslan II | | Myriokephalon (1176) ; traversé par Barberousse (1190)
+= Q61591 | 1192-08 | 1196 | Kaykhusraw Ier | | Premier règne
+= Q61595 | 1196 | 1204 | Suleiman II
+= Q61596 | 1204 | 1205 | Kilij Arslan III | | Enfant
+= Q61591 | 1205 | 1211 | Kaykhusraw Ier | | Second règne
+= Q61593 | 1211 | 1220 | Kaykaus Ier
+= Q61964 | 1220 | 1237-05-31 | Kayqubad Ier | | Apogée du sultanat, Konya
+= Q467001 | 1237-05-31 | 1246 | Kaykhusraw II | | Köse Dağ (1243) : vassal des Mongols
+= Q1385575 | 1246 | 1262 | Kaykaus II | | Règne partagé avec ses frères
+= Q1378313 | 1249 | 1257 | Kayqubad II
+= Q770205 | 1249 | 1266 | Kilij Arslan IV
+= Q1378714 | 1266 | 1284 | Kaykhusraw III
+= Q370032 | 1284 | 1297 | Mas’ud II | | Premier règne
+= Q1378353 | 1297 | 1303 | Kayqubad III
+= Q370032 | 1303 | 1308 | Mas’ud II | | Dernier sultan de Roum ; les beylicats, dont celui d’Osman, prennent la suite
+
+% ottomans | Ottomans | 1299 | 1922 | #a7322f
+voie: sultans
+titre: sultan ottoman
+= Q83100 | 1299 | 1324 | Osman Ier | | Fondateur ; Söğüt et Bursa
+= Q133168 | 1324 | 1362-03 | Orhan | | Prend Bursa (1326), passe en Europe (1354)
+= Q96261 | 1362-03 | 1389-06-15 | Mourad Ier | | Andrinople ; tué à Kosovo
+= Q128358 | 1389-06-15 | 1402-07-20 | Bayezid Ier | | « La Foudre » ; Nicopolis (1396) ; vaincu par Tamerlan à Ankara
+! Q726261 | 1402-07-20 | 1413-07-05 | Interrègne ottoman | Les fils de Bayezid se disputent l’empire
+= Q168769 | 1413-07-05 | 1421-05-26 | Mehmed Ier | | Réunifie l’empire
+= Q131394 | 1421-05-26 | 1444-08 | Mourad II | | Varna (1444) ; abdique puis revient
+= Q34503 | 1444-08 | 1446-09 | Mehmed II | | Premier règne, enfant
+= Q131394 | 1446-09 | 1451-02-03 | Mourad II | | Second règne ; seconde bataille de Kosovo (1448)
+= Q34503 | 1451-02-03 | 1481-05-03 | Mehmed II | | Prend Constantinople (29 mai 1453)
+= Q165983 | 1481-05-22 | 1512-04-24 | Bayezid II | | Accueille les juifs chassés d’Espagne (1492)
+= Q494660 | 1512-04-24 | 1520-09-22 | Sélim Ier | | Conquiert la Syrie et l’Égypte (1516-1517) ; les sultans deviennent califes
+= Q8474 | 1520-09-30 | 1566-09-06 | Soliman le Magnifique | | Rhodes (1522), Mohács (1526), siège de Vienne (1529) ; allié de François Ier
+= Q161872 | 1566-09-07 | 1574-12-15 | Sélim II | | Lépante (1571)
+= Q159934 | 1574-12-15 | 1595-01-16 | Mourad III
+= Q171465 | 1595-01-16 | 1603-12-22 | Mehmed III
+= Q114749 | 1603-12-22 | 1617-11-22 | Ahmed Ier | | Mosquée bleue
+= Q174798 | 1617-11-22 | 1618-02-26 | Moustapha Ier | | Premier règne
+= Q172056 | 1618-02-26 | 1622-05-20 | Osman II | | Assassiné par les janissaires
+= Q174798 | 1622-05-20 | 1623-09-10 | Moustapha Ier | | Second règne
+= Q174762 | 1623-09-10 | 1640-02-09 | Mourad IV | | Reprend Bagdad (1638)
+= Q168776 | 1640-02-09 | 1648-08-08 | Ibrahim | | Déposé et étranglé
+= Q170514 | 1648-08-08 | 1687-11-08 | Mehmed IV | | Second siège de Vienne (1683)
+= Q172061 | 1687-11-08 | 1691-06-22 | Soliman II
+= Q199660 | 1691-06-22 | 1695-02-06 | Ahmed II
+= Q199659 | 1695-02-06 | 1703-08-22 | Moustapha II | | Zenta (1697), Karlowitz (1699)
+= Q199482 | 1703-08-22 | 1730-10-01 | Ahmed III | | « Ère des tulipes »
+= Q199481 | 1730-10-01 | 1754-12-13 | Mahmoud Ier
+= Q199825 | 1754-12-13 | 1757-10-30 | Osman III
+= Q199484 | 1757-10-30 | 1774-01-21 | Moustapha III
+= Q170707 | 1774-01-21 | 1789-04-07 | Abdülhamid Ier | | Perte de la Crimée (1783)
+= Q199633 | 1789-04-07 | 1807-05-29 | Sélim III | | Réformateur, déposé et assassiné
+= Q199830 | 1807-05-29 | 1808-07-28 | Moustapha IV
+= Q174791 | 1808-07-28 | 1839-07-01 | Mahmoud II | | Supprime les janissaires (1826) ; indépendance grecque
+= Q174772 | 1839-07-01 | 1861-06-25 | Abdülmecid Ier | | Les Tanzimat ; guerre de Crimée
+= Q151500 | 1861-06-25 | 1876-05-30 | Abdülaziz | | Déposé
+= Q199827 | 1876-05-30 | 1876-08-31 | Mourad V | | Trois mois
+= Q134817 | 1876-08-31 | 1909-04-27 | Abdülhamid II | | Constitution suspendue ; déposé par les Jeunes-Turcs
+= Q151494 | 1909-04-27 | 1918-07-03 | Mehmed V | | Guerres balkaniques, Première Guerre mondiale
+= Q162543 | 1918-07-03 | 1922-11-01 | Mehmed VI | | Dernier sultan ; le sultanat est aboli

@@ -1,0 +1,30 @@
+@ huitieme
+nom: Huitième et neuvième croisades
+dates: 1270-07-01 | 1272-09
+sous-titre: Saint Louis meurt devant Tunis ; Édouard d’Angleterre tient Acre
+resume: Louis IX reprend la croix en 1267, malgré ses barons. Au lieu de l’Égypte, l’armée fait voile vers Tunis, sans doute à l’instigation de Charles d’Anjou, devenu roi de Sicile, qui espère la soumission de l’émir hafside. Débarquée en plein été sur la côte de Carthage, elle est décimée par la dysenterie ; le roi en meurt le 25 août 1270, son fils Jean Tristan l’a précédé. Philippe III, le nouveau roi, et Charles d’Anjou traitent avec l’émir et rentrent.
+resume: Le prince Édouard d’Angleterre, qui devait rejoindre Louis, poursuit jusqu’à Acre avec une petite troupe. Il ne peut rien contre Baybars, mais obtient une trêve de dix ans, échappe à un Assassin, et apprend en rentrant qu’il est roi. C’est la dernière croisade menée par un souverain d’Occident en Terre sainte.
+chretien: Q346 | roi de France, meurt à Carthage
+chretien: Q172203 | roi de France, proclamé devant Tunis
+chretien: Q203829 | roi de Sicile, négocie avec l’émir
+chretien: Q2496961 | fils de Louis IX, mort devant Tunis
+chretien: Q351859 | roi de Navarre, gendre du roi, meurt au retour
+chretien: Q57798 | prince puis roi d’Angleterre, mène la neuvième croisade
+chretien: Q544496 | roi de Chypre et de Jérusalem
+chretien: Q713696 | maître du Temple
+chretien: Q1340414 | grand maître de l’Hôpital
+musulman: Q1951858 | émir hafside de Tunis
+musulman: Q192960 | sultan mamelouk, prend Antioche en 1268, le Krak en 1271
+= 1267-03-25 | Louis IX prend la croix pour la seconde fois.
+= 1268-05-18 | Baybars prend Antioche, qui est détruite.
+= 1270-07-01 | Départ d’Aigues-Mortes.
+= 1270-07-17 | Débarquement près de Carthage.
+= 1270-08-03 | Mort de Jean Tristan, comte de Nevers.
+= 1270-08-25 | Mort de Louis IX ; Philippe III roi.
+= 1270-10-30 | Traité de Tunis : l’émir paie un tribut, l’armée rembarque.
+= 1271-04-08 | Baybars prend le Krak des Chevaliers.
+= 1271-05-09 | Édouard d’Angleterre débarque à Acre.
+= 1272-05-22 | Trêve de dix ans entre Baybars et le royaume d’Acre.
+= 1272-06-16 | Édouard blessé par un Assassin d’un poignard empoisonné.
+= 1272-09-22 | Édouard quitte Acre ; il apprend en Sicile la mort de son père.
+bilan: Louis IX, canonisé en 1297, devient le modèle du roi croisé. Après lui, aucun roi ne reviendra en Terre sainte : les papes prêchent encore, les princes ne partent plus, et Acre tombe vingt ans plus tard.
