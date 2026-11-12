@@ -14,7 +14,7 @@
  * qu'au feu vert de js/miseajour.js (le bandeau « Mettre à jour »).
  */
 
-const VERSION = 'v1.3.0';
+const VERSION = 'v1.3.1';
 const COQUILLE = 'histoires-coquille-' + VERSION;
 const IMAGES = 'histoires-images';
 

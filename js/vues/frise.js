@@ -56,7 +56,7 @@
     let zl = Math.min(LARGEURS.length - 1, Reglages.lire('zoomL.' + o.cle, o.cote ? 0 : 1));
     const el = h('div', { class: 'planche' + (o.cote ? ' cote' : ''), tabindex: '0', 'aria-label': 'Frise : faites glisser pour la parcourir' });
     let echelle = null;
-    let marque = o.dateMarquee || null;   // la date surlignée, « AAAA[-MM[-JJ]] »
+    let marque = o.dateMarquee || null;   // la date surlignée, « AAAA[-MM[-JJ]] », ou une période « début_fin »
     let colonnes = [];       // { frise, voie, sousTitre }
     let image = false;
 
@@ -183,7 +183,7 @@
       }
 
       // les colonnes
-      const cleMarque = marque ? [Dates.cle(marque), Dates.cle(marque, true)] : null;
+      const cleMarque = marque ? [Dates.cle(parties()[0]), Dates.cle(parties()[1], true)] : null;
       for (const x of voies) {
         const largeurVoie = x.nb * col;
         const voie = h('div', { class: 'voie', style: { width: largeurVoie + 'px', marginRight: ecart + 'px' } });
@@ -223,7 +223,7 @@
       if (marque) {
         const b = bornesMarque();
         const y1 = echelle.y(b[0]), y2 = echelle.y(b[1]);
-        corps.appendChild(h('div', { class: 'bande-date', style: { top: y1 + 'px', height: Math.max(4, y2 - y1) + 'px' } }, h('span', { style: { left: (regleL + railL + 6) + 'px' } }, Dates.lire(marque))));
+        corps.appendChild(h('div', { class: 'bande-date', style: { top: y1 + 'px', height: Math.max(4, y2 - y1) + 'px' } }, h('span', { style: { left: (regleL + railL + 6) + 'px' } }, libelleMarque())));
       }
       contenu.appendChild(corps);
       el.appendChild(contenu);
@@ -244,10 +244,26 @@
     }
 
     /* L'intervalle surligné : l'année entière, le mois, ou le jour. */
+    function parties() {
+      const i = marque.indexOf('_');
+      return i === -1 ? [marque, marque] : [marque.slice(0, i), marque.slice(i + 1)];
+    }
     function bornesMarque() {
-      const p = Dates.analyser(marque);
-      const d = Dates.nombre(marque);
-      return [d, p.jour ? d + 1 / 365 : p.mois ? d + 1 / 12 : d + 1];
+      const [a, b] = parties();
+      const p = Dates.analyser(b);
+      const d = Dates.nombre(b);
+      return [Dates.nombre(a), p.jour ? d + 1 / 365 : p.mois ? d + 1 / 12 : d + 1];
+    }
+    function libelleMarque() {
+      const [a, b] = parties();
+      return a === b ? Dates.lire(a) : Dates.lire(a) + ' – ' + Dates.lire(b);
+    }
+    /* Se place sur le bandeau : au milieu s'il tient à l'écran, sinon à son début. */
+    function sePlacer() {
+      const b = bornesMarque();
+      const y1 = echelle.y(b[0]), y2 = echelle.y(b[1]);
+      const vu = el.clientHeight - ENTETE;
+      el.scrollTop = Math.max(0, y2 - y1 > vu - 60 ? y1 - 40 : (y1 + y2) / 2 - vu / 2);
     }
 
     /* Surligne une date et s'y place. `zoom` : crans de hauteur à ajouter. */
@@ -260,8 +276,7 @@
       const fx = position();
       dessiner();
       if (date) {
-        const b = bornesMarque();
-        el.scrollTop = Math.max(0, (echelle.y(b[0]) + echelle.y(b[1])) / 2 - (el.clientHeight - ENTETE) / 2);
+        sePlacer();
         if (fx && fx.fx) el.scrollLeft = Math.max(0, fx.fx * el.scrollWidth - el.clientWidth / 2);
       } else replacer(fx);
       suivre();
@@ -271,6 +286,18 @@
 
     /* « 1515 », « 1789-07-14 », « 14/07/1789 », « 07/1789 » → clé de date. */
     function lireSaisie(texte) {
+      const brut = texte.trim();
+      // une période : « 1516-1519 », « 1516 – 1519 », « 1516 à 1519 », « 14/07/1789 – 27/07/1794 »
+      let per = /^([0-9]{3,4})[ ]*-[ ]*([0-9]{3,4})$/.exec(brut) || /^(.+?)[ ]*(?:–|—|[ ]à[ ]|[ ]au[ ]|[.][.])[ ]*(.+)$/.exec(brut);
+      if (per) {
+        const a = lireUne(per[1]), b = lireUne(per[2]);
+        if (!a || !b) return null;
+        if (a === b) return a;
+        return Dates.cle(a) <= Dates.cle(b) ? a + '_' + b : b + '_' + a;
+      }
+      return lireUne(brut);
+    }
+    function lireUne(texte) {
       const t = texte.trim().replace(/[ .]/g, '/').replace(/-/g, '/');
       let m = /^([0-9]{1,4})$/.exec(t);
       if (m) return m[1].padStart(4, '0');
@@ -282,13 +309,16 @@
     }
 
     // ── La barre de date ────────────────────────────────────────────────────
-    const champ = h('input', { type: 'text', inputmode: 'numeric', autocomplete: 'off', placeholder: 'Année ou date : 1515, 14/07/1789', 'aria-label': 'Année ou date à surligner' });
+    const champ = h('input', { type: 'text', inputmode: 'numeric', autocomplete: 'off', placeholder: '1515, 14/07/1789 ou 1516-1519', 'aria-label': 'Année, date ou période à surligner' });
     const actions = h('div', { class: 'actions' });
+    function valable(d) {
+      const p = Dates.analyser(d);
+      return p && p.annee >= 1 && p.annee <= new Date().getFullYear() && !(p.mois && (p.mois < 1 || p.mois > 12)) && !(p.jour && (p.jour < 1 || p.jour > 31));
+    }
     function valider() {
       const d = lireSaisie(champ.value);
-      const p = d && Dates.analyser(d);
-      if (!p || p.annee < 1 || p.annee > new Date().getFullYear() || (p.mois && (p.mois < 1 || p.mois > 12)) || (p.jour && (p.jour < 1 || p.jour > 31))) {
-        Communs.toast('Entrez une année (1515) ou une date (14/07/1789).');
+      if (!d || !d.split('_').every(valable)) {
+        Communs.toast('Entrez une année (1515), une date (14/07/1789) ou une période (1516-1519).');
         return;
       }
       champ.blur();
@@ -301,11 +331,15 @@
     function majBarre() {
       actions.textContent = '';
       if (!marque) { champ.value = ''; return; }
-      const p = Dates.analyser(marque);
-      champ.value = p.jour ? String(p.jour).padStart(2, '0') + '/' + String(p.mois).padStart(2, '0') + '/' + p.annee : p.mois ? String(p.mois).padStart(2, '0') + '/' + p.annee : String(p.annee);
-      actions.appendChild(h('span', { class: 'lue' }, Dates.lire(marque)));
+      const ecrit = (d) => {
+        const p = Dates.analyser(d);
+        return p.jour ? String(p.jour).padStart(2, '0') + '/' + String(p.mois).padStart(2, '0') + '/' + p.annee : p.mois ? String(p.mois).padStart(2, '0') + '/' + p.annee : String(p.annee);
+      };
+      const [a, b] = parties();
+      champ.value = a === b ? ecrit(a) : (/^[0-9]+$/.test(a + b) ? ecrit(a) + '-' + ecrit(b) : ecrit(a) + ' – ' + ecrit(b));
+      actions.appendChild(h('span', { class: 'lue' }, libelleMarque()));
       if (!o.toutes) actions.appendChild(h('a', { class: 'puce', href: '#/comparer?date=' + marque + '&toutes=1' }, icone('comparer'), 'Toutes les frises'));
-      actions.appendChild(h('a', { class: 'puce puce-claire', href: '#/date/' + marque }, 'Qui est en place ?'));
+      actions.appendChild(h('a', { class: 'puce puce-claire', href: '#/date/' + a }, a === b ? 'Qui est en place ?' : 'En place en ' + Dates.anneeTexte(a) + ' ?'));
       actions.appendChild(h('button', { type: 'button', class: 'puce puce-claire', 'aria-label': 'Retirer la date', onclick: () => marquer(null) }, icone('fermer')));
     }
     majBarre();
@@ -384,8 +418,7 @@
       dessiner();
       const ancienne = positions.get(o.cle);
       if (marque && !(o.reprendre && ancienne)) {
-        const b = bornesMarque();
-        el.scrollTop = Math.max(0, (echelle.y(b[0]) + echelle.y(b[1])) / 2 - (el.clientHeight - ENTETE) / 2);
+        sePlacer();
       } else if (ancienne && (o.reprendre || o.garder)) {
         replacer(ancienne);
       }
