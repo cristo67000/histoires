@@ -56,6 +56,7 @@
     let zl = Math.min(LARGEURS.length - 1, Reglages.lire('zoomL.' + o.cle, o.cote ? 0 : 1));
     const el = h('div', { class: 'planche' + (o.cote ? ' cote' : ''), tabindex: '0', 'aria-label': 'Frise : faites glisser pour la parcourir' });
     let echelle = null;
+    let marque = o.dateMarquee || null;   // la date surlignée, « AAAA[-MM[-JJ]] »
     let colonnes = [];       // { frise, voie, sousTitre }
     let image = false;
 
@@ -136,7 +137,8 @@
 
       // en-têtes figés
       const entetes = h('div', { class: 'planche-entetes', style: { height: ENTETE + 'px' } });
-      entetes.appendChild(h('div', { class: 'coin', style: { width: (regleL + railL) + 'px' } }, 'ans'));
+      entetes.appendChild(h('button', { type: 'button', class: 'coin', title: 'Choisir une date', 'aria-label': 'Choisir une date',
+        style: { width: (regleL + railL) + 'px' }, onclick: () => { champ.focus(); champ.select(); } }, icone('recherche'), 'ans'));
       colonnes = [];
       for (const x of voies) {
         const titre = seule ? (x.f.voies.length > 1 ? x.v.nom : x.f.nom) : (x.f.voies.length > 1 && voies.filter((y) => y.f === x.f).length > 1 ? x.f.nom + ' · ' + x.v.nom : x.f.nom);
@@ -156,8 +158,8 @@
       }
       regle.addEventListener('click', (e) => {
         const r = regle.getBoundingClientRect();
-        const an = Math.round(echelle.t(e.clientY - r.top));
-        App.aller('#/date/' + String(Math.max(1, an)).padStart(4, '0'));
+        const an = Math.floor(echelle.t(e.clientY - r.top));
+        marquer(String(Math.max(1, an)).padStart(4, '0'), 1);
       });
       corps.appendChild(regle);
 
@@ -181,6 +183,7 @@
       }
 
       // les colonnes
+      const cleMarque = marque ? [Dates.cle(marque), Dates.cle(marque, true)] : null;
       for (const x of voies) {
         const largeurVoie = x.nb * col;
         const voie = h('div', { class: 'voie', style: { width: largeurVoie + 'px', marginRight: ecart + 'px' } });
@@ -193,6 +196,7 @@
           const classes = ['bloc'];
           if (m.inst) classes.push('institution');
           if (court) classes.push('court');
+          if (cleMarque && m.cleDebut <= cleMarque[1] && m.cleFin >= cleMarque[0]) classes.push('actif');
           // trop étroit pour un nom à l'horizontale : on l'écrit de haut en bas
           const etroit = largeur < 78 && hauteur >= 90;
           if (etroit) classes.push('etroit');
@@ -216,9 +220,10 @@
         corps.appendChild(voie);
       }
 
-      if (o.dateMarquee) {
-        const y = echelle.y(Dates.nombre(o.dateMarquee));
-        corps.appendChild(h('div', { class: 'ligne-date', style: { top: y + 'px' } }, h('span', null, Dates.lire(o.dateMarquee))));
+      if (marque) {
+        const b = bornesMarque();
+        const y1 = echelle.y(b[0]), y2 = echelle.y(b[1]);
+        corps.appendChild(h('div', { class: 'bande-date', style: { top: y1 + 'px', height: Math.max(4, y2 - y1) + 'px' } }, h('span', { style: { left: (regleL + railL + 6) + 'px' } }, Dates.lire(marque))));
       }
       contenu.appendChild(corps);
       el.appendChild(contenu);
@@ -237,6 +242,73 @@
       sauts._boutons = liste;
       boutons();
     }
+
+    /* L'intervalle surligné : l'année entière, le mois, ou le jour. */
+    function bornesMarque() {
+      const p = Dates.analyser(marque);
+      const d = Dates.nombre(marque);
+      return [d, p.jour ? d + 1 / 365 : p.mois ? d + 1 / 12 : d + 1];
+    }
+
+    /* Surligne une date et s'y place. `zoom` : crans de hauteur à ajouter. */
+    function marquer(date, zoom) {
+      marque = date;
+      if (date && zoom) {
+        zh = Math.min(hauteurs.length - 1, zh + zoom);
+        Reglages.ecrire('zoomH.' + o.cle, zh);
+      }
+      const fx = position();
+      dessiner();
+      if (date) {
+        const b = bornesMarque();
+        el.scrollTop = Math.max(0, (echelle.y(b[0]) + echelle.y(b[1])) / 2 - (el.clientHeight - ENTETE) / 2);
+        if (fx && fx.fx) el.scrollLeft = Math.max(0, fx.fx * el.scrollWidth - el.clientWidth / 2);
+      } else replacer(fx);
+      suivre();
+      majBarre();
+      if (o.surDate) o.surDate(date);
+    }
+
+    /* « 1515 », « 1789-07-14 », « 14/07/1789 », « 07/1789 » → clé de date. */
+    function lireSaisie(texte) {
+      const t = texte.trim().replace(/[ .]/g, '/').replace(/-/g, '/');
+      let m = /^([0-9]{1,4})$/.exec(t);
+      if (m) return m[1].padStart(4, '0');
+      m = /^([0-9]{1,4})[/]([0-9]{1,2})(?:[/]([0-9]{1,2}))?$/.exec(t);
+      if (m && parseInt(m[1], 10) > 31) return m[1].padStart(4, '0') + '-' + m[2].padStart(2, '0') + (m[3] ? '-' + m[3].padStart(2, '0') : '');
+      m = /^(?:([0-9]{1,2})[/])?([0-9]{1,2})[/]([0-9]{1,4})$/.exec(t);
+      if (m) return m[3].padStart(4, '0') + '-' + m[2].padStart(2, '0') + (m[1] ? '-' + m[1].padStart(2, '0') : '');
+      return null;
+    }
+
+    // ── La barre de date ────────────────────────────────────────────────────
+    const champ = h('input', { type: 'text', inputmode: 'numeric', autocomplete: 'off', placeholder: 'Année ou date : 1515, 14/07/1789', 'aria-label': 'Année ou date à surligner' });
+    const actions = h('div', { class: 'actions' });
+    function valider() {
+      const d = lireSaisie(champ.value);
+      const p = d && Dates.analyser(d);
+      if (!p || p.annee < 1 || p.annee > new Date().getFullYear() || (p.mois && (p.mois < 1 || p.mois > 12)) || (p.jour && (p.jour < 1 || p.jour > 31))) {
+        Communs.toast('Entrez une année (1515) ou une date (14/07/1789).');
+        return;
+      }
+      champ.blur();
+      marquer(d, zh < 2 ? 2 - zh : 0);
+    }
+    champ.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); valider(); } });
+    const barre = h('div', { class: 'barre-date' },
+      h('div', { class: 'saisie' }, icone('calendrier', 'discret'), champ, h('button', { type: 'button', class: 'aller', onclick: valider }, 'Aller')),
+      actions);
+    function majBarre() {
+      actions.textContent = '';
+      if (!marque) { champ.value = ''; return; }
+      const p = Dates.analyser(marque);
+      champ.value = p.jour ? String(p.jour).padStart(2, '0') + '/' + String(p.mois).padStart(2, '0') + '/' + p.annee : p.mois ? String(p.mois).padStart(2, '0') + '/' + p.annee : String(p.annee);
+      actions.appendChild(h('span', { class: 'lue' }, Dates.lire(marque)));
+      if (!o.toutes) actions.appendChild(h('a', { class: 'puce', href: '#/comparer?date=' + marque + '&toutes=1' }, icone('comparer'), 'Toutes les frises'));
+      actions.appendChild(h('a', { class: 'puce puce-claire', href: '#/date/' + marque }, 'Qui est en place ?'));
+      actions.appendChild(h('button', { type: 'button', class: 'puce puce-claire', 'aria-label': 'Retirer la date', onclick: () => marquer(null) }, icone('fermer')));
+    }
+    majBarre();
 
     function allerAnnee(a, doux) {
       el.scrollTo({ top: Math.max(0, echelle.y(a) - 10), behavior: doux === false ? 'auto' : 'smooth' });
@@ -311,8 +383,9 @@
       ajuster();
       dessiner();
       const ancienne = positions.get(o.cle);
-      if (o.dateMarquee && !(o.reprendre && ancienne)) {
-        el.scrollTop = Math.max(0, echelle.y(Dates.nombre(o.dateMarquee)) - (el.clientHeight - ENTETE) / 3);
+      if (marque && !(o.reprendre && ancienne)) {
+        const b = bornesMarque();
+        el.scrollTop = Math.max(0, (echelle.y(b[0]) + echelle.y(b[1])) / 2 - (el.clientHeight - ENTETE) / 2);
       } else if (ancienne && (o.reprendre || o.garder)) {
         replacer(ancienne);
       }
@@ -330,7 +403,7 @@
       if (vue) vue.classList.remove('plein');
     }
 
-    return { el, installer, quitter, allerAnnee, position };
+    return { el, barre, installer, quitter, allerAnnee, position, marquer, get date() { return marque; } };
   }
 
   // ── La vue liste ──────────────────────────────────────────────────────────
@@ -364,6 +437,7 @@
     const corps = h('div');
     let planche = null;
     let premiere = true;
+    let date = params.date || null;
 
     function allerPeriode(p) {
       if (planche) planche.allerAnnee(Dates.nombre(p.debut));
@@ -386,7 +460,9 @@
         barre.appendChild(h('button', { type: 'button', class: 'puce puce-claire', style: { '--teinte': p.couleur }, onclick: () => allerPeriode(p) }, p.nom));
       }
       if (mode === 'frise') {
-        planche = creerPlanche([f], { cle: 'frise.' + f.id, dateMarquee: params.date || null, reprendre: !!params.retour, garder: !premiere });
+        planche = creerPlanche([f], { cle: 'frise.' + f.id, dateMarquee: date, reprendre: !!params.retour, garder: !premiere,
+          surDate: (d) => { date = d; App.remplacer('#/frise/' + f.id + (d ? '?date=' + d : '')); } });
+        corps.appendChild(planche.barre);
         corps.appendChild(planche.el);
         if (corps.isConnected) planche.installer();
       } else {

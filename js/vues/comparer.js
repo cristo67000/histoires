@@ -7,13 +7,19 @@
   function dessiner(zone, params) {
     const page = h('div', { class: 'page-large comparer' });
     let choisies = Reglages.lire('comparer.frises', ['france', 'angleterre', 'allemagne', 'papes']);
+    /* « Toutes les frises » à une date : tout est coché pour cette visite,
+     * sans toucher au choix enregistré. */
+    let toutes = params.toutes === '1';
+    if (toutes) choisies = Donnees.frises.map((f) => f.id);
     let toutesVoies = Reglages.lire('comparer.toutesVoies', false);
-    const date = params.date || null;
+    let date = params.date || null;
 
     const choix = h('div', { class: 'choix-frises' });
     const corps = h('div');
     let planche = null;
     let premiere = true;
+
+    function adresse() { App.remplacer('#/comparer' + (date ? '?date=' + date + (toutes ? '&toutes=1' : '') : (toutes ? '?toutes=1' : ''))); }
 
     function redessiner() {
       if (planche) { planche.quitter(); planche = null; }
@@ -23,6 +29,7 @@
         choix.appendChild(h('button', { type: 'button', class: actif ? 'actif' : '', style: { '--teinte': f.couleur }, 'aria-pressed': actif ? 'true' : 'false', onclick: () => {
           if (actif) { if (choisies.length === 1) return; choisies = choisies.filter((x) => x !== f.id); }
           else choisies = Donnees.frises.map((x) => x.id).filter((id) => choisies.includes(id) || id === f.id);
+          if (toutes) { toutes = false; adresse(); }
           Reglages.ecrire('comparer.frises', choisies);
           redessiner();
         } }, f.nom));
@@ -44,7 +51,9 @@
       if (!toutesVoies) {
         frises = frises.map((f) => f.voies.length === 1 ? f : Object.assign({}, f, { voies: f.voies.slice(0, 1), mandats: f.mandats.filter((m) => m.voie === f.voies[0].id) }));
       }
-      planche = VueFrise.creerPlanche(frises, { cle: 'comparer', cote: true, dateMarquee: date, reprendre: !!params.retour, garder: !premiere });
+      planche = VueFrise.creerPlanche(frises, { cle: 'comparer', cote: true, toutes: frises.length === Donnees.frises.length, dateMarquee: date,
+        reprendre: !!params.retour, garder: !premiere, surDate: (d) => { date = d; adresse(); } });
+      corps.appendChild(planche.barre);
       corps.appendChild(planche.el);
       if (corps.isConnected) planche.installer();
       premiere = false;

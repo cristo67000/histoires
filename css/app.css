@@ -202,8 +202,23 @@ p { margin: 0 0 0.7em; }
 .bloc.institution { border-left-style: dashed; background: repeating-linear-gradient(135deg, color-mix(in srgb, var(--teinte) 8%, var(--surface)) 0 8px, color-mix(in srgb, var(--teinte) 15%, var(--surface)) 8px 16px); }
 .bloc.institution .nom { font-style: italic; font-weight: 500; }
 .planche.cote .bloc .nom { font-size: 0.95rem; }
-.ligne-date { position: absolute; left: 0; right: 0; height: 0; border-top: 2px solid var(--or); z-index: 4; pointer-events: none; }
-.ligne-date span { position: sticky; left: 2px; display: inline-block; transform: translateY(-50%); background: var(--or); color: #fff; font-size: 0.78rem; font-weight: 700; padding: 2px 6px; border-radius: 4px; }
+.bande-date {
+  position: absolute; left: 0; right: 0; z-index: 4; pointer-events: none;
+  background: color-mix(in srgb, var(--or) 26%, transparent); border-top: 2px solid var(--or); border-bottom: 2px solid var(--or);
+}
+.bande-date span { position: sticky; left: 2px; display: inline-block; transform: translateY(-100%); background: var(--or); color: #fff; font-size: 0.82rem; font-weight: 700; padding: 2px 8px; border-radius: 6px 6px 0 0; white-space: nowrap; }
+.bloc.actif { box-shadow: 0 0 0 3px var(--or), 0 4px 12px rgba(0, 0, 0, 0.18); background: color-mix(in srgb, var(--teinte) 26%, var(--surface)); z-index: 3; }
+.barre-date { padding: 6px 10px; border-bottom: 1px solid var(--trait); background: var(--papier); }
+.barre-date .saisie { display: flex; align-items: center; gap: 8px; height: 44px; padding: 0 4px 0 12px; border-radius: 12px; border: 1px solid var(--trait-fort); background: var(--surface); }
+.barre-date input { flex: 1; min-width: 0; height: 100%; border: 0; background: transparent; font-size: 1rem; outline: none; }
+.barre-date .aller { flex: none; height: 36px; padding: 0 16px; border: 0; border-radius: 9px; background: var(--encre); color: var(--papier); font-weight: 600; }
+.barre-date .actions { display: flex; align-items: center; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+.barre-date .actions:not(:empty) { margin-top: 6px; }
+.barre-date .actions .lue { flex: none; font-family: var(--serif); font-weight: 700; color: var(--or); margin-right: 2px; white-space: nowrap; }
+.barre-date .actions .puce { flex: none; min-height: 34px; font-size: 0.84rem; white-space: nowrap; }
+.barre-date .actions .puce .icone { width: 16px; height: 16px; }
+.planche-entetes .coin { border: 0; flex-direction: column; align-items: center; justify-content: center; gap: 1px; padding: 0; cursor: pointer; color: var(--or); }
+.planche-entetes .coin .icone { width: 18px; height: 18px; }
 .sauts {
   position: fixed; right: 0; top: 50%; transform: translateY(-50%); z-index: 12; display: flex; flex-direction: column; padding: 4px 2px;
   background: color-mix(in srgb, var(--surface) 92%, transparent); border-radius: 10px 0 0 10px; border: 1px solid var(--trait); border-right: 0;
