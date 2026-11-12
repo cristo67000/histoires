@@ -76,6 +76,8 @@
     liste: 'M8 6h12M8 12h12M8 18h12M4 6h1M4 12h1M4 18h1',
     plus: 'M12 5v14M5 12h14',
     moins: 'M5 12h14',
+    hauteur: 'M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4',
+    largeur: 'M3 12h18M7 8l-4 4 4 4M17 8l4 4-4 4',
     hasard: 'M4 4h16v16H4zM8 8h1M15 8h1M12 12h1M8 16h1M15 16h1',
     couronne: 'M3 18h18l-1-10-5 4-3-7-3 7-5-4zM3 21h18',
     personne: 'M12 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8zM4 21a8 8 0 0 1 16 0',

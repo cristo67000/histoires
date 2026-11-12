@@ -22,6 +22,7 @@
   let vueCourante = null;
   let profondeur = 0;
   let retourAttendu = false;
+  let versAvant = false;   // un lien ou App.aller : on avance ; sinon, c'est un retour
 
   function analyser(hash) {
     const brut = (hash || '').replace(/^#\/?/, '');
@@ -43,7 +44,9 @@
     zone.textContent = '';
     const fabrique = VUES[route.nom] || VUES[''];
     const vue = fabrique();
-    const infos = vue.dessiner(zone, Object.assign({ id: route.id }, route.params)) || {};
+    const enRetour = retourAttendu || (!versAvant && routeCourante !== null);
+    versAvant = false;
+    const infos = vue.dessiner(zone, Object.assign({ id: route.id, retour: enRetour }, route.params)) || {};
     vueCourante = infos;
     routeCourante = route;
     document.getElementById('titre-texte').textContent = infos.titre || 'Histoires';
@@ -52,7 +55,7 @@
     document.getElementById('logo-barre').hidden = route.nom !== '';
     document.title = (infos.titre && infos.titre !== 'Histoires' ? infos.titre + ' — ' : '') + 'Histoires';
     for (const a of document.querySelectorAll('#nav a')) a.classList.toggle('actif', a.dataset.route === route.nom || (a.dataset.route === 'date' && route.nom === 'date'));
-    const y = retourAttendu ? defilements.get(route.cle) : undefined;
+    const y = enRetour ? defilements.get(route.cle) : undefined;
     retourAttendu = false;
     window.scrollTo({ top: y || 0 });
   }
@@ -60,6 +63,7 @@
   function aller(hash) {
     if (location.hash === hash) { rendre(); return; }
     profondeur++;
+    versAvant = true;
     location.hash = hash;
   }
 
@@ -79,6 +83,10 @@
     rendre();
   });
   racine.addEventListener('popstate', () => { /* hashchange suit */ });
+  document.addEventListener('click', (e) => {
+    const a = e.target.closest && e.target.closest('a[href^="#/"]');
+    if (a) versAvant = true;
+  }, true);
 
   async function demarrer() {
     Reglages.appliquerTheme();
